@@ -1,0 +1,2 @@
+\beamer@sectionintoc {1}{Computa\IeC {\c c}\IeC {\~a}o Digital}{2}{0}{1}
+\beamer@sectionintoc {2}{Experimentos}{5}{0}{2}
