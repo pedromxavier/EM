@@ -1,6 +1,10 @@
 \documentclass[14pt]{beamer}
-\usetheme{metropolis}
+% \usetheme{metropolis}
+% \usetheme{Warsaw}
 \usepackage[utf8]{inputenc}
+
+\usepackage[absolute,overlay]{textpos}
+\usepackage{graphicx}
 
 \usepackage{courier}
 
@@ -14,24 +18,41 @@
 
 \begin{document}
 
-	\frame{\titlepage}
+%	\frame{\titlepage}
 	
 
 	\section{Computação Digital}	
 	\frame%
 	{
-				
+		\title{Transistor}
 	}
-	
+
 	\frame%
 	{
-				
+		\title{Portas Lógicas}
 	}
-	
-	\section{Experimentos}
+
 	\frame%
 	{
-				
+		\frametitle{Arquitetura de Von Neuman}
+		
+		\begin{textblock*}{4cm}(2cm, 2.5cm) % {block width} (coords)
+			\includegraphics[width=4cm]{von-neuman.jpg}
+			John Von Neuman\\
+			{\centering\small 1903 - 1957}
+		\end{textblock*}
+	}
+
+	\section{Historinha}
+	\frame%
+	{
+		\frametitle{Fenômenos Quânticos}
+		
+		\begin{textblock*}{4cm}(2cm, 2.5cm) % {block width} (coords)
+			\includegraphics[width=4cm]{feynman.jpg}
+			Richard Feynman\\
+			{\centering\small 1918 - 1988}
+		\end{textblock*}		
 	}
 	
 	\frame%
@@ -44,9 +65,27 @@
 				
 	}
 	
+	\section{Algoritmos Quânticos}
 	\frame%
 	{
-				
+		\frametitle{Algoritmo de Shor}
+		
+		\begin{textblock*}{4cm}(2cm, 2.5cm) % {block width} (coords)
+			\includegraphics[width=4cm]{shor.jpg}
+			Peter Shor\\
+			{\centering\small MIT}
+		\end{textblock*}		
+	}
+
+	\frame%
+	{
+		\frametitle{Algoritmo de Grover}
+		
+		\begin{textblock*}{4cm}(2cm, 2.5cm) % {block width} (coords)
+			\includegraphics[width=4cm]{grover.jpg}
+			Lov Grover\\
+			{\centering\small Bell Labs}
+		\end{textblock*}		
 	}
 	
 	\frame%
