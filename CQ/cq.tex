@@ -1,4 +1,4 @@
-\documentclass[14pt]{beamer}
+\documentclass{beamer}
 % \usetheme{metropolis}
 % \usetheme{Warsaw}
 \usepackage[utf8]{inputenc}
@@ -6,8 +6,9 @@
 \usepackage[absolute,overlay]{textpos}
 \usepackage{graphicx}
 
-\usepackage{courier}
+\beamertemplatenavigationsymbolsempty
 
+\usepackage{courier}
 
 \title{\texttt{Computação Quântica}}
 \institute{IM-UFRJ}
@@ -15,11 +16,46 @@
 
 \author{Pedro Maciel Xavier}
 
+\newcommand{\comic}[1]{
+	\bgroup
+	\setbeamercolor{background canvas}{bg=white}
+	\begin{frame}[plain]{}
+		\begin{center}
+			\begin{figure}
+				\includegraphics[height=\textheight]{#1}
+			\end{figure}
+		\end{center}
+	\end{frame}
+	\egroup
+}
+
+\newcommand{\comicfinal}[1]{
+	\bgroup
+	\setbeamercolor{background canvas}{bg=white}
+	\begin{frame}[plain]{}
+	\begin{center}
+		\begin{figure}
+			\includegraphics[width=\textwidth]{#1}
+		\end{figure}
+	\end{center}
+\end{frame}
+\egroup
+}
+
+
 
 \begin{document}
 
-%	\frame{\titlepage}
-	
+	\begin{frame}
+		%\titlepage
+	\end{frame}
+
+	\comic{bits0.pdf}
+	\comic{bits1.pdf}
+	\comic{bits2.pdf}
+	\comic{bits3.pdf}
+	\comic{bits4.pdf}
+	\comicfinal{blue-screen.pdf}
 
 	\section{Computação Digital}	
 	\frame%
@@ -64,19 +100,9 @@
 	{
 				
 	}
-	
-	\section{Algoritmos Quânticos}
-	\frame%
-	{
-		\frametitle{Algoritmo de Shor}
-		
-		\begin{textblock*}{4cm}(2cm, 2.5cm) % {block width} (coords)
-			\includegraphics[width=4cm]{shor.jpg}
-			Peter Shor\\
-			{\centering\small MIT}
-		\end{textblock*}		
-	}
 
+	\section{Algoritmos Quânticos}
+	
 	\frame%
 	{
 		\frametitle{Algoritmo de Grover}
@@ -85,6 +111,17 @@
 			\includegraphics[width=4cm]{grover.jpg}
 			Lov Grover\\
 			{\centering\small Bell Labs}
+		\end{textblock*}		
+	}
+
+	\frame%
+	{
+		\frametitle{Algoritmo de Shor}
+		
+		\begin{textblock*}{4cm}(2cm, 2.5cm) % {block width} (coords)
+			\includegraphics[width=4cm]{shor.jpg}
+			Peter Shor\\
+			{\centering\small MIT}
 		\end{textblock*}		
 	}
 	
