@@ -29,7 +29,7 @@
 	\egroup
 }
 
-\newcommand{\comicfinal}[1]{
+\newcommand{\comicw}[1]{
 	\bgroup
 	\setbeamercolor{background canvas}{bg=white}
 	\begin{frame}[plain]{}
@@ -42,12 +42,25 @@
 \egroup
 }
 
+\newcommand{\comicfinal}[1]{
+	\bgroup
+	\usebackgroundtemplate{\includegraphics[width=\paperwidth]{#1}}
+	\begin{frame}[plain]{}
+
+	\end{frame}
+	\egroup
+}
+
 
 
 \begin{document}
 
-	\begin{frame}
+	\begin{frame}{Título}
 		%\titlepage
+	\end{frame}
+
+	\begin{frame}
+		\tableofcontents
 	\end{frame}
 
 	\comic{bits0.pdf}
@@ -79,29 +92,18 @@
 		\end{textblock*}
 	}
 
-	\section{Historinha}
-	\frame%
-	{
-		\frametitle{Fenômenos Quânticos}
-		
+	\begin{frame}{Fenômenos Quânticos}
 		\begin{textblock*}{4cm}(2cm, 2cm) % {block width} (coords)
 			\includegraphics[width=4cm]{feynman.jpg}
 			Richard Feynman\\
 			{\centering\small 1918 - 1988}
 		\end{textblock*}		
-	}
-	
-	\frame%
-	{
-				
-	}
+	\end{frame}
 
-	\frame%
-	{
-				
-	}
+	\section{Exprimentos}
+	\frame{Experimentos}
 
-	\section{Algoritmos Quânticos}
+	\subsection{Algoritmos Quânticos}
 	
 	\frame%
 	{
@@ -110,7 +112,7 @@
 		\begin{textblock*}{4cm}(2cm, 2.5cm) % {block width} (coords)
 			\includegraphics[width=4cm]{grover.jpg}
 			Lov Grover\\
-			{\centering\small Bell Labs}
+			{\centering\small Ex-Bell Labs}
 		\end{textblock*}		
 	}
 
@@ -125,33 +127,12 @@
 		\end{textblock*}		
 	}
 	
-	\frame%
-	{
-				
-	}
 	
-	\frame%
-	{
-				
-	}
-
-	\frame%
-	{
-				
-	}
+	\comicw{quantum-teleportation.pdf}
 	
-	\frame%
-	{
-				
-	}
 	
-	\frame%
-	{
-				
-	}
-	
-	\frame%
-	{
-				
-	}
+	\begin{frame}
+		\thebibliography{99}
+		\bibitem{shor:94} Shor's Algorithm
+	\end{frame}
 \end{document}
