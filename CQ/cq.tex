@@ -1,6 +1,6 @@
 \documentclass{beamer}
-% \usetheme{metropolis}
-% \usetheme{Warsaw}
+\mode<presentation>
+\usetheme{metropolis}
 \usepackage[utf8]{inputenc}
 
 \usepackage[absolute,overlay]{textpos}
@@ -14,7 +14,7 @@
 \institute{IM-UFRJ}
 \date{19 de novembro de 2019}
 
-\author{Pedro Maciel Xavier}
+\author{Pedro Maciel Xavier \\ \texttt{pedromxavier@poli.ufrj.br}}
 
 \newcommand{\ket}[1]{\left|#1\right\rangle}
 \newcommand{\bra}[1]{\left\langle|#1\right|}
@@ -60,12 +60,21 @@
 	\egroup
 }
 
+\newcommand{\person}[6]{%
+% image, name, comment,
+% size, dx, dy
+\begin{textblock*}{#4}(#5, #6)
+	\includegraphics[width=#4]{#1}\\
+	#2\\
+	{\small #3}
+\end{textblock*}
+}
 
 
 \begin{document}
 
 	\begin{frame}{Título}
-		%\titlepage
+		\titlepage
 	\end{frame}
 
 	\begin{frame}
@@ -79,7 +88,7 @@
 	\comich{bits4.pdf}
 	\comicfinal{blue-screen.pdf}
 
-	\section{Computação Digital}
+	\chapter{Computação Digital}
 	
 	\begin{frame}{\textit{bits}}
 	
@@ -91,11 +100,10 @@
 			\item Formam vetores em $\mathbb{Z}_2^n$, onde cada $\vec{a} = (a_1, a_2, \dots, a_n) \in \mathbb{Z}_2^n$ representa um valor entre $00...0 = 0$ e $11...1 = 2^n-1$
 			\item Realizamos operações \textit{Booleanas} com eles: $\neg$, $\wedge$, $\vee$, $\oplus$.
 		\end{itemize}
-		\begin{textblock*}{3cm}(2cm, 4cm) % {block width} (coords)
-			\includegraphics[width=3cm]{feynman.jpg}
-			George Boole\\
-			{\centering\small 1918 - 1988}
-		\end{textblock*}
+	\end{frame}
+	
+	\begin{frame}
+		\person{boole.jpg}{George Boole}{1815 - 1864}{3cm}{2cm}{4cm}
 		
 		\begin{textblock*}{3cm}(6cm, 4cm) % {block width} (coords)
 			\begin{align*}
@@ -104,62 +112,41 @@
 			\end{align*}
 		\end{textblock*}	
 	\end{frame}
-	
-	\begin{frame}
-		\begin{itemize}
-		\item
-		\end{itemize}
-	\end{frame}
-	
-	\comich{first-transistor.pdf}	
 
-	\frame%
-	{
-		\title{Portas Lógicas}
-	}
-
-	\frame%
-	{
-		\frametitle{Arquitetura de Von Neuman}
+	\comich{first-transistor.pdf}
+	
+	\begin{frame}{Portas Lógicas}
 		
-		\begin{textblock*}{4cm}(2cm, 2cm) % {block width} (coords)
-			\includegraphics[width=4cm]{von-neuman.jpg}
-			John Von Neuman\\
-			{\centering\small 1903 - 1957}
-		\end{textblock*}
-	}
+	
+	\end{frame}		
+
+	\begin{frame}{Arquitetura de Von Neuman}
+		\person{von-neuman.jpg}{John Von Neuman}{1903 - 1957}{3cm}{2cm}{2cm}
+	\end{frame}
+		
 
 	\begin{frame}{Fenômenos Quânticos}
-		\begin{textblock*}{4cm}(2cm, 2cm) % {block width} (coords)
-			\includegraphics[width=4cm]{feynman.jpg}
-			Richard Feynman\\
-			{\centering\small 1918 - 1988}
-		\end{textblock*}		
+		\person{feynman.jpg}{Richard Feynman}{1918 - 1988}{3cm}{2cm}{2cm}
+			
 	\end{frame}
+	
+	\chapter{Computação Quântica}
 
-	\section{Exprimentos}
-	\frame{Experimentos}
+	
+
 
 	\subsection{Algoritmos Quânticos}
 	
-	\frame%
-	{
-		\frametitle{Algoritmo de Grover}
+	\begin{frame}{Algoritmo de Grover}
+	
+	\person{grover.jpg}{Lov Grover}{Bell Labs}{3cm}{2cm}{2cm}
 		
-		\begin{textblock*}{4cm}(2cm, 2.5cm) % {block width} (coords)
-			\includegraphics[width=4cm]{grover.jpg}
-			Lov Grover\\
-			{\centering\small Ex-Bell Labs}
-		\end{textblock*}		
-	}
+	\end{frame}
 
 	\begin{frame}{Algoritmo de Shor}
-		
-		\begin{textblock*}{4cm}(2cm, 2.5cm) % {block width} (coords)
-			\includegraphics[width=4cm]{shor.jpg}
-			Peter Shor\\
-			{\centering\small MIT}
-		\end{textblock*}		
+	
+	\person{shor.jpg}{Peter Shor}{MIT}{3cm}{2cm}{2cm}
+			
 	\end{frame}
 	
 	
