@@ -8,20 +8,26 @@
 
 \beamertemplatenavigationsymbolsempty
 
+\usepackage{tikz}
+
 \usepackage{courier}
 
-\title{\texttt{Computação Quântica}}
+\title{
+{{\Large Encontros Matemáticos} apresenta}\\
+\vspace{30pt}
+\texttt{\huge Computação Quântica}
+}
 \institute{IM-UFRJ}
 \date{19 de novembro de 2019}
 
 \author{Pedro Maciel Xavier \\ \texttt{pedromxavier@poli.ufrj.br}}
 
-\newcommand{\ket}[1]{\left|#1\right\rangle}
-\newcommand{\bra}[1]{\left\langle|#1\right|}
+\newcommand{\ket}[1]{\ensuremath{\left|#1\right\rangle}}
+\newcommand{\bra}[1]{\ensuremath{\left\langle|#1\right|}}
 
-\newcommand{\braket}[2]{\left\langle#1|#2\right\rangle}
+\newcommand{\braket}[2]{\ensuremath{\left\langle#1|#2\right\rangle}}
 
-\newcommand{\ketbra}[2]{\left|#1\right\rangle\left\langle#2\right|}
+\newcommand{\ketbra}[2]{\ensuremath{\left|#1\right\rangle\left\langle#2\right|}}
 
 \newcommand{\comich}[1]{
 	\bgroup
@@ -70,10 +76,26 @@
 \end{textblock*}
 }
 
+\newcommand{\imgw}[2]{%
+\begin{center}
+	\begin{figure}
+	\includegraphics[width=#2]{#1}\\
+	\end{figure}
+\end{center}
+}
+
+\newcommand{\imgh}[2]{%
+\begin{center}
+	\begin{figure}
+		\includegraphics[height=#2]{#1}\\
+	\end{figure}
+\end{center}
+}
+
 
 \begin{document}
 
-	\begin{frame}{Título}
+	\begin{frame}
 		\titlepage
 	\end{frame}
 
@@ -88,7 +110,7 @@
 	\comich{bits4.pdf}
 	\comicfinal{blue-screen.pdf}
 
-	\chapter{Computação Digital}
+	\section{Computação Digital}
 	
 	\begin{frame}{\textit{bits}}
 	
@@ -130,12 +152,20 @@
 			
 	\end{frame}
 	
-	\chapter{Computação Quântica}
-
+	\section{Computação Quântica}
 	
+	\subsection{Trapped-ion}
+	\begin{frame}{\subsecname}
+		Oi íon aprisionado
+	\end{frame}
+	
+	\subsection{Fótons}	
+	
+	\begin{frame}{\subsecname}
+		\imgw{superposition.pdf}{\textwidth}
+	\end{frame}
 
-
-	\subsection{Algoritmos Quânticos}
+	\subsection{Algoritmos}
 	
 	\begin{frame}{Algoritmo de Grover}
 	
@@ -153,6 +183,7 @@
 	\comicw{quantum-teleportation.pdf}
 	
 	\begin{frame}{Teletransporte Quântico}
+	
 	
 	\end{frame}
 	

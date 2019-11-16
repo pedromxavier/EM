@@ -1,0 +1,3 @@
+Título: Computação Quântica
+
+Álgebra Linear, Gatos, Teletransporte, Destino, Topologia. Nessa noite de Encontro Matemático vamos falar das principais ideias que orbitam ao redor da Computação Quântica, observando diversas formas de pensá-la e fazê-la. Olhando para as diferentes instâncias de computadores quânticos que hoje borbulham em laboratórios ao redor do mundo, somos convidados a olhar para o princípio e a evolução da Computação digital com uma certa nostalgia, passando por temas matemáticos que há muito aguardavam seu momento de subir ao palco da realidade. Com teoremas simples (mas de consequências quase metafísicas) vamos exercitar outras formas de intuição enquanto trocamos as nossas respostas por novas perguntas.
