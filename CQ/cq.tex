@@ -7,6 +7,7 @@
 \usepackage[utf8]{inputenc}
 \usepackage{bbm}
 \usepackage{amssymb}
+\usepackage{amsmath}
 \usepackage[absolute,overlay]{textpos}
 \usepackage{graphicx}
 \usepackage{tikz}
@@ -30,9 +31,7 @@
 	\textbf{Prova.\\}
 }
 
-\newcommand{\cqd}{%
-	{\flushright \blacksquare\\}
-}
+\newcommand{\cqd}{\blacksquare}
 
 \newcommand{\postulado}[1]{%
 	\textbf{Postulado. (\emph{#1})\\}
@@ -108,7 +107,7 @@
 % image, name, comment,
 % size, dx, dy
 \begin{textblock*}{#4}(#5, #6)
-	\includegraphics[width=#4]{#1}\\
+	\includegraphics[height=#4]{#1}\\
 	#2\\
 	{\small #3}
 \end{textblock*}
@@ -148,16 +147,18 @@
   		\tableofcontents[sections={5-}]
 	\end{frame}
 	
+	
+
+	\section{Computação Digital}
+	
+	\subsection{O Bit}
+	
 	\comich{bits0.pdf}
 	\comich{bits1.pdf}
 	\comich{bits2.pdf}
 	\comich{bits3.pdf}
 	\comich{bits4.pdf}
 	\comicfinal{blue-screen.pdf}
-
-	\section{Computação Digital}
-	
-	\subsection{bits}
 	
 	\begin{frame}{\subsecname}
 	
@@ -174,8 +175,25 @@
 	
 	\subsection{Álgebra Booleana}
 	
+	
 	\begin{frame}{\subsecname}
-		\person{boole.jpg}{George Boole}{1815 - 1864}{3cm}{2cm}{2cm}
+	\definicao{Álgebra Booleana}
+	É uma estrutura algébrica $(\Omega, \vee, \wedge, \neg, 0, 1)$, com $0,1 \in \Omega$, que satisfazem os Axiomas:
+	
+	\footnotesize
+		\begin{align*}
+			a \vee (b \vee c) = (a \vee b) \vee c && a \wedge (b \wedge c) = (a \wedge b) \wedge c && \text{associatividade}\\
+			a \vee b = a \vee a && a \wedge b = b \wedge a && \text{comutatividade}\\
+			a \vee 0 = a && a \wedge 1 = a && \text{identidade}\\
+			a \vee \neg a = 1 && a \wedge \neg a = 0 && \text{complemento}\\
+			a \vee (b \wedge c) = (a \vee b) \wedge (a \vee c) && a \wedge (b \vee c) = (a \wedge b) \vee (a \wedge c) && \text{distributividade}\\
+			a \vee (a \wedge b) = a && a \wedge (a \vee b) = a && \text{absorção}
+		\end{align*}
+	\normalsize
+	\end{frame}
+	
+	\begin{frame}{\subsecname}
+		\person{boole.jpg}{George Boole}{1815 - 1864}{4cm}{2cm}{2cm}
 		\person{de-morgan.jpg}{Augustus De Morgan}{1806 - 1871}{4cm}{8cm}{2cm}
 
 	\end{frame}
@@ -363,7 +381,9 @@
 	Por outro lado:
 		\begin{align*}
 		\ket{\Psi} \otimes \ket{\Psi} =& (\alpha \ket{\uparrow} + \beta \ket{\downarrow}) \otimes (\alpha \ket{\uparrow} + \beta \ket{\downarrow})\\
-		=& \alpha^2 \ket{\uparrow\uparrow} + \alpha\beta (\ket{\uparrow\downarrow} + \ket{\downarrow\uparrow}) + \beta^2 \ket{\downarrow\downarrow}
+		=& \alpha^2 \ket{\uparrow\uparrow} + \alpha\beta (\ket{\uparrow\downarrow} + \ket{\downarrow\uparrow}) + \beta^2 \ket{\downarrow\downarrow}\\
+		\neq& \alpha \ket{\uparrow\uparrow} + \beta \ket{\downarrow\downarrow}\\
+		&& \cqd
 		\end{align*}
 	\end{frame}	
 	
