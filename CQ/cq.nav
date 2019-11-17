@@ -14,47 +14,140 @@
 \headcommand {\beamer@framepages {7}{7}}
 \headcommand {\slideentry {0}{0}{8}{8/8}{}{0}}
 \headcommand {\beamer@framepages {8}{8}}
-\headcommand {\sectionentry {1}{Computa\IeC {\c c}\IeC {\~a}o Digital}{9}{Computa\IeC {\c c}\IeC {\~a}o Digital}{0}}
-\headcommand {\beamer@sectionpages {1}{8}}
-\headcommand {\beamer@subsectionpages {1}{8}}
-\headcommand {\slideentry {1}{0}{1}{9/9}{}{0}}
+\headcommand {\slideentry {0}{0}{9}{9/9}{}{0}}
 \headcommand {\beamer@framepages {9}{9}}
-\headcommand {\slideentry {1}{0}{2}{10/10}{}{0}}
+\headcommand {\slideentry {0}{0}{10}{10/10}{}{0}}
 \headcommand {\beamer@framepages {10}{10}}
-\headcommand {\slideentry {1}{0}{3}{11/11}{}{0}}
+\headcommand {\sectionentry {1}{Computa\IeC {\c c}\IeC {\~a}o Digital}{11}{Computa\IeC {\c c}\IeC {\~a}o Digital}{0}}
+\headcommand {\beamer@sectionpages {1}{10}}
+\headcommand {\beamer@subsectionpages {1}{10}}
+\headcommand {\slideentry {1}{0}{1}{11/11}{}{0}}
 \headcommand {\beamer@framepages {11}{11}}
-\headcommand {\slideentry {1}{0}{4}{12/12}{}{0}}
+\headcommand {\beamer@subsectionentry {0}{1}{1}{12}{bits}}\headcommand {\beamer@subsectionpages {11}{11}}
+\headcommand {\slideentry {1}{1}{1}{12/12}{bits}{0}}
 \headcommand {\beamer@framepages {12}{12}}
-\headcommand {\slideentry {1}{0}{5}{13/13}{}{0}}
+\headcommand {\beamer@subsectionentry {0}{1}{2}{13}{\IeC {\'A}lgebra Booleana}}\headcommand {\beamer@subsectionpages {12}{12}}
+\headcommand {\slideentry {1}{2}{1}{13/13}{\IeC {\'A}lgebra Booleana}{0}}
 \headcommand {\beamer@framepages {13}{13}}
-\headcommand {\slideentry {1}{0}{6}{14/14}{}{0}}
+\headcommand {\beamer@subsectionentry {0}{1}{3}{14}{Complexidade e Computabilidade}}\headcommand {\beamer@subsectionpages {13}{13}}
+\headcommand {\slideentry {1}{3}{1}{14/14}{Complexidade e Computabilidade}{0}}
 \headcommand {\beamer@framepages {14}{14}}
-\headcommand {\slideentry {1}{0}{7}{15/15}{}{0}}
+\headcommand {\slideentry {1}{3}{2}{15/15}{Complexidade e Computabilidade}{0}}
 \headcommand {\beamer@framepages {15}{15}}
-\headcommand {\sectionentry {2}{Computa\IeC {\c c}\IeC {\~a}o Qu\IeC {\^a}ntica}{16}{Computa\IeC {\c c}\IeC {\~a}o Qu\IeC {\^a}ntica}{0}}
-\headcommand {\beamer@sectionpages {9}{15}}
-\headcommand {\beamer@subsectionpages {9}{15}}
-\headcommand {\slideentry {2}{0}{1}{16/16}{}{0}}
+\headcommand {\slideentry {1}{3}{3}{16/16}{Complexidade e Computabilidade}{0}}
 \headcommand {\beamer@framepages {16}{16}}
-\headcommand {\beamer@subsectionentry {0}{2}{1}{17}{Trapped-ion}}\headcommand {\beamer@subsectionpages {16}{16}}
-\headcommand {\slideentry {2}{1}{1}{17/17}{Trapped-ion}{0}}
+\headcommand {\beamer@subsectionentry {0}{1}{4}{17}{Transistor}}\headcommand {\beamer@subsectionpages {14}{16}}
+\headcommand {\slideentry {1}{4}{1}{17/17}{Transistor}{0}}
 \headcommand {\beamer@framepages {17}{17}}
-\headcommand {\beamer@subsectionentry {0}{2}{2}{18}{F\IeC {\'o}tons}}\headcommand {\beamer@subsectionpages {17}{17}}
-\headcommand {\slideentry {2}{2}{1}{18/18}{F\IeC {\'o}tons}{0}}
+\headcommand {\beamer@subsectionentry {0}{1}{5}{18}{Portas L\IeC {\'o}gicas}}\headcommand {\beamer@subsectionpages {17}{17}}
+\headcommand {\slideentry {1}{5}{1}{18/18}{Portas L\IeC {\'o}gicas}{0}}
 \headcommand {\beamer@framepages {18}{18}}
-\headcommand {\beamer@subsectionentry {0}{2}{3}{19}{Algoritmos}}\headcommand {\beamer@subsectionpages {18}{18}}
-\headcommand {\slideentry {2}{3}{1}{19/19}{Algoritmos}{0}}
+\headcommand {\beamer@subsectionentry {0}{1}{6}{19}{Arquitetura de Von Neuman}}\headcommand {\beamer@subsectionpages {18}{18}}
+\headcommand {\slideentry {1}{6}{1}{19/19}{Arquitetura de Von Neuman}{0}}
 \headcommand {\beamer@framepages {19}{19}}
-\headcommand {\slideentry {2}{3}{2}{20/20}{Algoritmos}{0}}
+\headcommand {\beamer@subsectionentry {0}{1}{7}{20}{Lei de Moore}}\headcommand {\beamer@subsectionpages {19}{19}}
+\headcommand {\slideentry {1}{7}{1}{20/20}{Lei de Moore}{0}}
 \headcommand {\beamer@framepages {20}{20}}
-\headcommand {\slideentry {2}{3}{3}{21/21}{Algoritmos}{0}}
+\headcommand {\slideentry {1}{7}{2}{21/21}{Lei de Moore}{0}}
 \headcommand {\beamer@framepages {21}{21}}
-\headcommand {\slideentry {2}{3}{4}{22/22}{Algoritmos}{0}}
+\headcommand {\slideentry {1}{7}{3}{22/22}{Lei de Moore}{0}}
 \headcommand {\beamer@framepages {22}{22}}
-\headcommand {\slideentry {2}{3}{5}{23/23}{Algoritmos}{0}}
+\headcommand {\sectionentry {2}{Computa\IeC {\c c}\IeC {\~a}o Qu\IeC {\^a}ntica}{23}{Computa\IeC {\c c}\IeC {\~a}o Qu\IeC {\^a}ntica}{0}}
+\headcommand {\beamer@sectionpages {11}{22}}
+\headcommand {\beamer@subsectionpages {20}{22}}
+\headcommand {\slideentry {2}{0}{1}{23/23}{}{0}}
 \headcommand {\beamer@framepages {23}{23}}
-\headcommand {\beamer@partpages {1}{23}}
-\headcommand {\beamer@subsectionpages {19}{23}}
-\headcommand {\beamer@sectionpages {16}{23}}
-\headcommand {\beamer@documentpages {23}}
-\headcommand {\def \inserttotalframenumber {21}}
+\headcommand {\beamer@subsectionentry {0}{2}{1}{24}{Postulados}}\headcommand {\beamer@subsectionpages {23}{23}}
+\headcommand {\slideentry {2}{1}{1}{24/24}{Postulados}{0}}
+\headcommand {\beamer@framepages {24}{24}}
+\headcommand {\slideentry {2}{1}{2}{25/25}{Postulados}{0}}
+\headcommand {\beamer@framepages {25}{25}}
+\headcommand {\slideentry {2}{1}{3}{26/26}{Postulados}{0}}
+\headcommand {\beamer@framepages {26}{26}}
+\headcommand {\slideentry {2}{1}{4}{27/27}{Postulados}{0}}
+\headcommand {\beamer@framepages {27}{27}}
+\headcommand {\slideentry {2}{1}{5}{28/28}{Postulados}{0}}
+\headcommand {\beamer@framepages {28}{28}}
+\headcommand {\slideentry {2}{1}{6}{29/29}{Postulados}{0}}
+\headcommand {\beamer@framepages {29}{29}}
+\headcommand {\slideentry {2}{1}{7}{30/30}{Postulados}{0}}
+\headcommand {\beamer@framepages {30}{30}}
+\headcommand {\beamer@subsectionentry {0}{2}{2}{31}{Trapped-ion}}\headcommand {\beamer@subsectionpages {24}{30}}
+\headcommand {\slideentry {2}{2}{1}{31/31}{Trapped-ion}{0}}
+\headcommand {\beamer@framepages {31}{31}}
+\headcommand {\beamer@subsectionentry {0}{2}{3}{32}{Algoritmos}}\headcommand {\beamer@subsectionpages {31}{31}}
+\headcommand {\slideentry {2}{3}{1}{32/32}{Algoritmos}{0}}
+\headcommand {\beamer@framepages {32}{32}}
+\headcommand {\slideentry {2}{3}{2}{33/33}{Algoritmos}{0}}
+\headcommand {\beamer@framepages {33}{33}}
+\headcommand {\beamer@subsectionentry {0}{2}{4}{34}{Teletransporte Qu\IeC {\^a}ntico}}\headcommand {\beamer@subsectionpages {32}{33}}
+\headcommand {\slideentry {2}{4}{1}{34/34}{Teletransporte Qu\IeC {\^a}ntico}{0}}
+\headcommand {\beamer@framepages {34}{34}}
+\headcommand {\slideentry {2}{4}{2}{35/35}{Teletransporte Qu\IeC {\^a}ntico}{0}}
+\headcommand {\beamer@framepages {35}{35}}
+\headcommand {\beamer@subsectionentry {0}{2}{5}{36}{Teorema da n\IeC {\~a}o-clonagem}}\headcommand {\beamer@subsectionpages {34}{35}}
+\headcommand {\slideentry {2}{5}{1}{36/36}{Teorema da n\IeC {\~a}o-clonagem}{0}}
+\headcommand {\beamer@framepages {36}{36}}
+\headcommand {\slideentry {2}{5}{2}{37/37}{Teorema da n\IeC {\~a}o-clonagem}{0}}
+\headcommand {\beamer@framepages {37}{37}}
+\headcommand {\slideentry {2}{5}{3}{38/38}{Teorema da n\IeC {\~a}o-clonagem}{0}}
+\headcommand {\beamer@framepages {38}{38}}
+\headcommand {\beamer@subsectionentry {0}{2}{6}{39}{F\IeC {\'o}tons}}\headcommand {\beamer@subsectionpages {36}{38}}
+\headcommand {\slideentry {2}{6}{1}{39/39}{F\IeC {\'o}tons}{0}}
+\headcommand {\beamer@framepages {39}{39}}
+\headcommand {\beamer@subsectionentry {0}{2}{7}{40}{Caminhadas Qu\IeC {\^a}nticas}}\headcommand {\beamer@subsectionpages {39}{39}}
+\headcommand {\slideentry {2}{7}{1}{40/40}{Caminhadas Qu\IeC {\^a}nticas}{0}}
+\headcommand {\beamer@framepages {40}{40}}
+\headcommand {\sectionentry {3}{Computa\IeC {\c c}\IeC {\~a}o Topol\IeC {\'o}gica}{41}{Computa\IeC {\c c}\IeC {\~a}o Topol\IeC {\'o}gica}{0}}
+\headcommand {\beamer@sectionpages {23}{40}}
+\headcommand {\beamer@subsectionpages {40}{40}}
+\headcommand {\slideentry {3}{0}{1}{41/41}{}{0}}
+\headcommand {\beamer@framepages {41}{41}}
+\headcommand {\beamer@subsectionentry {0}{3}{1}{42}{N\IeC {\'o}s}}\headcommand {\beamer@subsectionpages {41}{41}}
+\headcommand {\slideentry {3}{1}{1}{42/42}{N\IeC {\'o}s}{0}}
+\headcommand {\beamer@framepages {42}{42}}
+\headcommand {\slideentry {3}{1}{2}{43/43}{N\IeC {\'o}s}{0}}
+\headcommand {\beamer@framepages {43}{43}}
+\headcommand {\beamer@subsectionentry {0}{3}{2}{44}{\IeC {\^A}nions}}\headcommand {\beamer@subsectionpages {42}{43}}
+\headcommand {\slideentry {3}{2}{1}{44/44}{\IeC {\^A}nions}{0}}
+\headcommand {\beamer@framepages {44}{44}}
+\headcommand {\slideentry {3}{2}{2}{45/45}{\IeC {\^A}nions}{0}}
+\headcommand {\beamer@framepages {45}{45}}
+\headcommand {\sectionentry {4}{Computa\IeC {\c c}\IeC {\~a}o Adiab\IeC {\'a}tica}{46}{Computa\IeC {\c c}\IeC {\~a}o Adiab\IeC {\'a}tica}{0}}
+\headcommand {\beamer@sectionpages {41}{45}}
+\headcommand {\beamer@subsectionpages {44}{45}}
+\headcommand {\slideentry {4}{0}{1}{46/46}{}{0}}
+\headcommand {\beamer@framepages {46}{46}}
+\headcommand {\beamer@subsectionentry {0}{4}{1}{47}{Teorema Adiab\IeC {\'a}tico}}\headcommand {\beamer@subsectionpages {46}{46}}
+\headcommand {\slideentry {4}{1}{1}{47/47}{Teorema Adiab\IeC {\'a}tico}{0}}
+\headcommand {\beamer@framepages {47}{47}}
+\headcommand {\slideentry {4}{1}{2}{48/48}{Teorema Adiab\IeC {\'a}tico}{0}}
+\headcommand {\beamer@framepages {48}{48}}
+\headcommand {\slideentry {4}{1}{3}{49/49}{Teorema Adiab\IeC {\'a}tico}{0}}
+\headcommand {\beamer@framepages {49}{49}}
+\headcommand {\slideentry {4}{1}{4}{50/50}{Teorema Adiab\IeC {\'a}tico}{0}}
+\headcommand {\beamer@framepages {50}{50}}
+\headcommand {\beamer@subsectionentry {0}{4}{2}{51}{T\IeC {\^e}mpera Qu\IeC {\^a}ntica}}\headcommand {\beamer@subsectionpages {47}{50}}
+\headcommand {\slideentry {4}{2}{1}{51/51}{T\IeC {\^e}mpera Qu\IeC {\^a}ntica}{0}}
+\headcommand {\beamer@framepages {51}{51}}
+\headcommand {\slideentry {4}{2}{2}{52/52}{T\IeC {\^e}mpera Qu\IeC {\^a}ntica}{0}}
+\headcommand {\beamer@framepages {52}{52}}
+\headcommand {\beamer@subsectionentry {0}{4}{3}{53}{Saltos Qu\IeC {\^a}nticos}}\headcommand {\beamer@subsectionpages {51}{52}}
+\headcommand {\slideentry {4}{3}{1}{53/53}{Saltos Qu\IeC {\^a}nticos}{0}}
+\headcommand {\beamer@framepages {53}{53}}
+\headcommand {\sectionentry {5}{Fim?}{54}{Fim?}{0}}
+\headcommand {\beamer@sectionpages {46}{53}}
+\headcommand {\beamer@subsectionpages {53}{53}}
+\headcommand {\slideentry {5}{0}{1}{54/54}{}{0}}
+\headcommand {\beamer@framepages {54}{54}}
+\headcommand {\beamer@subsectionentry {0}{5}{1}{55}{Material}}\headcommand {\beamer@subsectionpages {54}{54}}
+\headcommand {\slideentry {5}{1}{1}{55/55}{Material}{0}}
+\headcommand {\beamer@framepages {55}{55}}
+\headcommand {\beamer@subsectionentry {0}{5}{2}{56}{Bibliografia}}\headcommand {\beamer@subsectionpages {55}{55}}
+\headcommand {\slideentry {5}{2}{1}{56/56}{Bibliografia}{0}}
+\headcommand {\beamer@framepages {56}{56}}
+\headcommand {\beamer@partpages {1}{56}}
+\headcommand {\beamer@subsectionpages {56}{56}}
+\headcommand {\beamer@sectionpages {54}{56}}
+\headcommand {\beamer@documentpages {56}}
+\headcommand {\def \inserttotalframenumber {51}}
