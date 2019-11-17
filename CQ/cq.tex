@@ -1,4 +1,4 @@
-\documentclass{beamer}
+\documentclass[t]{beamer}
 \mode<presentation>{\usefonttheme{serif}}
 \beamertemplatenavigationsymbolsempty
 \usetheme{metropolis}
@@ -209,12 +209,13 @@
 	\begin{frame}{\subsecname}
 	\textbf{A Tese de Church-Turing}
 		\person{church.jpg}{Alonzo Church}{}{4cm}{2cm}{2cm}
-		\person{turing.jpg}{Alan Turing}{}{4cm}{8cm}{2.5cm}
+		\person{turing.jpg}{Alan Turing}{}{4cm}{8cm}{2cm}
 	\end{frame}
 	
 	\begin{frame}{\subsecname}
 		\definicao{Complexidade Assintótica}
-		Seja um problema com entrada de tamanho $n$, ...
+		Seja $f : X \subseteq \mathbb{R}_+ \to \mathbb{C}$ e $g(x) : X \subseteq \mathbb{R}_+ \to \mathbb{R}_+$ dizemos que
+		$$f(x) = O(g(x)) \iff \exists M, x_0 $$
 	\end{frame}
 
 
@@ -370,9 +371,9 @@
 	
 	\begin{frame}{\subsecname}
 	\prova
-	Vamos supor que existe um operador unitário $U$ capaz de clonar um estado $\ket{\Psi(t)} = \alpha \ket{\uparrow} + \beta \ket{\downarrow}$ qualquer, isto é:
+	Vamos supor que existe um operador unitário $U$ capaz de clonar um estado $\ket{\Psi} = \alpha \ket{\uparrow} + \beta \ket{\downarrow}$ qualquer, isto é:
 		\begin{align*}
-			U (\ket{\Psi} \otimes \ket{\xi}) = \ket{\Psi} \otimes \ket{\Psi}
+			U (\ket{\Psi} \otimes \ket{\xi}) = \ket{\Psi} \otimes \ket{\Psi} = \ket{\Psi\Psi}
 		\end{align*}
 	Assim:
 		\begin{align*}
@@ -380,9 +381,9 @@
 			&= \alpha \ket{\uparrow} \otimes \ket{\xi} + \beta \ket{\downarrow} \otimes \ket{\xi}
 		\end{align*}
 		\begin{align*}
-			\therefore U(\ket{\Psi} \otimes \ket{\xi}) &= U(\alpha \ket{\uparrow} \otimes \ket{\xi} + U(\beta \ket{\downarrow} \otimes \ket{\xi})\\
+			\therefore U(\ket{\Psi} \otimes \ket{\xi}) &= U(\alpha \ket{\uparrow} \otimes \ket{\xi}) + U(\beta \ket{\downarrow} \otimes \ket{\xi})\\
 			&= \alpha U(\ket{\uparrow} \otimes \ket{\xi}) + \beta U(\ket{\downarrow} \otimes \ket{\xi})\\
-			&= \alpha \ket{\uparrow} \otimes \ket{\uparrow} + \beta \ket{\downarrow} \otimes \ket{\downarrow}
+			&= \alpha \ket{\uparrow\uparrow} + \beta \ket{\downarrow\downarrow}
 		\end{align*}
 	\end{frame}
 	
