@@ -7,6 +7,7 @@
 \usepackage{bbm}
 \usepackage{amssymb}
 \usepackage{amsmath}
+\usepackage[bbgreekl]{mathbbol}
 \usepackage[absolute,overlay]{textpos}
 \usepackage{graphicx}
 \usepackage{tikz}
@@ -23,6 +24,10 @@
 \date{19 de novembro de 2019}
 
 \author{Pedro Maciel Xavier \\ \texttt{pedromxavier@poli.ufrj.br}}
+
+\newcommand{\ii}{
+	\rm{i}
+}
 
 
 \newcommand{\titulo}[1]{%
@@ -61,6 +66,14 @@
 #2 \\
 #3 \\
 #4
+\end{matrix}\right]
+}
+}
+
+\newcommand{\matriz}[4]{\ensuremath{
+\left[\begin{matrix}
+#1 & #2 \\
+#3 & #4 
 \end{matrix}\right]
 }
 }
@@ -151,6 +164,32 @@
 	\end{figure}
 \end{center}
 }
+
+\newcommand{\ps}{
+	\phantom{-}
+}
+
+\newcommand{\HH}{\ensuremath{
+	\frac{1}{\sqrt{2}}\matriz{1}{\ps 1}{1}{-1}
+}}
+
+\newcommand{\XX}{\ensuremath{
+	\matriz{0}{\ps 1}{1}{\ps 0}
+}}
+
+\newcommand{\YY}{\ensuremath{
+	\matriz{0}{-\ii}{\ii}{\ps 0}
+}}
+
+\newcommand{\ZZ}{\ensuremath{
+	\matriz{1}{\ps 0}{0}{-1}
+}}
+
+
+%%
+%%
+%%
+%%
 
 \begin{document}
 
@@ -294,55 +333,56 @@
 	
 	\comicfinal{moores-law.pdf}
 	
-	\begin{frame}
+	\begin{frame}{\subsecname}
 		\person{moore.jpg}{Gordon Moore}{Intel, 1965}{3cm}{5cm}{3cm}
 	\end{frame}
 
-	\begin{frame}{Fenômenos Quânticos}
+	\section{Computação Quântica}
+	
+	\subsection{Fenômenos Quânticos}
+	
+	\begin{frame}{\subsecname}
 		\person{feynman.jpg}{Richard Feynman}{1918 - 1988}{3cm}{2cm}{2cm}
 			
 	\end{frame}
-		
-	
-	\section{Computação Quântica}
 	
 	\subsection{Postulados}
 	
 	\begin{frame}{\subsecname}
 		\postulado{Representação}
+		Um sistema físico isolado está associado a um espaço de Hilbert $\mathcal{H}$ e é, num dado momento no tempo, completamente descrito por um vetor unitário em $\mathcal{H}$, o estado do sistema.		
 		\begin{align*}
 			\ket{\Psi} \in \mathbb{C}^2 && (\mathbf{x} \in \mathbb{C}^2)\\
 %%			\braket{\Psi}{\Psi} = 1 (\mathbf{x}^{\dagger} \mathbf{x} = 1)
 		\end{align*}
 		\vspace{-1cm} 
 		\begin{figure}[H]
-			\includegraphics[width=6cm]{c2.pdf}
+			\includegraphics[width=5cm]{c2.pdf}
 		\end{figure}
 	\end{frame}
 	
 	\begin{frame}{\subsecname}
 		\postulado{Representação}
+		Um sistema físico isolado está associado a um espaço de Hilbert $\mathcal{H}$ e é, num dado momento no tempo, completamente descrito por um vetor unitário em $\mathcal{H}$, o estado do sistema.		
 		\begin{align*}
 			\ket{\Psi} \in \mathbb{C}^2 && (\mathbf{x} \in \mathbb{C}^2)\\
 			\braket{\Psi}{\Psi} = 1 && (\mathbf{x}^{\dagger} \mathbf{x} = 1)
 		\end{align*}
 		\vspace{-1cm}
 		\begin{figure}[H]
-			\includegraphics[width=6cm]{c2-sphere.pdf}
+			\includegraphics[width=5cm]{c2-sphere.pdf}
 		\end{figure}
 	\end{frame}
 
 	\begin{frame}{\subsecname}
 		\postulado{Composição}
 		Um sistema é descrito pela composição dos estados que o representam, que se dá através do \emph{produto tensorial}.
-		$\ket{\Psi} \otimes \ket{\Phi} \equiv \ket{\Psi\Phi}$
+		$$\ket{\Psi} \otimes \ket{\Phi} \equiv \ket{\Psi\Phi}$$
 		
 		\definicao{Produto de Kronecker}
 		
-		
-		
 		\begin{align*}
-		\vetor{a}{b} \otimes \vetor{x}{y} = \vetor{a \vetor{x}{y}}{b \vetor{x}{y}} = \vetorx{ax}{ay}{bx}{by}
+		\mathbf{x} \otimes \mathbf{y} \equiv \vetor{x_1}{x_2} \otimes \vetor{y_1}{y_2} = \vetor{x_1 \vetor{y_1}{y_2} \vspace{2pt}}{x_2 \vetor{y_1}{y_2}} = \vetorx{x_1 y_1}{x_1 y_2}{x_2 y_1 }{x_2 y_2}
 		\end{align*}
 	\end{frame}
 	
@@ -360,22 +400,71 @@
 	
 	\begin{frame}{\subsecname}
 		\definicao{Base Computacional}
-		A \emph{Base Computacional} é determinada pelos estados ortogonais $\ket{0}$ e $\ket{1}$, definidos por:
+		Construimos vetores de \textit{qubits} (registradores) através da composição:
+		\footnotesize
 		\begin{align*}
-		\ket{0} &= \vetor{1}{0}\\
-		\ket{1} &= \vetor{0}{1}\\
+		\ket{00} = \ket{0} \otimes \ket{0} = \vetor{1}{0} \otimes \vetor{1}{0} = \vetorx{1}{0}{0}{0} &&
+		\ket{01} = \ket{0} \otimes \ket{1} = \vetor{1}{0} \otimes \vetor{0}{1} = \vetorx{0}{1}{0}{0} \\
+		~\\
+		\ket{10} = \ket{1} \otimes \ket{0} = \vetor{0}{1} \otimes \vetor{1}{0} = \vetorx{0}{0}{1}{0} &&
+		\ket{11} = \ket{1} \otimes \ket{1} = \vetor{0}{1} \otimes \vetor{0}{1} = \vetorx{0}{1}{0}{1}
 		\end{align*}
+		\normalsize
 	\end{frame}
 	
 	\begin{frame}{\subsecname}
 		\postulado{Evolução}
-		A evolução de um sistema se dá por meio de operadores unitários $U$
+		A evolução de um sistema é descrita por um \textit{Hamiltoniano} $H$, representado por uma matriz Hermitiana, isto é, $H = H^{\dagger}$.\\
+		
+		Assim temos, pela equação de Schrödinger:
+		$$H \ket{\Psi} =\ii \hslash \frac{d \ket{\Psi}}{dt} \implies \frac{d \ket{\Psi}}{dt} = \frac{-\ii}{\hslash} H \ket{\Psi}$$
+		
+		Sejam $\ket{\Psi(t_k)}$, $\ket{\Psi(t_{k+1})}$ os estados do sistema no tempo $t_k$ e $t_{k+1}$, respectivamente. Segue que:
+		$$\ket{\Psi(t_{k+1})} = e^{\frac{-i H}{\hslash} (t_{k+1} - t_k)} \ket{\Psi(t_k)}$$
 	\end{frame}
 	
 	\begin{frame}{\subsecname}
-		\textbf{Uma nota sobre reversibilidade}
+		\postulado{Evolução}
+		\begin{enumerate}
+			\item<1-> Seja $U = e^{\frac{-i H}{\hslash} (t_{k+1} - t_k)}$ o operador de evolução.
+			\item<2-> Sabemos também que $U^{\dagger} = e^{\frac{i H^{\dagger}}{\hslash} (t_{k+1} - t_k)}$.
+			\item<3-> Como a matriz $H$ é Hermitiana, temos que $U^{\dagger} U = I$.
+		\end{enumerate}
+		
+	\uncover<4->{
+	Podemos então dizer que a evolução dos sistemas se dá por operadores unitários!\\
+	} \bigskip
+
+	\vspace{1 cm}
+	
+	\uncover<5->{
+	\centering\Huge
+	Hora de conhecer alguns deles!
+	}
+	
+	\end{frame}
+	
+	\begin{frame}{\subsecname}
+		\begin{align*}
+			H = \HH\\
+			X = \XX\\
+			Y = \YY\\
+			Z = \ZZ
+		\end{align*}
+	
+	\end{frame}
+	
+	\begin{frame}{Uma nota sobre reversibilidade}
+		Para toda matriz unitária, como $U^{\dagger} U = U U^{\dagger} = I$, temos também que $U^\dagger = U^{-1}$.
+	
+		\textbf{O Princípio de Landau.}\\
 		
 		$$\Delta S > K T \log 2$$
+		
+	\end{frame}	
+	
+	\begin{frame}{\subsecname}
+		\postulado{Medida}
 	\end{frame}
 	
 	\subsection{Trapped-ion}
@@ -479,26 +568,13 @@
 	
 	\section{Computação Adiabática}
 	
+	\begin{frame}{\secname}
+	\titulo{Equação de Pauli}
+	$$\left[{\frac {1}{2m}}({\vec {\sigma }}\cdot ({\vec {p}}-q{\vec {A}}))^{2}+q\phi \right]\ket{\psi} = \ii\hbar {\frac {\partial }{\partial t}}\ket{\psi}$$
+	
+	\end{frame}
+	
 	\subsection{Teorema Adiabático}
-	
-	\begin{frame}{\subsecname}
-		
-		\begin{align*}
-			H \ket{\Psi(t)} =\mathbbm{i} \hslash \frac{\partial \ket{\Psi(t)}}{\partial t}
-		\end{align*}
-	\end{frame}
-	
-	\begin{frame}{\subsecname}
-	
-	\end{frame}	
-	
-	\begin{frame}{\subsecname}
-	
-	\end{frame}
-	
-	\begin{frame}{\subsecname}
-	
-	\end{frame}
 	
 	\subsection{Têmpera Quântica}	
 	
