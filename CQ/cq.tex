@@ -11,6 +11,8 @@
 \usepackage{graphicx}
 \usepackage{tikz}
 \usepackage{courier}
+\usepackage{ragged2e}
+\usepackage{csquotes}
 
 \title{
 	{{\Large \textbf{Encontros Matemáticos}} {\small 	apresenta}}\\
@@ -21,6 +23,11 @@
 \date{19 de novembro de 2019}
 
 \author{Pedro Maciel Xavier \\ \texttt{pedromxavier@poli.ufrj.br}}
+
+
+\newcommand{\titulo}[1]{%
+	\textbf{\Large #1\\}
+}
 
 \newcommand{\teorema}[1]{%
 	\textbf{Teorema. (\emph{#1})\\}
@@ -91,6 +98,23 @@
 	\end{center}
 \end{frame}
 \egroup
+}
+
+\newcommand{\frase}[1]{	
+	\begin{center}
+		\begin{block}
+			~ ''{\small #1}''
+		\end{block}
+	\end{center}
+}
+
+\newcommand{\frasepor}[2]{
+	\begin{center}
+		\begin{quote}
+			#1
+		\end{quote}
+		\hfill {\small #2}
+	\end{center}
 }
 
 \newcommand{\comicfinal}[1]{
@@ -168,8 +192,6 @@
 	
 	\begin{frame}{\subsecname}
 	
-	\vspace{-90pt}
-	
 	Sobre os \textit{bits}:
 		\begin{itemize}
 			\item Eles moram em $\mathbb{Z}_2$
@@ -206,11 +228,35 @@
 
 	\subsection{Complexidade e Computabilidade}	
 	
-	\begin{frame}{\subsecname}
-	\textbf{A Tese de Church-Turing}
-		\person{church.jpg}{Alonzo Church}{}{4cm}{2cm}{2cm}
-		\person{turing.jpg}{Alan Turing}{}{4cm}{8cm}{2cm}
+	\begin{frame}[label=turing]{\subsecname}
+	\titulo{A Tese de Church-Turing}
+	
+	%% Em 1936, como resposta ao \textit{Entscheidungsproblem} de David Hilbert, Church e Turing publicam resultados independentes mostrando que não existe um algoritmo para determinar se um enunciado da lógica de primeira ordem pode ser provado. Em seu artigo, Turing introduz a \textbf{Máquina de Turing}\\
+	
+	\frasepor{Toda função que seria naturalmente computável pode ser computada por uma Máquina de Turing}{Alan Turing}
 	\end{frame}
+	
+	\begin{frame}{\subsecname}
+	\definicao{Máquina de Turing}
+	É um computador abstrato definido por $(Q, q_0, \Gamma, \square, \Sigma, \Omega, \delta)$, que possui uma fita e um cabeçote de leitura
+	
+	\begin{itemize}
+		\item[$Q$:] Um conjunto não-vazio de estados.
+		\item[$q_0$:] Estado inicial ($q_0 \in Q$)
+		\item[$\Gamma$:] Alfabeto da fita.
+		\item[$\square$:] Símbolo vazio.
+		\item[$\Sigma$:] Alfabeto de entrada da máquina. ($\Sigma \subseteq \Gamma \slash \{\square\})$ 
+		\item[$\Omega$:] Conjunto dos códigos de parada.
+		\item[$\delta$:] Função de Transição, $\delta : Q \slash \Omega \times \Gamma \to Q \times \Gamma \times \{\uparrow, \downarrow\}$
+	\end{itemize}
+	\end{frame}
+	
+	\begin{frame}{\subsecname}
+		\person{church.jpg}{Alonzo Church}{1903 - 1955}{4cm}{2cm}{3cm}
+		\person{turing.jpg}{Alan Turing}{1912 - 1954}{4cm}{8cm}{3cm}
+	\end{frame}
+	
+	\againframe{turing}
 	
 	\begin{frame}{\subsecname}
 		\definicao{Complexidade Assintótica}

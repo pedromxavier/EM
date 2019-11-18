@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2019.11.17)  17 NOV 2019 19:46
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2019.11.17)  17 NOV 2019 21:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1108,31 +1108,80 @@ TextBlockOrigin set to 0pt x 0pt
 ) (/usr/share/texlive/texmf-dist/tex/latex/psnfss/courier.sty
 Package: courier 2005/04/12 PSNFSS-v9.2a (WaS) 
 )
+(/usr/share/texlive/texmf-dist/tex/latex/ms/ragged2e.sty
+Package: ragged2e 2009/05/21 v2.1 ragged2e Package (MS)
+
+(/usr/share/texlive/texmf-dist/tex/latex/ms/everysel.sty
+Package: everysel 2011/10/28 v1.2 EverySelectfont Package (MS)
+)
+\CenteringLeftskip=\skip69
+\RaggedLeftLeftskip=\skip70
+\RaggedRightLeftskip=\skip71
+\CenteringRightskip=\skip72
+\RaggedLeftRightskip=\skip73
+\RaggedRightRightskip=\skip74
+\CenteringParfillskip=\skip75
+\RaggedLeftParfillskip=\skip76
+\RaggedRightParfillskip=\skip77
+\JustifyingParfillskip=\skip78
+\CenteringParindent=\skip79
+\RaggedLeftParindent=\skip80
+\RaggedRightParindent=\skip81
+\JustifyingParindent=\skip82
+)
+(/usr/share/texlive/texmf-dist/tex/latex/csquotes/csquotes.sty
+Package: csquotes 2016/12/28 v5.2 context-sensitive quotations (JAW)
+\csq@reset=\count166
+\csq@gtype=\count167
+\csq@glevel=\count168
+\csq@qlevel=\count169
+\csq@maxlvl=\count170
+\csq@tshold=\count171
+\csq@ltx@everypar=\toks50
+
+(/usr/share/texlive/texmf-dist/tex/latex/csquotes/csquotes.def
+File: csquotes.def 2016/12/28 v5.2 csquotes generic definitions (JAW)
+)
+Package csquotes Info: Trying to load configuration file 'csquotes.cfg'...
+Package csquotes Info: ... configuration file loaded successfully.
+
+(/usr/share/texlive/texmf-dist/tex/latex/csquotes/csquotes.cfg
+File: csquotes.cfg 
+))
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\\' on input line 23.
+(hyperref)                removing `\\' on input line 25.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\new@ifnextchar' on input line 131.
+(hyperref)                removing `\new@ifnextchar' on input line 155.
 
-(./cq.aux)
+Package csquotes Info: Checking for multilingual support...
+Package csquotes Info: ... none found.
+(./cq.aux
+
+LaTeX Warning: Label `turing<1>' multiply defined.
+
+
+LaTeX Warning: Label `turing' multiply defined.
+
+)
 \openout1 = `cq.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 131.
-LaTeX Font Info:    ... okay on input line 131.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 131.
-LaTeX Font Info:    ... okay on input line 131.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 131.
-LaTeX Font Info:    ... okay on input line 131.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 131.
-LaTeX Font Info:    ... okay on input line 131.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 131.
-LaTeX Font Info:    ... okay on input line 131.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 131.
-LaTeX Font Info:    ... okay on input line 131.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 131.
-LaTeX Font Info:    ... okay on input line 131.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 155.
+LaTeX Font Info:    ... okay on input line 155.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 155.
+LaTeX Font Info:    ... okay on input line 155.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 155.
+LaTeX Font Info:    ... okay on input line 155.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 155.
+LaTeX Font Info:    ... okay on input line 155.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 155.
+LaTeX Font Info:    ... okay on input line 155.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 155.
+LaTeX Font Info:    ... okay on input line 155.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 155.
+LaTeX Font Info:    ... okay on input line 155.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1170,17 +1219,17 @@ LaTeX Font Info:    ... okay on input line 131.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count166
+\scratchcounter=\count172
 \scratchdimen=\dimen265
 \scratchbox=\box60
-\nofMPsegments=\count167
-\nofMParguments=\count168
-\everyMPshowfont=\toks50
-\MPscratchCnt=\count169
+\nofMPsegments=\count173
+\nofMParguments=\count174
+\everyMPshowfont=\toks51
+\MPscratchCnt=\count175
 \MPscratchDim=\dimen266
-\MPnumerator=\count170
-\makeMPintoPDFobject=\count171
-\everyMPtoPDFconversion=\toks51
+\MPnumerator=\count176
+\makeMPintoPDFobject=\count177
+\everyMPtoPDFconversion=\toks52
 ) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
@@ -1200,7 +1249,7 @@ e
 ))
 ABD: EveryShipout initializing macros
 \AtBeginShipoutBox=\box61
-Package hyperref Info: Link coloring OFF on input line 131.
+Package hyperref Info: Link coloring OFF on input line 155.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -1208,11 +1257,11 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count172
+\c@section@level=\count178
 )
-LaTeX Info: Redefining \ref on input line 131.
-LaTeX Info: Redefining \pageref on input line 131.
-LaTeX Info: Redefining \nameref on input line 131.
+LaTeX Info: Redefining \ref on input line 155.
+LaTeX Info: Redefining \pageref on input line 155.
+LaTeX Info: Redefining \nameref on input line 155.
 
 (./cq.out) (./cq.out)
 \@outlinefile=\write5
@@ -1243,25 +1292,28 @@ Dictionary: translator-numbers-dictionary, Language: English
 orem-dictionary/translator-theorem-dictionary-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
 )
-LaTeX Info: Redefining \includegraphics on input line 131.
+LaTeX Info: Redefining \includegraphics on input line 155.
+
+ABD: EverySelectfont initializing macros
+LaTeX Info: Redefining \selectfont on input line 155.
  (./cq.nav)
-LaTeX Font Info:    Try loading font information for OT1+pcr on input line 135.
+LaTeX Font Info:    Try loading font information for OT1+pcr on input line 159.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 )
 LaTeX Font Info:    Font shape `OT1/pcr/bx/n' in size <14.4> not available
-(Font)              Font shape `OT1/pcr/b/n' tried instead on input line 135.
+(Font)              Font shape `OT1/pcr/b/n' tried instead on input line 159.
 LaTeX Font Info:    Font shape `OT1/pcr/bx/n' in size <20.74> not available
-(Font)              Font shape `OT1/pcr/b/n' tried instead on input line 135.
+(Font)              Font shape `OT1/pcr/b/n' tried instead on input line 159.
 
-Overfull \vbox (49.56921pt too high) detected at line 135
+Overfull \vbox (49.56921pt too high) detected at line 159
  []
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <4> not available
-(Font)              size <5> substituted on input line 135.
+(Font)              size <5> substituted on input line 159.
 
 [1
 
@@ -1272,12 +1324,12 @@ LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <4> not available
 ] (./cq.toc) [4
 
 ]
-LaTeX Font Info:    Try loading font information for U+msa on input line 158.
+LaTeX Font Info:    Try loading font information for U+msa on input line 182.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 158.
+LaTeX Font Info:    Try loading font information for U+msb on input line 182.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -1287,21 +1339,21 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 <bits0.pdf, id=208, 2845.27568pt x 2845.27568pt>
 File: bits0.pdf Graphic file (type pdf)
  <use bits0.pdf>
-Package pdftex.def Info: bits0.pdf used on input line 162.
+Package pdftex.def Info: bits0.pdf used on input line 186.
 (pdftex.def)             Requested size: 245.90457pt x 245.90779pt.
  [6
 
  <./bits0.pdf>] <bits1.pdf, id=221, 2845.27568pt x 2845.27568pt>
 File: bits1.pdf Graphic file (type pdf)
  <use bits1.pdf>
-Package pdftex.def Info: bits1.pdf used on input line 163.
+Package pdftex.def Info: bits1.pdf used on input line 187.
 (pdftex.def)             Requested size: 245.90457pt x 245.90779pt.
  [7
 
  <./bits1.pdf>] <bits2.pdf, id=236, 2845.27568pt x 2845.27568pt>
 File: bits2.pdf Graphic file (type pdf)
  <use bits2.pdf>
-Package pdftex.def Info: bits2.pdf used on input line 164.
+Package pdftex.def Info: bits2.pdf used on input line 188.
 (pdftex.def)             Requested size: 245.90457pt x 245.90779pt.
 
 [8
@@ -1310,7 +1362,7 @@ Package pdftex.def Info: bits2.pdf used on input line 164.
 File: bits3.pdf Graphic file (type pdf)
 
 <use bits3.pdf>
-Package pdftex.def Info: bits3.pdf used on input line 165.
+Package pdftex.def Info: bits3.pdf used on input line 189.
 (pdftex.def)             Requested size: 245.90457pt x 245.90779pt.
  [9
 
@@ -1318,31 +1370,31 @@ Package pdftex.def Info: bits3.pdf used on input line 165.
 <bits4.pdf, id=264, 2845.27568pt x 2845.27568pt>
 File: bits4.pdf Graphic file (type pdf)
  <use bits4.pdf>
-Package pdftex.def Info: bits4.pdf used on input line 166.
+Package pdftex.def Info: bits4.pdf used on input line 190.
 (pdftex.def)             Requested size: 245.90457pt x 245.90779pt.
  [10
 
  <./bits4.pdf>] <blue-screen.pdf, id=278, 481.8pt x 361.35pt>
 File: blue-screen.pdf Graphic file (type pdf)
  <use blue-screen.pdf>
-Package pdftex.def Info: blue-screen.pdf used on input line 167.
+Package pdftex.def Info: blue-screen.pdf used on input line 191.
 (pdftex.def)             Requested size: 364.19536pt x 273.15117pt.
 
 [11
 
  <./blue-screen.pdf>]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 180.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 202.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 180.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 202.
  [12
 
 ]
-Overfull \hbox (8.64978pt too wide) in paragraph at lines 199--199
+Overfull \hbox (8.64978pt too wide) in paragraph at lines 221--221
 []  
  []
 
@@ -1351,180 +1403,184 @@ Overfull \hbox (8.64978pt too wide) in paragraph at lines 199--199
 ] <boole.jpg, id=307, 452.69125pt x 607.26875pt>
 File: boole.jpg Graphic file (type jpg)
  <use boole.jpg>
-Package pdftex.def Info: boole.jpg used on input line 205.
+Package pdftex.def Info: boole.jpg used on input line 227.
 (pdftex.def)             Requested size: 84.83795pt x 113.81102pt.
 
 <de-morgan.jpg, id=308, 120.65076pt x 180.675pt>
 File: de-morgan.jpg Graphic file (type jpg)
  <use de-morgan.jpg>
-Package pdftex.def Info: de-morgan.jpg used on input line 205.
+Package pdftex.def Info: de-morgan.jpg used on input line 227.
 (pdftex.def)             Requested size: 76.00116pt x 113.81102pt.
  [14
 
- <./boole.jpg> <./de-morgan.jpg>]
+ <./boole.jpg> <./de-morgan.jpg>] [15
 
-Package textpos Warning: environment textblock* not in vertical mode. 
-(textpos)                Environment textblock* should not have any text
-(textpos)                or printable material appearing before it.
-(textpos)                Alignment may work out wrongly. on input line 213.
-
-<church.jpg, id=314, 220.825pt x 295.1025pt>
-File: church.jpg Graphic file (type jpg)
- <use church.jpg>
-Package pdftex.def Info: church.jpg used on input line 213.
-(pdftex.def)             Requested size: 85.16444pt x 113.81102pt.
-
-<turing.jpg, id=315, 106.8241pt x 117.43875pt>
-File: turing.jpg Graphic file (type jpg)
- <use turing.jpg>
-Package pdftex.def Info: turing.jpg used on input line 213.
-(pdftex.def)             Requested size: 103.52469pt x 113.81102pt.
- [15
-
- <./church.jpg> <./turing.jpg>] [16
+] [16
 
 ]
-<first-transistor.pdf, id=325, 367.3725pt x 472.76625pt>
+<church.jpg, id=326, 220.825pt x 295.1025pt>
+File: church.jpg Graphic file (type jpg)
+ <use church.jpg>
+Package pdftex.def Info: church.jpg used on input line 257.
+(pdftex.def)             Requested size: 85.16444pt x 113.81102pt.
+
+<turing.jpg, id=327, 106.8241pt x 117.43875pt>
+File: turing.jpg Graphic file (type jpg)
+ <use turing.jpg>
+Package pdftex.def Info: turing.jpg used on input line 257.
+(pdftex.def)             Requested size: 103.52469pt x 113.81102pt.
+ [17
+
+ <./church.jpg> <./turing.jpg>]pdfTeX warning (ext4): destination with the same
+ identifier (name{turing<1>}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.259 	\againframe{turing}
+                          pdfTeX warning (ext4): destination with the same iden
+tifier (name{turing}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.259 	\againframe{turing}
+                           [18
+
+] [19
+
+]
+<first-transistor.pdf, id=344, 367.3725pt x 472.76625pt>
 File: first-transistor.pdf Graphic file (type pdf)
 
 <use first-transistor.pdf>
-Package pdftex.def Info: first-transistor.pdf used on input line 222.
+Package pdftex.def Info: first-transistor.pdf used on input line 268.
 (pdftex.def)             Requested size: 191.09084pt x 245.90779pt.
- [17
+ [20
 
- <./first-transistor.pdf>] [18
+ <./first-transistor.pdf>] [21
 
 ]
-<nand.pdf, id=339, 1445.4pt x 602.25pt>
+<nand.pdf, id=359, 1445.4pt x 602.25pt>
 File: nand.pdf Graphic file (type pdf)
  <use nand.pdf>
-Package pdftex.def Info: nand.pdf used on input line 238.
+Package pdftex.def Info: nand.pdf used on input line 284.
 (pdftex.def)             Requested size: 85.35826pt x 35.56367pt.
- [19
+ [22
 
  <./nand.pdf>]
-<von-neuman.jpg, id=352, 491.8375pt x 641.39626pt>
+<von-neuman.jpg, id=370, 491.8375pt x 641.39626pt>
 File: von-neuman.jpg Graphic file (type jpg)
  <use von-neuman.jpg>
-Package pdftex.def Info: von-neuman.jpg used on input line 244.
+Package pdftex.def Info: von-neuman.jpg used on input line 290.
 (pdftex.def)             Requested size: 65.44958pt x 85.35826pt.
 
-[20
+[23
 
- <./von-neuman.jpg>] <moores-law.pdf, id=357, 1440.58195pt x 1040.68805pt>
+ <./von-neuman.jpg>] <moores-law.pdf, id=375, 1440.58195pt x 1040.68805pt>
 File: moores-law.pdf Graphic file (type pdf)
 
 <use moores-law.pdf>
-Package pdftex.def Info: moores-law.pdf used on input line 249.
+Package pdftex.def Info: moores-law.pdf used on input line 295.
 (pdftex.def)             Requested size: 364.19536pt x 263.09322pt.
- [21
+ [24
 
  <./moores-law.pdf>]
-<moore.jpg, id=366, 225.84375pt x 323.2075pt>
+<moore.jpg, id=384, 225.84375pt x 323.2075pt>
 File: moore.jpg Graphic file (type jpg)
  <use moore.jpg>
-Package pdftex.def Info: moore.jpg used on input line 253.
+Package pdftex.def Info: moore.jpg used on input line 299.
 (pdftex.def)             Requested size: 59.64497pt x 85.35826pt.
- [22
+ [25
 
- <./moore.jpg>] <feynman.jpg, id=372, 200.75pt x 281.05pt>
+ <./moore.jpg>] <feynman.jpg, id=391, 200.75pt x 281.05pt>
 File: feynman.jpg Graphic file (type jpg)
  <use feynman.jpg>
-Package pdftex.def Info: feynman.jpg used on input line 258.
+Package pdftex.def Info: feynman.jpg used on input line 304.
 (pdftex.def)             Requested size: 60.9698pt x 85.35826pt.
- [23
+ [26
 
- <./feynman.jpg>] [24
+ <./feynman.jpg>] [27
 
-] <c2.pdf, id=383, 2845.27568pt x 2845.27568pt>
+] <c2.pdf, id=402, 2845.27568pt x 2845.27568pt>
 File: c2.pdf Graphic file (type pdf)
  <use c2.pdf>
-Package pdftex.def Info: c2.pdf used on input line 275.
+Package pdftex.def Info: c2.pdf used on input line 321.
 (pdftex.def)             Requested size: 170.71652pt x 170.70917pt.
 
-Overfull \vbox (44.0978pt too high) detected at line 275
+Overfull \vbox (44.0978pt too high) detected at line 321
  []
 
-[25
+[28
 
- <./c2.pdf>] <c2-sphere.pdf, id=398, 2845.27568pt x 2845.27568pt>
+ <./c2.pdf>] <c2-sphere.pdf, id=416, 2845.27568pt x 2845.27568pt>
 File: c2-sphere.pdf Graphic file (type pdf)
 
 <use c2-sphere.pdf>
-Package pdftex.def Info: c2-sphere.pdf used on input line 287.
+Package pdftex.def Info: c2-sphere.pdf used on input line 333.
 (pdftex.def)             Requested size: 170.71652pt x 170.70917pt.
 
-Overfull \vbox (44.0978pt too high) detected at line 287
+Overfull \vbox (44.0978pt too high) detected at line 333
  []
 
-[26
+[29
 
- <./c2-sphere.pdf>] [27
-
-] [28
-
-] [29
-
-] [30
+ <./c2-sphere.pdf>] [30
 
 ] [31
 
 ] [32
 
+] [33
+
+] [34
+
+] [35
+
 ]
-<grover.jpg, id=445, 180.675pt x 180.675pt>
+<grover.jpg, id=463, 180.675pt x 180.675pt>
 File: grover.jpg Graphic file (type jpg)
  <use grover.jpg>
-Package pdftex.def Info: grover.jpg used on input line 346.
+Package pdftex.def Info: grover.jpg used on input line 392.
 (pdftex.def)             Requested size: 85.35835pt x 85.35826pt.
- [33
+ [36
 
- <./grover.jpg>] <shor.jpg, id=450, 501.875pt x 615.29875pt>
+ <./grover.jpg>] <shor.jpg, id=468, 501.875pt x 615.29875pt>
 File: shor.jpg Graphic file (type jpg)
  <use shor.jpg>
-Package pdftex.def Info: shor.jpg used on input line 352.
+Package pdftex.def Info: shor.jpg used on input line 398.
 (pdftex.def)             Requested size: 69.61874pt x 85.35826pt.
- [34
+ [37
 
  <./shor.jpg>]
-<quantum-teleportation.pdf, id=456, 742.775pt x 197.73875pt>
+<quantum-teleportation.pdf, id=476, 742.775pt x 197.73875pt>
 File: quantum-teleportation.pdf Graphic file (type pdf)
 
 <use quantum-teleportation.pdf>
-Package pdftex.def Info: quantum-teleportation.pdf used on input line 357.
+Package pdftex.def Info: quantum-teleportation.pdf used on input line 403.
 (pdftex.def)             Requested size: 307.28987pt x 81.8066pt.
- [35
+ [38
 
- <./quantum-teleportation.pdf>] [36
+ <./quantum-teleportation.pdf>] [39
 
 ]
-[37
+[40
 
-] [38
+] [41
 
-] [39
+] [42
 
-] <superposition.pdf, id=487, 111.50056pt x 33.79225pt>
+] <superposition.pdf, id=504, 111.50056pt x 33.79225pt>
 File: superposition.pdf Graphic file (type pdf)
 
 <use superposition.pdf>
-Package pdftex.def Info: superposition.pdf used on input line 404.
+Package pdftex.def Info: superposition.pdf used on input line 450.
 (pdftex.def)             Requested size: 307.28987pt x 93.12949pt.
- [40
+ [43
 
  <./superposition.pdf>]
 File: superposition.pdf Graphic file (type pdf)
  <use superposition.pdf>
-Package pdftex.def Info: superposition.pdf used on input line 410.
+Package pdftex.def Info: superposition.pdf used on input line 456.
 (pdftex.def)             Requested size: 307.28987pt x 93.12949pt.
 
-[41
-
-] [42
-
-] [43
-
-] [44
+[44
 
 ] [45
 
@@ -1532,45 +1588,51 @@ Package pdftex.def Info: superposition.pdf used on input line 410.
 
 ] [47
 
-]
-LaTeX Font Info:    Try loading font information for U+bbm on input line 443.
-LaTeX Font Info:    No file Ubbm.fd. on input line 443.
-
-
-LaTeX Font Warning: Font shape `U/bbm/m/n' undefined
-(Font)              using `U/cmr/m/n' instead on input line 443.
-
-[48
+] [48
 
 ] [49
 
 ] [50
 
-] [51
+]
+LaTeX Font Info:    Try loading font information for U+bbm on input line 489.
+LaTeX Font Info:    No file Ubbm.fd. on input line 489.
+
+
+LaTeX Font Warning: Font shape `U/bbm/m/n' undefined
+(Font)              using `U/cmr/m/n' instead on input line 489.
+
+[51
 
 ] [52
 
-]
-<energy-levels.pdf, id=551, 2845.27568pt x 1707.1653pt>
-File: energy-levels.pdf Graphic file (type pdf)
+] [53
 
-<use energy-levels.pdf>
-Package pdftex.def Info: energy-levels.pdf used on input line 467.
-(pdftex.def)             Requested size: 199.16928pt x 119.48773pt.
- [53
-
- <./energy-levels.pdf>] [54
+] [54
 
 ] [55
 
-] [56
+]
+<energy-levels.pdf, id=569, 2845.27568pt x 1707.1653pt>
+File: energy-levels.pdf Graphic file (type pdf)
 
-] [57
+<use energy-levels.pdf>
+Package pdftex.def Info: energy-levels.pdf used on input line 513.
+(pdftex.def)             Requested size: 199.16928pt x 119.48773pt.
+ [56
+
+ <./energy-levels.pdf>] [57
 
 ] [58
 
+] [59
+
+] [60
+
+] [61
+
 ]
-[59
+[62
 
  </usr/share/texlive/texmf-dist/tex/latex/beamer/art/beamericonarticle.pdf>]
 \tf@nav=\write6
@@ -1582,13 +1644,13 @@ Package pdftex.def Info: energy-levels.pdf used on input line 467.
 \tf@snm=\write8
 \openout8 = `cq.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 502.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 502.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 548.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 548.
 (./cq.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 502.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 502.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 548.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 548.
 Package rerunfilecheck Info: File `cq.out' has not changed.
-(rerunfilecheck)             Checksum: 7BABEE8C48306DF484B2446B4EAF5C24;1760.
+(rerunfilecheck)             Checksum: 6D8A807803176DFAC02D3E1D5149BC66;1760.
 
 
 LaTeX Font Warning: Size substitutions with differences
@@ -1597,15 +1659,18 @@ LaTeX Font Warning: Size substitutions with differences
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
+
+LaTeX Warning: There were multiply-defined labels.
+
  ) 
 Here is how much of TeX's memory you used:
- 21148 strings out of 494884
- 413968 string characters out of 6179235
- 473934 words of memory out of 5000000
- 23776 multiletter control sequences out of 15000+600000
+ 21796 strings out of 494884
+ 424780 string characters out of 6179235
+ 492386 words of memory out of 5000000
+ 24403 multiletter control sequences out of 15000+600000
  15181 words of font info for 57 fonts, out of 8000000 for 9000
  38 hyphenation exceptions out of 8191
- 61i,21n,82p,1861b,685s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 61i,21n,82p,1861b,688s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist
@@ -1624,10 +1689,10 @@ f-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist
 fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/share/texlive/texmf-dist/f
 onts/type1/urw/courier/ucrb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/ur
 w/courier/ucrr8a.pfb>
-Output written on cq.pdf (59 pages, 2024893 bytes).
+Output written on cq.pdf (62 pages, 2031564 bytes).
 PDF statistics:
- 696 PDF objects out of 1000 (max. 8388607)
- 557 compressed objects within 6 object streams
- 148 named destinations out of 1000 (max. 500000)
+ 715 PDF objects out of 1000 (max. 8388607)
+ 573 compressed objects within 6 object streams
+ 156 named destinations out of 1000 (max. 500000)
  374 words of extra memory for PDF output out of 10000 (max. 10000000)
 
