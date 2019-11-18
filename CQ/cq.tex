@@ -79,7 +79,7 @@
 }
 
 \newcommand{\ket}[1]{\ensuremath{\left|#1\right\rangle}}
-\newcommand{\bra}[1]{\ensuremath{\left\langle|#1\right|}}
+\newcommand{\bra}[1]{\ensuremath{\left\langle#1\right|}}
 
 \newcommand{\braket}[2]{\ensuremath{\left\langle#1|#2\right\rangle}}
 
@@ -299,8 +299,12 @@
 	
 	\begin{frame}{\subsecname}
 		\definicao{Complexidade Assintótica}
-		Seja $f : X \subseteq \mathbb{R}_+ \to \mathbb{C}$ e $g(x) : X \subseteq \mathbb{R}_+ \to \mathbb{R}_+$ dizemos que
-		$$f(x) = O(g(x)) \iff \exists M, x_0 $$
+		Seja $f : X \subseteq \mathbb{R}_+ \to \mathbb{C}$ e $g : X \subseteq \mathbb{R}_+ \to \mathbb{R}_+$ dizemos que
+		$$f(x) = O(g(x)) \iff \exists M, x_0 |f(x)| \le M g(x), \forall x > x_0$$
+	\end{frame}
+	
+	\begin{frame}{\subsecname}
+	
 	\end{frame}
 
 
@@ -501,36 +505,33 @@
 	\begin{frame}{\subsecname}
 	
 	\teorema{Não-Clonagem}
-		Não é possível fazer uma cópia de um estado quântico.
+		Não é possível fazer uma cópia de um estado quântico qualquer.
 	\end{frame}
 	
 	\begin{frame}{\subsecname}
 	\prova
-	Vamos supor que existe um operador unitário $U$ capaz de clonar um estado $\ket{\Psi} = \alpha \ket{\uparrow} + \beta \ket{\downarrow}$ qualquer, isto é:
-		\begin{align*}
-			U (\ket{\Psi} \otimes \ket{\xi}) = \ket{\Psi} \otimes \ket{\Psi} = \ket{\Psi\Psi}
-		\end{align*}
-	Assim:
-		\begin{align*}
-			\ket{\Psi} \otimes \ket{\xi} &= (\alpha \ket{\uparrow} + \beta \ket{\downarrow}) \otimes \ket{\xi}\\
-			&= \alpha \ket{\uparrow} \otimes \ket{\xi} + \beta \ket{\downarrow} \otimes \ket{\xi}
-		\end{align*}
-		\begin{align*}
-			\therefore U(\ket{\Psi} \otimes \ket{\xi}) &= U(\alpha \ket{\uparrow} \otimes \ket{\xi}) + U(\beta \ket{\downarrow} \otimes \ket{\xi})\\
-			&= \alpha U(\ket{\uparrow} \otimes \ket{\xi}) + \beta U(\ket{\downarrow} \otimes \ket{\xi})\\
-			&= \alpha \ket{\uparrow\uparrow} + \beta \ket{\downarrow\downarrow}
-		\end{align*}
+	Vamos supor que existe um operador unitário $U$ capaz de clonar um estado $\ket{\Psi}$ qualquer, isto é:
+		$$U (\ket{\Psi} \otimes \ket{\xi}) = \ket{\Psi} \otimes \ket{\Psi} = \ket{\Psi\Psi}$$
+	Como isso vale para qualquer estado, também é preciso que
+		$$U (\ket{\Phi} \otimes \ket{\xi}) = \ket{\Phi} \otimes \ket{\Phi} = \ket{\Phi\Phi}$$
 	\end{frame}
 	
 	\begin{frame}{\subsecname}
-	Por outro lado:
+		Tomando o produto interno entre $\ket{\Psi\Psi}$ e $\ket{\Phi\Phi}$:
 		\begin{align*}
-		\ket{\Psi} \otimes \ket{\Psi} =& (\alpha \ket{\uparrow} + \beta \ket{\downarrow}) \otimes (\alpha \ket{\uparrow} + \beta \ket{\downarrow})\\
-		=& \alpha^2 \ket{\uparrow\uparrow} + \alpha\beta (\ket{\uparrow\downarrow} + \ket{\downarrow\uparrow}) + \beta^2 \ket{\downarrow\downarrow}\\
-		\neq& \alpha \ket{\uparrow\uparrow} + \beta \ket{\downarrow\downarrow}\\
-		&& \cqd
+		\braket{\Psi\Psi}{\Phi\Phi} &= \bra{\xi\Psi}U^{\dagger} U \ket{\Phi\xi}\\
+		&= \braket{\xi\Psi}{\Phi\xi}\\
+		(\bra{\Phi} \otimes \bra{\Phi}) \cdot (\ket{\Phi} \otimes \ket{\Psi}) &= (\bra{\xi} \otimes \bra{\Psi}) \cdot (\ket{\Phi} \otimes \ket{\xi})\\
+		\braket{\Psi}{\Phi} \cdot \braket{\Psi}{\Phi} &= \braket{\xi}{\xi} \cdot \braket{\Psi}{\Phi}\\
+		\braket{\Psi}{\Phi}^2 &= \braket{\Psi}{\Phi}
 		\end{align*}
-	\end{frame}	
+		Portanto:
+		\begin{align*}
+			\braket{\Psi}{\Phi} = \begin{cases}
+			0 \text{se} \ket{\Psi} = e^{\ii\theta}\ket{\Phi}
+			\end{cases}
+		\end{align*}
+	\end{frame}
 	
 	\subsection{Fótons}	
 	
