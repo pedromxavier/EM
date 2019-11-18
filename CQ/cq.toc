@@ -1,4 +1,3 @@
-\beamer@endinputifotherversion {3.36pt}
 \beamer@sectionintoc {1}{Computa\IeC {\c c}\IeC {\~a}o Digital}{5}{0}{1}
 \beamer@subsectionintoc {1}{1}{O Bit}{6}{0}{1}
 \beamer@subsectionintoc {1}{2}{\IeC {\'A}lgebra Booleana}{13}{0}{1}
@@ -10,20 +9,20 @@
 \beamer@sectionintoc {2}{Computa\IeC {\c c}\IeC {\~a}o Qu\IeC {\^a}ntica}{27}{0}{2}
 \beamer@subsectionintoc {2}{1}{Fen\IeC {\^o}menos Qu\IeC {\^a}nticos}{28}{0}{2}
 \beamer@subsectionintoc {2}{2}{Postulados}{29}{0}{2}
-\beamer@subsectionintoc {2}{3}{Trapped-ion}{43}{0}{2}
-\beamer@subsectionintoc {2}{4}{Algoritmos}{44}{0}{2}
-\beamer@subsectionintoc {2}{5}{Teletransporte Qu\IeC {\^a}ntico}{46}{0}{2}
-\beamer@subsectionintoc {2}{6}{Teorema da n\IeC {\~a}o-clonagem}{48}{0}{2}
-\beamer@subsectionintoc {2}{7}{F\IeC {\'o}tons}{51}{0}{2}
-\beamer@subsectionintoc {2}{8}{Caminhadas Qu\IeC {\^a}nticas}{52}{0}{2}
-\beamer@sectionintoc {3}{Computa\IeC {\c c}\IeC {\~a}o Topol\IeC {\'o}gica}{53}{0}{3}
-\beamer@subsectionintoc {3}{1}{N\IeC {\'o}s}{54}{0}{3}
-\beamer@subsectionintoc {3}{2}{\IeC {\^A}nions}{56}{0}{3}
-\beamer@sectionintoc {4}{Computa\IeC {\c c}\IeC {\~a}o Adiab\IeC {\'a}tica}{58}{0}{4}
-\beamer@subsectionintoc {4}{1}{Teorema Adiab\IeC {\'a}tico}{60}{0}{4}
-\beamer@subsectionintoc {4}{2}{T\IeC {\^e}mpera Qu\IeC {\^a}ntica}{60}{0}{4}
-\beamer@subsectionintoc {4}{3}{Saltos Qu\IeC {\^a}nticos}{62}{0}{4}
-\beamer@sectionintoc {5}{Fim?}{63}{0}{5}
-\beamer@subsectionintoc {5}{1}{Supremacia Qu\IeC {\^a}ntica}{64}{0}{5}
-\beamer@subsectionintoc {5}{2}{Material}{66}{0}{5}
-\beamer@subsectionintoc {5}{3}{Bibliografia}{67}{0}{5}
+\beamer@subsectionintoc {2}{3}{Trapped-ion}{46}{0}{2}
+\beamer@subsectionintoc {2}{4}{Algoritmos}{47}{0}{2}
+\beamer@subsectionintoc {2}{5}{Teletransporte Qu\IeC {\^a}ntico}{49}{0}{2}
+\beamer@subsectionintoc {2}{6}{Teorema da n\IeC {\~a}o-clonagem}{51}{0}{2}
+\beamer@subsectionintoc {2}{7}{F\IeC {\'o}tons}{54}{0}{2}
+\beamer@subsectionintoc {2}{8}{Caminhadas Qu\IeC {\^a}nticas}{55}{0}{2}
+\beamer@sectionintoc {3}{Computa\IeC {\c c}\IeC {\~a}o Topol\IeC {\'o}gica}{56}{0}{3}
+\beamer@subsectionintoc {3}{1}{N\IeC {\'o}s}{57}{0}{3}
+\beamer@subsectionintoc {3}{2}{\IeC {\^A}nions}{59}{0}{3}
+\beamer@sectionintoc {4}{Computa\IeC {\c c}\IeC {\~a}o Adiab\IeC {\'a}tica}{61}{0}{4}
+\beamer@subsectionintoc {4}{1}{Teorema Adiab\IeC {\'a}tico}{63}{0}{4}
+\beamer@subsectionintoc {4}{2}{T\IeC {\^e}mpera Qu\IeC {\^a}ntica}{63}{0}{4}
+\beamer@subsectionintoc {4}{3}{Saltos Qu\IeC {\^a}nticos}{65}{0}{4}
+\beamer@sectionintoc {5}{Fim?}{66}{0}{5}
+\beamer@subsectionintoc {5}{1}{Supremacia Qu\IeC {\^a}ntica}{67}{0}{5}
+\beamer@subsectionintoc {5}{2}{Material}{69}{0}{5}
+\beamer@subsectionintoc {5}{3}{Bibliografia}{70}{0}{5}

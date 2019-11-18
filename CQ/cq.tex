@@ -18,7 +18,7 @@
 \title{
 	{{\Large \textbf{Encontros Matemáticos}} {\small 	apresenta}}\\
 \vspace{30pt}
-\texttt{\huge Computação Quântica}
+{\huge Computação Quântica}
 }
 \institute{IM-UFRJ}
 \date{19 de novembro de 2019}
@@ -103,7 +103,7 @@
 \newcommand{\comicw}[1]{
 	\bgroup
 	\setbeamercolor{background canvas}{bg=white}
-	\begin{frame}[plain]{}
+	\begin{frame}[plain, c]{}
 	\begin{center}
 		\begin{figure}
 			\includegraphics[width=\textwidth]{#1}
@@ -382,12 +382,37 @@
 		\postulado{Composição}
 		Um sistema é descrito pela composição dos estados que o representam, que se dá através do \emph{produto tensorial}.
 		$$\ket{\Psi} \otimes \ket{\Phi} \equiv \ket{\Psi\Phi}$$
-		
+	\end{frame}
+	
+	\begin{frame}{\subsecname}
 		\definicao{Produto de Kronecker}
+		
+		É um caso particular do \emph{produto tensorial}, computado da seguinte forma:
 		
 		\begin{align*}
 		\mathbf{x} \otimes \mathbf{y} \equiv \vetor{x_1}{x_2} \otimes \vetor{y_1}{y_2} = \vetor{x_1 \vetor{y_1}{y_2} \vspace{2pt}}{x_2 \vetor{y_1}{y_2}} = \vetorx{x_1 y_1}{x_1 y_2}{x_2 y_1 }{x_2 y_2}
 		\end{align*}
+		
+		Ele é bilinear e associativo, mas não é comutativo :(\\
+	\end{frame}
+	
+	\begin{frame}{\subsecname}
+		\definicao{Produto de Kronecker}
+		
+		Mas nem tudo está perdido. Tem outras propriedades legais também!\\
+		
+		Produto misto:
+		\begin{align*}
+			U \otimes V \cdot \ket{\Psi} \otimes \ket{\Phi} = U \ket{\Psi} \otimes V \ket{\Phi} && \mathbf{A} \otimes \mathbf{B} \cdot \mathbf{x} \otimes \mathbf{y} = \mathbf{A} \cdot \mathbf{B} \otimes \mathbf{x} \cdot \mathbf{y}
+		\end{align*}
+		
+		Transposição:
+		\begin{align*}
+			(\ket{\Psi} \otimes \ket{\Phi})^\dagger &= \bra{\Psi} \otimes \bra{\Phi} && (\mathbf{x} \otimes \mathbf{y})^\dagger = \mathbf{x}^\dagger \otimes \mathbf{y}^\dagger\\
+			\ket{\Psi\Phi}^\dagger &= \bra{\Phi\Psi} &&
+		\end{align*}
+		
+		Existem outras, mas essas duas são as mais interessantes pra nós hoje.
 	\end{frame}
 	
 	\begin{frame}{\subsecname}
@@ -449,13 +474,19 @@
 	\end{frame}
 	
 	\begin{frame}{\subsecname}
+		Matriz de Hadamard
+		\begin{align*}
+			H = \HH\\
+		\end{align*}
+	\end{frame}
+	
+	\begin{frame}{\subsecname}
 		\begin{align*}
 			H = \HH\\
 			X = \XX\\
 			Y = \YY\\
 			Z = \ZZ
 		\end{align*}
-	
 	\end{frame}
 	
 	\begin{frame}{Uma nota sobre reversibilidade}
@@ -523,14 +554,14 @@
 		\begin{align*}
 		\braket{\Psi\Psi}{\Phi\Phi} &= \bra{\xi\Psi}U^{\dagger} U \ket{\Phi\xi}\\
 		&= \braket{\xi\Psi}{\Phi\xi}\\
-		(\bra{\Phi} \otimes \bra{\Phi}) \cdot (\ket{\Phi} \otimes \ket{\Psi}) &= (\bra{\xi} \otimes \bra{\Psi}) \cdot (\ket{\Phi} \otimes \ket{\xi})\\
-		\braket{\Psi}{\Phi} \cdot \braket{\Psi}{\Phi} &= \braket{\xi}{\xi} \cdot \braket{\Psi}{\Phi}\\
+		(\bra{\Psi} \otimes \bra{\Psi}) \cdot (\ket{\Phi} \otimes \ket{\Phi}) &= (\bra{\Psi} \otimes \bra{\xi}) \cdot (\ket{\Phi} \otimes \ket{\xi})\\
+		\braket{\Psi}{\Phi} \otimes \braket{\Psi}{\Phi} &= \braket{\Psi}{\Phi} \otimes \braket{\xi}{\xi}\\
 		\braket{\Psi}{\Phi}^2 &= \braket{\Psi}{\Phi}
 		\end{align*}
 		Portanto:
 		\begin{align*}
 			\braket{\Psi}{\Phi} = \begin{cases}
-			1 \text{ se } \ket{\Psi} = e^{\ii\theta}\ket{\Phi}\\
+			1 \text{ se } \ket{\Psi} = \ket{\Phi}\\
 			0 \text{ se } \ket{\Psi} \perp \ket{\Phi}\\
 			\end{cases}\\
 		&& \cqd
@@ -590,18 +621,24 @@
 	\end{frame}
 	
 	\begin{frame}{\subsecname}
-		\imgw{energy-levels.pdf}{7cm}
+		\imgw{energy-levels.pdf}{9cm}
 	\end{frame}
+	
+	\section{Fim?}
 	
 	\subsection{Saltos Quânticos}
 	
 	\begin{frame}
 	
-	\end{frame}	
+	\end{frame}
 	
-	\section{Fim?}
+	\comich{enclave-map.pdf}
+	
+	\comicw{enclave-chart.pdf}
 
 	\subsection{Supremacia Quântica}
+	
+	\comicw{quantum.pdf}	
 	
 	\begin{frame}
 	
