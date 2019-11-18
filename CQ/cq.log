@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2019.11.17)  18 NOV 2019 16:08
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2019.11.17)  18 NOV 2019 16:36
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1659,23 +1659,71 @@ File: energy-levels.pdf Graphic file (type pdf)
 
 <use energy-levels.pdf>
 Package pdftex.def Info: energy-levels.pdf used on input line 625.
-(pdftex.def)             Requested size: 199.16928pt x 119.48773pt.
+(pdftex.def)             Requested size: 256.0748pt x 153.63824pt.
  [64
 
  <./energy-levels.pdf>] [65
 
-] [66
+]
+<enclave-map.pdf, id=640, 220.82501pt x 431.6125pt>
+File: enclave-map.pdf Graphic file (type pdf)
+ <use enclave-map.pdf>
+Package pdftex.def Info: enclave-map.pdf used on input line 633.
+(pdftex.def)             Requested size: 125.8109pt x 245.90779pt.
 
-] [67
+Overfull \vbox (45.59953pt too high) detected at line 633
+ []
 
-] [68
+[66
 
-] [69
+ <./enclave-map.pdf>]
+<enclave-chart.pdf, id=651, 461.10268pt x 226.29242pt>
+File: enclave-chart.pdf Graphic file (type pdf)
+ <use enclave-chart.pdf>
+Package pdftex.def Info: enclave-chart.pdf used on input line 637.
+(pdftex.def)             Requested size: 307.28987pt x 150.80713pt.
+
+[67
+
+ <./enclave-chart.pdf>] <quantum.pdf, id=662, 556.32843pt x 312.41719pt>
+File: quantum.pdf Graphic file (type pdf)
+
+<use quantum.pdf>
+Package pdftex.def Info: quantum.pdf used on input line 641.
+(pdftex.def)             Requested size: 307.28987pt x 172.56888pt.
+ [68
+
+ <./quantum.pdf>]
+<failure.pdf, id=671, 483.30562pt x 359.09157pt>
+File: failure.pdf Graphic file (type pdf)
+ <use failure.pdf>
+Package pdftex.def Info: failure.pdf used on input line 643.
+(pdftex.def)             Requested size: 307.28987pt x 228.32196pt.
+ [69
+
+ <./failure.pdf>] <kalai.jpg, id=681, 513.92pt x 513.92pt>
+File: kalai.jpg Graphic file (type jpg)
+ <use kalai.jpg>
+Package pdftex.def Info: kalai.jpg used on input line 647.
+(pdftex.def)             Requested size: 113.80771pt x 113.81102pt.
+ [70
+
+ <./kalai.jpg>] [71
+
+] [72
+
+] [73
+
+] [74
+
+] [75
+
+ </usr/share/texlive/texmf-dist/tex/latex/beamer/art/beamericonarticle.pdf>] [7
+6
+
+] [77
 
 ]
-[70
-
- </usr/share/texlive/texmf-dist/tex/latex/beamer/art/beamericonarticle.pdf>]
 \tf@nav=\write6
 \openout6 = `cq.nav'.
 
@@ -1685,13 +1733,13 @@ Package pdftex.def Info: energy-levels.pdf used on input line 625.
 \tf@snm=\write8
 \openout8 = `cq.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 660.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 660.
-(./cq.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 660.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 660.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 687.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 687.
+ (./cq.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 687.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 687.
 Package rerunfilecheck Info: File `cq.out' has not changed.
-(rerunfilecheck)             Checksum: 3151EDD1A70CC98D771277CD2814E9FB;1836.
+(rerunfilecheck)             Checksum: D2984775E070C944E0582D37E9065D53;1836.
 
 
 LaTeX Font Warning: Size substitutions with differences
@@ -1705,10 +1753,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 21892 strings out of 494884
- 425892 string characters out of 6179235
+ 21949 strings out of 494884
+ 426598 string characters out of 6179235
  495652 words of memory out of 5000000
- 24477 multiletter control sequences out of 15000+600000
+ 24514 multiletter control sequences out of 15000+600000
  15673 words of font info for 58 fonts, out of 8000000 for 9000
  38 hyphenation exceptions out of 8191
  61i,21n,82p,1861b,688s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1735,10 +1783,10 @@ mbols/msam10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/sym
 bols/msbm10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symb
 ols/msbm7.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb
 >
-Output written on cq.pdf (70 pages, 2083876 bytes).
+Output written on cq.pdf (77 pages, 2563314 bytes).
 PDF statistics:
- 785 PDF objects out of 1000 (max. 8388607)
- 629 compressed objects within 7 object streams
- 173 named destinations out of 1000 (max. 500000)
- 382 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 852 PDF objects out of 1000 (max. 8388607)
+ 679 compressed objects within 7 object streams
+ 188 named destinations out of 1000 (max. 500000)
+ 407 words of extra memory for PDF output out of 10000 (max. 10000000)
 
