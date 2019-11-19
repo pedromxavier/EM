@@ -201,6 +201,12 @@
 
 \newcommand{\listmark}[1]{\fbox{\textcolor{red}{#1}}}
 
+\DeclareRobustCommand{\mychar}[1]{%
+  \begingroup\normalfont
+  \includegraphics[height=\fontcharht\font`\B]{#1}%
+  \endgroup
+}
+
 %% =====================================================
 %% =====================================================
 %% =====================================================
@@ -255,7 +261,12 @@
 
 	\section{Computação}
 	
-	\subsection{Computabilidade}	
+	\subsection{Computabilidade}
+	
+	\begin{frame}{\subsecname}
+		\person{church.jpg}{Alonzo Church}{1903 - 1955}{4cm}{2cm}{3cm}
+		\person{turing.jpg}{Alan Turing}{1912 - 1954}{4cm}{8cm}{3cm}
+	\end{frame}
 	
 	\begin{frame}[label=turing]{\subsecname}
 	\titulo{A Tese de Church-Turing}
@@ -280,10 +291,7 @@
 	\end{itemize}
 	\end{frame}
 	
-	\begin{frame}{\subsecname}
-		\person{church.jpg}{Alonzo Church}{1903 - 1955}{4cm}{2cm}{3cm}
-		\person{turing.jpg}{Alan Turing}{1912 - 1954}{4cm}{8cm}{3cm}
-	\end{frame}
+
 	
 	\againframe{turing}
 	
@@ -360,23 +368,55 @@
 	\comich{bits4.pdf}
 	\comicfinal{blue-screen.pdf}
 	
+	\begin{frame}{\subsecname}
+	\definicao{Anel Booleano}
+	Um Anel booleano é um Anel $(\Omega, +, \cdot)$ com as operações $+$ e $\cdot$ definidas por:
+		\begin{align*}
+			a + b &:= a \oplus b = (\neg a \wedge b) \vee (a \wedge \neg b)\\
+			a \cdot b &:= a \wedge b
+		\end{align*} 
+	
+	\onslide<2->{É aqui que as contas com \textit{bits} acontecem! Com $\Omega = \mathbb{Z}_2$, seguimos adiante e formamos vetores de \textit{bits} como:
+		{\setlength{\jot}{0pt}%
+		\begin{align*}
+		  &1\phantom{0}\phantom{0}\phantom{0}\\
+		  &0101 &5\\
+		+\ &0100 &4\\
+		  &\rule{22pt}{.2pt}\\
+		  &1001 &9
+		\end{align*}
+		}
+	}
+	\end{frame}
+	
 	\subsection{Transistor}	
 	
 	\comich{first-transistor.pdf}
 	
 	\begin{frame}{\subsecname}
 	
-		\begin{figure}
-			\includegraphics[height=\textheight]{not-gate.pdf}
-		\end{figure}
+		\vspace{-15pt}
+		\imgh{not-gate.pdf}{\textheight}
 	
 	\end{frame}
 	
 	\subsection{Portas Lógicas}	
 	
-	\begin{frame}{\subsecname}
+	\begin{frame}[c]{\subsecname}
+		\begin{columns}[c]
+	        \begin{column}{.6\textwidth}
+	            \imgw{ttl-nand.pdf}{.9\textwidth}
+	        \end{column}
+	        \begin{column}{.4\textwidth}
+	            \imgw{nand.pdf}{.9\textwidth}
+	        \end{column}
+	    \end{columns}
+		
+	\end{frame}
 	
-	\end{frame}		
+	\begin{frame}[c]{\subsecname}
+		\imgw{logic-gates.pdf}{.8\textwidth}
+	\end{frame}
 
 	\subsection{Arquitetura de Von Neuman}
 
@@ -390,7 +430,7 @@
 	\comicfinal{moores-law.pdf}
 	
 	\begin{frame}{\subsecname}
-		\person{moore.jpg}{Gordon Moore}{Intel, 1965}{3cm}{5cm}{3cm}
+		\person{moore.jpg}{Gordon Moore}{Intel, 1965}{.4\paperwidth}{.35\paperwidth}{2cm}
 	\end{frame}
 
 	\section{Computação Quântica}
@@ -398,9 +438,36 @@
 	\subsection{Fenômenos Quânticos}
 	
 	\begin{frame}{\subsecname}
-		\person{feynman.jpg}{Richard Feynman}{1918 - 1988}{3cm}{2cm}{2cm}
-			
+		\person{feynman.jpg}{Richard Feynman}{1918 - 1988}{.4\paperwidth}{.35\paperwidth}{2cm}
 	\end{frame}
+	
+	\begin{frame}{\subsecname}
+		\textbf{Superposição}\\
+		\vspace{2cm}
+		\begin{overprint}
+			\onslide<+>\resizebox{\textwidth}{!}{%
+				$$\ket{\Psi} = \ket{\phantom{\Psi}} + \ket{\phantom{\Psi}}$$
+			}%
+			\onslide<+>\resizebox{\textwidth}{!}{%
+				$$\ket{\Psi} = \ket{\uparrow} + \ket{\downarrow}$$
+			}%
+			\onslide<+>\resizebox{\textwidth}{!}{%
+				$$\ket{\Psi} = \ket{\mychar{cara.pdf}} + \ket{\mychar{coroa.pdf}}$$
+			}%
+			\onslide<+>\resizebox{\textwidth}{!}{%
+				$$\ket{\Psi} = \ket{\mychar{alive-cat.pdf}} + \ket{\mychar{dead-cat.pdf}}$$
+			}%
+			\onslide<+>\resizebox{\textwidth}{!}{%
+				$$\ket{\Psi} = \ket{0} + \ket{1}$$
+			}%
+		\end{overprint}
+	\end{frame}	
+	
+	\begin{frame}{\subsecname}
+		\textbf{Emaranhamento}\\
+		
+		O fenômeno do emaranhamento ocorre quando duas partículas 
+	\end{frame}		
 	
 	\subsection{Postulados}
 	
@@ -466,8 +533,6 @@
 		\end{align*}
 		Chamaremos estes estados de \textit{qubits}!
 	\end{frame}
-	
-	
 	
 	\begin{frame}{\subsecname}
 		\definicao{Base Computacional}
@@ -666,12 +731,16 @@
 	\section{Computação Adiabática}
 	
 	\begin{frame}{\secname}
-	\titulo{Equação de Pauli}
+	\definicao{Equação de Pauli}
 	$$\left[{\frac {1}{2m}}({\vec {\sigma }}\cdot ({\vec {p}}-q{\vec {A}}))^{2}+q\phi \right]\ket{\psi} = \ii\hbar {\frac {\partial }{\partial t}}\ket{\psi}$$
+	
+	\person{pauli.jpg}{Wolfgang Pauli}{1900 -1958}{4cm}{4.5cm}{4cm}	
 	
 	\end{frame}
 	
 	\subsection{Teorema Adiabático}
+	
+	\frasepor{Um sistema físico permanece no seu autoestado se uma perturbação atua suficientemente devagar e se há um intervalo entre o autovalor e o restante do espectro do Halmitoniano}{Max Born, Vladmir Fock (1928)}
 	
 	\subsection{Têmpera Quântica}	
 	

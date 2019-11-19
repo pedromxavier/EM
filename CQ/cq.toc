@@ -5,27 +5,27 @@
 \beamer@sectionintoc {2}{Computa\IeC {\c c}\IeC {\~a}o Digital}{19}{0}{2}
 \beamer@subsectionintoc {2}{1}{\IeC {\'A}lgebra Booleana}{20}{0}{2}
 \beamer@subsectionintoc {2}{2}{O Bit}{22}{0}{2}
-\beamer@subsectionintoc {2}{3}{Transistor}{28}{0}{2}
-\beamer@subsectionintoc {2}{4}{Portas L\IeC {\'o}gicas}{30}{0}{2}
-\beamer@subsectionintoc {2}{5}{Arquitetura de Von Neuman}{31}{0}{2}
-\beamer@subsectionintoc {2}{6}{Lei de Moore}{32}{0}{2}
-\beamer@sectionintoc {3}{Computa\IeC {\c c}\IeC {\~a}o Qu\IeC {\^a}ntica}{34}{0}{3}
-\beamer@subsectionintoc {3}{1}{Fen\IeC {\^o}menos Qu\IeC {\^a}nticos}{35}{0}{3}
-\beamer@subsectionintoc {3}{2}{Postulados}{36}{0}{3}
-\beamer@subsectionintoc {3}{3}{Trapped-ion}{56}{0}{3}
-\beamer@subsectionintoc {3}{4}{Algoritmos}{57}{0}{3}
-\beamer@subsectionintoc {3}{5}{Teletransporte Qu\IeC {\^a}ntico}{59}{0}{3}
-\beamer@subsectionintoc {3}{6}{Teorema da n\IeC {\~a}o-clonagem}{61}{0}{3}
-\beamer@subsectionintoc {3}{7}{F\IeC {\'o}tons}{63}{0}{3}
-\beamer@subsectionintoc {3}{8}{Caminhadas Qu\IeC {\^a}nticas}{64}{0}{3}
-\beamer@sectionintoc {4}{Computa\IeC {\c c}\IeC {\~a}o Topol\IeC {\'o}gica}{65}{0}{4}
-\beamer@subsectionintoc {4}{1}{N\IeC {\'o}s}{66}{0}{4}
-\beamer@subsectionintoc {4}{2}{\IeC {\^A}nions}{68}{0}{4}
-\beamer@sectionintoc {5}{Computa\IeC {\c c}\IeC {\~a}o Adiab\IeC {\'a}tica}{70}{0}{5}
-\beamer@subsectionintoc {5}{1}{Teorema Adiab\IeC {\'a}tico}{72}{0}{5}
-\beamer@subsectionintoc {5}{2}{T\IeC {\^e}mpera Qu\IeC {\^a}ntica}{72}{0}{5}
-\beamer@sectionintoc {6}{Fim?}{74}{0}{6}
-\beamer@subsectionintoc {6}{1}{Saltos Qu\IeC {\^a}nticos}{75}{0}{6}
-\beamer@subsectionintoc {6}{2}{Supremacia Qu\IeC {\^a}ntica}{77}{0}{6}
-\beamer@subsectionintoc {6}{3}{Material}{82}{0}{6}
-\beamer@subsectionintoc {6}{4}{Bibliografia}{84}{0}{6}
+\beamer@subsectionintoc {2}{3}{Transistor}{30}{0}{2}
+\beamer@subsectionintoc {2}{4}{Portas L\IeC {\'o}gicas}{32}{0}{2}
+\beamer@subsectionintoc {2}{5}{Arquitetura de Von Neuman}{34}{0}{2}
+\beamer@subsectionintoc {2}{6}{Lei de Moore}{35}{0}{2}
+\beamer@sectionintoc {3}{Computa\IeC {\c c}\IeC {\~a}o Qu\IeC {\^a}ntica}{37}{0}{3}
+\beamer@subsectionintoc {3}{1}{Fen\IeC {\^o}menos Qu\IeC {\^a}nticos}{38}{0}{3}
+\beamer@subsectionintoc {3}{2}{Postulados}{45}{0}{3}
+\beamer@subsectionintoc {3}{3}{Trapped-ion}{65}{0}{3}
+\beamer@subsectionintoc {3}{4}{Algoritmos}{66}{0}{3}
+\beamer@subsectionintoc {3}{5}{Teletransporte Qu\IeC {\^a}ntico}{68}{0}{3}
+\beamer@subsectionintoc {3}{6}{Teorema da n\IeC {\~a}o-clonagem}{70}{0}{3}
+\beamer@subsectionintoc {3}{7}{F\IeC {\'o}tons}{72}{0}{3}
+\beamer@subsectionintoc {3}{8}{Caminhadas Qu\IeC {\^a}nticas}{73}{0}{3}
+\beamer@sectionintoc {4}{Computa\IeC {\c c}\IeC {\~a}o Topol\IeC {\'o}gica}{74}{0}{4}
+\beamer@subsectionintoc {4}{1}{N\IeC {\'o}s}{75}{0}{4}
+\beamer@subsectionintoc {4}{2}{\IeC {\^A}nions}{77}{0}{4}
+\beamer@sectionintoc {5}{Computa\IeC {\c c}\IeC {\~a}o Adiab\IeC {\'a}tica}{79}{0}{5}
+\beamer@subsectionintoc {5}{1}{Teorema Adiab\IeC {\'a}tico}{81}{0}{5}
+\beamer@subsectionintoc {5}{2}{T\IeC {\^e}mpera Qu\IeC {\^a}ntica}{81}{0}{5}
+\beamer@sectionintoc {6}{Fim?}{84}{0}{6}
+\beamer@subsectionintoc {6}{1}{Saltos Qu\IeC {\^a}nticos}{85}{0}{6}
+\beamer@subsectionintoc {6}{2}{Supremacia Qu\IeC {\^a}ntica}{87}{0}{6}
+\beamer@subsectionintoc {6}{3}{Material}{92}{0}{6}
+\beamer@subsectionintoc {6}{4}{Bibliografia}{94}{0}{6}
