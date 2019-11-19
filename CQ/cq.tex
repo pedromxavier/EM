@@ -7,13 +7,15 @@
 \usepackage{bbm}
 \usepackage{amssymb}
 \usepackage{amsmath}
-\usepackage[bbgreekl]{mathbbol}
 \usepackage[absolute,overlay]{textpos}
 \usepackage{graphicx}
+\usepackage{xcolor}
 \usepackage{tikz}
 \usepackage{courier}
 \usepackage{ragged2e}
 \usepackage{csquotes}
+
+\graphicspath{{./figs/}}
 
 \title{
 	{{\Large \textbf{Encontros Matemáticos}} {\small 	apresenta}}\\
@@ -144,7 +146,7 @@
 % size, dx, dy
 \begin{textblock*}{#4}(#5, #6)
 	\includegraphics[height=#4]{#1}\\
-	#2\\
+	\textbf{#2}\\
 	{\small #3}
 \end{textblock*}
 }
@@ -186,6 +188,19 @@
 }}
 
 
+\def\gobblechar{\let\xchar= }
+\def\assignthencheck{\afterassignment\xloop\gobblechar}
+\def\xloop{%
+  \ifx\relax\xchar
+      \let\next=\relax
+    \else
+      \fbox{\xchar}\let\next=\assignthencheck
+  \fi
+  \next}
+\def\makelist#1{\assignthencheck#1\relax}
+
+\newcommand{\listmark}[1]{\fbox{\textcolor{red}{#1}}}
+
 %% =====================================================
 %% =====================================================
 %% =====================================================
@@ -211,50 +226,109 @@
 	\end{frame}
 	
 	\begin{frame}{Parte I}
-  		\tableofcontents[sections={1}]
+	\begin{columns}[t]
+        \begin{column}{.5\textwidth}
+            \tableofcontents[sections={1}]
+        \end{column}
+        \begin{column}{.5\textwidth}
+            \tableofcontents[sections={2}]
+        \end{column}
+    \end{columns}
     \end{frame}
 
     \begin{frame}{Parte II}
     \begin{columns}[t]
         \begin{column}{.5\textwidth}
-            \tableofcontents[sections={2}]
+            \tableofcontents[sections={3}]
         \end{column}
         \begin{column}{.5\textwidth}
-            \tableofcontents[sections={3-4}]
+            \tableofcontents[sections={4-5}]
         \end{column}
     \end{columns}
 	\end{frame}
 
     \begin{frame}{Parte III}
-  		\tableofcontents[sections={5-}]
+  		\tableofcontents[sections={6-}]
 	\end{frame}
 	
 	
 
-	\section{Computação Digital}
+	\section{Computação}
 	
-	\subsection{O Bit}
+	\subsection{Computabilidade}	
 	
-	\comich{bits0.pdf}
-	\comich{bits1.pdf}
-	\comich{bits2.pdf}
-	\comich{bits3.pdf}
-	\comich{bits4.pdf}
-	\comicfinal{blue-screen.pdf}
+	\begin{frame}[label=turing]{\subsecname}
+	\titulo{A Tese de Church-Turing}
 	
-	\begin{frame}{\subsecname}
+	%% Em 1936, como resposta ao \textit{Entscheidungsproblem} de David Hilbert, Church e Turing publicam resultados independentes mostrando que não existe um algoritmo para determinar se um enunciado da lógica de primeira ordem pode ser provado. Em seu artigo, Turing introduz a \textbf{Máquina de Turing}\\
 	
-	Sobre os \textit{bits}:
-		\begin{itemize}
-			\item Eles moram em $\mathbb{Z}_2$
-			\item Realizamos operações \textit{Booleanas} com eles: $\neg$, $\wedge$, $\vee$, $\oplus$.
-			\item Formam vetores em $\mathbb{Z}_2^n$, onde cada $\vec{a} = (a_1, a_2, \dots, a_n) \in \mathbb{Z}_2^n$ representa um valor entre $00...0 = 0$ e $11...1 = 2^n-1$.
-			
-		\end{itemize}
+	\frasepor{Toda função que seria naturalmente computável pode ser computada por uma Máquina de Turing}{Alan Turing}
 	\end{frame}
 	
-	\subsection{Álgebra Booleana}
+	\begin{frame}{\subsecname}
+	\definicao{Máquina de Turing}
+	É um computador abstrato definido por $(Q, q_0, \Gamma, \square, \Sigma, \Omega, \delta)$, que possui uma fita e um cabeçote de leitura
 	
+	\begin{itemize}
+		\item[$Q$:] Um conjunto não-vazio de estados.
+		\item[$q_0$:] Estado inicial ($q_0 \in Q$)
+		\item[$\Gamma$:] Alfabeto da fita.
+		\item[$\square$:] Símbolo vazio.
+		\item[$\Sigma$:] Alfabeto de entrada da máquina. ($\Sigma \subseteq \Gamma \slash \{\square\}$)
+		\item[$\Omega$:] Conjunto dos códigos de parada.
+		\item[$\delta$:] Função de Transição, $\delta : Q \slash \Omega \times \Gamma \to Q \times \Gamma \times \{\uparrow, \downarrow\}$
+	\end{itemize}
+	\end{frame}
+	
+	\begin{frame}{\subsecname}
+		\person{church.jpg}{Alonzo Church}{1903 - 1955}{4cm}{2cm}{3cm}
+		\person{turing.jpg}{Alan Turing}{1912 - 1954}{4cm}{8cm}{3cm}
+	\end{frame}
+	
+	\againframe{turing}
+	
+	\subsection{Complexidade}
+	
+	\begin{frame}{\subsecname}
+		\definicao{Complexidade Assintótica}
+		Seja $f : X \subseteq \mathbb{R}_+ \to \mathbb{C}$ e $g : X \subseteq \mathbb{R}_+ \to \mathbb{R}_+$ dizemos que
+		$$f(x) = O(g(x)) \iff \exists M, x_0,\ \ |f(x)| \le M g(x)\ \ \forall x > x_0$$
+	\end{frame}
+	
+	\begin{frame}{\subsecname}
+		\textbf{Exemplo. (Ordenação de uma lista)}\\
+		Dada uma lista de tamanho $N = 5$, fazemos o seguinte: Procuramos o menor elemento, removemos da lista e acrescentamos em uma nova lista, e assim sucessivamente.
+		
+		\begin{overprint}
+			\only<1>{\makelist{52314}}
+			\only<2>{$5$\\
+			\makelist{523}\listmark{1}\makelist{4}\\
+			\makelist{1}}
+			\only<3>{$5 + 4$\\
+			\makelist{5}\listmark{2}\makelist{34}\\
+			\makelist{12}}
+			\only<4>{$5 + 4 + 3$\\
+			\makelist{5}\listmark{3}\makelist{4}\\
+			\makelist{123}}
+			\only<5>{$5 + 4 + 3 + 2$\\
+			\makelist{5}\listmark{4}\\
+			\makelist{1234}}
+			\only<6->{$5 + 4 + 3 + 2 + 1 = 15$\\
+			\listmark{5}\\
+			\makelist{12345}}			
+		\end{overprint}
+		\only<7->{Mas e se a lista tivesse $n$ elementos?}
+		\only<8->{
+		\begin{align*}
+			T(n) = \frac{n(n + 1)}{2} = \frac{n^2 + n}{2} && \text{(complexidade)}
+		\end{align*}
+		Dizemos que este algoritmo tem complexidade $O(n^2)$.
+		} 	
+	\end{frame}
+	
+	\section{Computação Digital}
+	
+	\subsection{Álgebra Booleana}
 	
 	\begin{frame}{\subsecname}
 	\definicao{Álgebra Booleana}
@@ -275,67 +349,32 @@
 	\begin{frame}{\subsecname}
 		\person{boole.jpg}{George Boole}{1815 - 1864}{4cm}{2cm}{2cm}
 		\person{de-morgan.jpg}{Augustus De Morgan}{1806 - 1871}{4cm}{8cm}{2cm}
-
 	\end{frame}
 
-	\subsection{Complexidade e Computabilidade}	
+	\subsection{O Bit}
 	
-	\begin{frame}[label=turing]{\subsecname}
-	\titulo{A Tese de Church-Turing}
-	
-	%% Em 1936, como resposta ao \textit{Entscheidungsproblem} de David Hilbert, Church e Turing publicam resultados independentes mostrando que não existe um algoritmo para determinar se um enunciado da lógica de primeira ordem pode ser provado. Em seu artigo, Turing introduz a \textbf{Máquina de Turing}\\
-	
-	\frasepor{Toda função que seria naturalmente computável pode ser computada por uma Máquina de Turing}{Alan Turing}
-	\end{frame}
-	
-	\begin{frame}{\subsecname}
-	\definicao{Máquina de Turing}
-	É um computador abstrato definido por $(Q, q_0, \Gamma, \square, \Sigma, \Omega, \delta)$, que possui uma fita e um cabeçote de leitura
-	
-	\begin{itemize}
-		\item[$Q$:] Um conjunto não-vazio de estados.
-		\item[$q_0$:] Estado inicial ($q_0 \in Q$)
-		\item[$\Gamma$:] Alfabeto da fita.
-		\item[$\square$:] Símbolo vazio.
-		\item[$\Sigma$:] Alfabeto de entrada da máquina. ($\Sigma \subseteq \Gamma \slash \{\square\})$ 
-		\item[$\Omega$:] Conjunto dos códigos de parada.
-		\item[$\delta$:] Função de Transição, $\delta : Q \slash \Omega \times \Gamma \to Q \times \Gamma \times \{\uparrow, \downarrow\}$
-	\end{itemize}
-	\end{frame}
-	
-	\begin{frame}{\subsecname}
-		\person{church.jpg}{Alonzo Church}{1903 - 1955}{4cm}{2cm}{3cm}
-		\person{turing.jpg}{Alan Turing}{1912 - 1954}{4cm}{8cm}{3cm}
-	\end{frame}
-	
-	\againframe{turing}
-	
-	\begin{frame}{\subsecname}
-		\definicao{Complexidade Assintótica}
-		Seja $f : X \subseteq \mathbb{R}_+ \to \mathbb{C}$ e $g : X \subseteq \mathbb{R}_+ \to \mathbb{R}_+$ dizemos que
-		$$f(x) = O(g(x)) \iff \exists M, x_0 |f(x)| \le M g(x), \forall x > x_0$$
-	\end{frame}
-	
-	\begin{frame}{\subsecname}
-	
-	\end{frame}
-
-
-	\comich{first-transistor.pdf}
+	\comich{bits0.pdf}
+	\comich{bits1.pdf}
+	\comich{bits2.pdf}
+	\comich{bits3.pdf}
+	\comich{bits4.pdf}
+	\comicfinal{blue-screen.pdf}
 	
 	\subsection{Transistor}	
 	
+	\comich{first-transistor.pdf}
+	
 	\begin{frame}{\subsecname}
+	
+		\begin{figure}
+			\includegraphics[height=\textheight]{not-gate.pdf}
+		\end{figure}
 	
 	\end{frame}
 	
 	\subsection{Portas Lógicas}	
 	
 	\begin{frame}{\subsecname}
-		
-		\begin{figure}
-			\includegraphics[width=3cm]{nand.pdf}
-		\end{figure}
 	
 	\end{frame}		
 
@@ -369,25 +408,15 @@
 		\postulado{Representação}
 		Um sistema físico isolado está associado a um espaço de Hilbert $\mathcal{H}$ e é, num dado momento no tempo, completamente descrito por um vetor unitário em $\mathcal{H}$, o estado do sistema.		
 		\begin{align*}
-			\ket{\Psi} \in \mathbb{C}^2 && (\mathbf{x} \in \mathbb{C}^2)\\
-%%			\braket{\Psi}{\Psi} = 1 (\mathbf{x}^{\dagger} \mathbf{x} = 1)
+			\uncover<2->{\ket{\Psi} \in \mathbb{C}^2 && (\mathbf{x} \in \mathbb{C}^2)}\\
+			\uncover<3->{\braket{\Psi}{\Psi} = 1 && (\mathbf{x}^{\dagger} \mathbf{x} = 1)}
 		\end{align*}
-		\vspace{-1cm} 
+		\vspace{-2cm} 
 		\begin{figure}[H]
-			\includegraphics[width=5cm]{c2.pdf}
-		\end{figure}
-	\end{frame}
-	
-	\begin{frame}{\subsecname}
-		\postulado{Representação}
-		Um sistema físico isolado está associado a um espaço de Hilbert $\mathcal{H}$ e é, num dado momento no tempo, completamente descrito por um vetor unitário em $\mathcal{H}$, o estado do sistema.		
-		\begin{align*}
-			\ket{\Psi} \in \mathbb{C}^2 && (\mathbf{x} \in \mathbb{C}^2)\\
-			\braket{\Psi}{\Psi} = 1 && (\mathbf{x}^{\dagger} \mathbf{x} = 1)
-		\end{align*}
-		\vspace{-1cm}
-		\begin{figure}[H]
-			\includegraphics[width=5cm]{c2-sphere.pdf}
+			\begin{overprint}
+				\onslide<2>\includegraphics[width=6cm]{c2.pdf}
+				\onslide<3->\includegraphics[width=6cm]{c2-sphere.pdf}
+			\end{overprint}
 		\end{figure}
 	\end{frame}
 
@@ -425,7 +454,7 @@
 			\ket{\Psi\Phi}^\dagger &= \bra{\Phi\Psi} &&
 		\end{align*}
 		
-		Existem outras, mas essas duas são as mais interessantes pra nós hoje.
+		Existem outras, mas essas duas são as mais interessantes para nós hoje.
 	\end{frame}
 	
 	\begin{frame}{\subsecname}
@@ -487,32 +516,53 @@
 	\end{frame}
 	
 	\begin{frame}{\subsecname}
-		Matriz de Hadamard
+		\textbf{Matriz de Hadamard}\\
+		$$H = \HH$$
 		\begin{align*}
-			H = \HH\\
+			H\ket{0} &= \HH \vetor{1}{0} = \frac{1}{\sqrt{2}}\vetor{1}{1} &= \frac{1}{\sqrt{2}} \left(\vetor{1}{0} + \vetor{0}{1}\right)\\
+			~\\
+			H\ket{1} &= \HH \vetor{0}{1} = \frac{1}{\sqrt{2}}\vetor{\ps 1}{-1} &= \frac{1}{\sqrt{2}} \left(\vetor{1}{0} - \vetor{0}{1}\right)
 		\end{align*}
 	\end{frame}
 	
 	\begin{frame}{\subsecname}
+		\textbf{Porta de Hadamard}\\				
+				
+		\imgw{H-gate.pdf}{8cm}		
+	\end{frame}
+	
+	\begin{frame}{\subsecname}
+		\textbf{Matrizes de Pauli}
+		Também conhecidas como $\sigma_1$, $\sigma_2$ e $\sigma_3$, respectivamente.
 		\begin{align*}
-			H = \HH\\
-			X = \XX\\
-			Y = \YY\\
-			Z = \ZZ
+		X = \XX && Y = \YY && Z = \ZZ
 		\end{align*}
 	\end{frame}
 	
 	\begin{frame}{Uma nota sobre reversibilidade}
-		Para toda matriz unitária, como $U^{\dagger} U = U U^{\dagger} = I$, temos também que $U^\dagger = U^{-1}$.
-	
-		\textbf{O Princípio de Landau.}\\
-		
-		$$\Delta S > K T \log 2$$
+		\textbf{Uma nota sobre reversibilidade}\\
+		Para toda matriz unitária, como $U^{\dagger} U = U U^{\dagger} = I$, temos também que $U^\dagger = U^{-1}$.\\
+		~\\
+		\uncover<1->{Isso significa que todos os processos quânticos de computação serão \textbf{reversíveis}!}
+
+	\end{frame}
+
+	\begin{frame}{Uma nota sobre reversibilidade}	
+		\textbf{O Princípio de Landauer.}\\
+		O princípio de Landauer estabelece que toda vez que um \textit{bit} de informação é apagado, o sistema perde energia, que é liberada na forma de calor, com limite inferior
+		$$E > K T \log 2$$
+		Onde:
+		\begin{itemize}
+			\item[$E$:] Energia dissipada
+			\item[$K$:] Constante de Boltzmann, $1.380 \time 10^{-23} J / K$
+			\item[$T$:] Temperatura ambiente, em \textit{Kelvin}
+		\end{itemize}
 		
 	\end{frame}	
 	
 	\begin{frame}{\subsecname}
 		\postulado{Medida}
+		
 	\end{frame}
 	
 	\subsection{Trapped-ion}
