@@ -1,24 +1,24 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2019.10.8)  19 NOV 2019 11:57
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2019.11.19)  19 NOV 2019 14:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **cq.tex
 (./cq.tex
-LaTeX2e <2011/06/27>
-Babel <3.9h> and hyphenation patterns for 78 languages loaded.
-(/usr/share/texmf/tex/latex/beamer/base/beamer.cls
-(/usr/share/texmf/tex/latex/beamer/base/beamerbasercs.sty
-Package: beamerbasercs 2012/11/13 (rcs-revision cb16a617839f)
+LaTeX2e <2016/02/01>
+Babel <3.9q> and hyphenation patterns for 5 language(s) loaded.
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamer.cls
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasercs.sty
+Package: beamerbasercs 2015/03/08 (rcs-revision 368aa9ba9d38)
 )
-Document Class: beamer 2012/10/15 development version 3.24 A class for typesett
-ing presentations (rcs-revision 24853e6b98cf)
-(/usr/share/texmf/tex/latex/beamer/base/beamerbasemodes.sty
-Package: beamerbasemodes 2012/04/15 (rcs-revision cc6557182d97)
+Document Class: beamer 2015/01/05 3.36 A class for typesetting presentations (r
+cs-revision 8a39122e1f63)
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasemodes.sty
+Package: beamerbasemodes 2013/09/03 (rcs-revision 768f2d98ca64)
 \beamer@tempbox=\box26
 \beamer@tempcount=\count79
 \c@beamerpauses=\count80
 
-(/usr/share/texmf/tex/latex/beamer/base/beamerbasedecode.sty
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasedecode.sty
 Package: beamerbasedecode 2010/05/01 (rcs-revision efa082c6111d)
 \beamer@slideinframe=\count81
 \beamer@minimum=\count82
@@ -73,11 +73,11 @@ Package ifpdf Info: pdfTeX in PDF mode is detected.
 \beamer@sectionadjust=\count100
 \beamer@tocsectionnumber=\count101
 
-(/usr/share/texmf/tex/latex/beamer/base/beamerbaseoptions.sty
-Package: beamerbaseoptions 2010/04/27 (rcs-revision 982469101dd6)
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbaseoptions.sty
+Package: beamerbaseoptions 2013/03/10 (rcs-revision 47431932db0d)
 
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
-Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks14
 ))
 \beamer@paperwidth=\skip42
@@ -107,22 +107,22 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \Gm@dimlist=\toks15
 )
 (/usr/share/texlive/texmf-dist/tex/latex/base/size11.clo
-File: size11.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+File: size11.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
-(/usr/share/texmf/tex/latex/pgf/basiclayer/pgfcore.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
-Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
 
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
-Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+Package: graphics 2016/01/03 v1.0q Standard LaTeX Graphics (DPC,SPQR)
 
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
-Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
 (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/graphics.cfg
 File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
 )
-Package graphics Info: Driver file: pdftex.def on input line 91.
+Package graphics Info: Driver file: pdftex.def on input line 95.
 
 (/usr/share/texlive/texmf-dist/tex/latex/pdftex-def/pdftex.def
 File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
@@ -138,65 +138,72 @@ Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 \Gin@req@height=\dimen127
 \Gin@req@width=\dimen128
 )
-(/usr/share/texmf/tex/latex/pgf/systemlayer/pgfsys.sty
-(/usr/share/texmf/tex/latex/pgf/utilities/pgfrcs.sty
-(/usr/share/texmf/tex/generic/pgf/utilities/pgfutil-common.tex
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
 \pgfutil@everybye=\toks16
-)
-(/usr/share/texmf/tex/generic/pgf/utilities/pgfutil-latex.def
-\pgfutil@abb=\box34
+\pgfutil@tempdima=\dimen129
+\pgfutil@tempdimb=\dimen130
 
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-lists.t
+ex)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+\pgfutil@abb=\box34
 (/usr/share/texlive/texmf-dist/tex/latex/ms/everyshi.sty
 Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
 ))
-(/usr/share/texmf/tex/generic/pgf/utilities/pgfrcs.code.tex
-Package: pgfrcs 2010/10/25 v2.10 (rcs-revision 1.24)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
+Package: pgfrcs 2015/08/07 v3.0.1a (rcs-revision 1.31)
 ))
-(/usr/share/texmf/tex/generic/pgf/systemlayer/pgfsys.code.tex
-Package: pgfsys 2010/06/30 v2.10 (rcs-revision 1.37)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+Package: pgfsys 2014/07/09 v3.0.1a (rcs-revision 1.48)
 
-(/usr/share/texmf/tex/generic/pgf/utilities/pgfkeys.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
 \pgfkeys@pathtoks=\toks17
 \pgfkeys@temptoks=\toks18
 
-(/usr/share/texmf/tex/generic/pgf/utilities/pgfkeysfiltered.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.code.t
+ex
 \pgfkeys@tmptoks=\toks19
 ))
-\pgf@x=\dimen129
-\pgf@y=\dimen130
-\pgf@xa=\dimen131
-\pgf@ya=\dimen132
-\pgf@xb=\dimen133
-\pgf@yb=\dimen134
-\pgf@xc=\dimen135
-\pgf@yc=\dimen136
+\pgf@x=\dimen131
+\pgf@y=\dimen132
+\pgf@xa=\dimen133
+\pgf@ya=\dimen134
+\pgf@xb=\dimen135
+\pgf@yb=\dimen136
+\pgf@xc=\dimen137
+\pgf@yc=\dimen138
 \w@pgf@writea=\write3
 \r@pgf@reada=\read1
 \c@pgf@counta=\count106
 \c@pgf@countb=\count107
 \c@pgf@countc=\count108
 \c@pgf@countd=\count109
-
-(/usr/share/texmf/tex/generic/pgf/systemlayer/pgf.cfg
+\t@pgf@toka=\toks20
+\t@pgf@tokb=\toks21
+\t@pgf@tokc=\toks22
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
 File: pgf.cfg 2008/05/14  (rcs-revision 1.7)
 )
-Package pgfsys Info: Driver file for pgf: pgfsys-pdftex.def on input line 900.
+Driver file for pgf: pgfsys-pdftex.def
 
-(/usr/share/texmf/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
-File: pgfsys-pdftex.def 2009/05/22  (rcs-revision 1.26)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
+File: pgfsys-pdftex.def 2014/10/11  (rcs-revision 1.35)
 
-(/usr/share/texmf/tex/generic/pgf/systemlayer/pgfsys-common-pdf.def
-File: pgfsys-common-pdf.def 2008/05/19  (rcs-revision 1.10)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.de
+f
+File: pgfsys-common-pdf.def 2013/10/10  (rcs-revision 1.13)
 )))
-(/usr/share/texmf/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
-File: pgfsyssoftpath.code.tex 2008/07/18  (rcs-revision 1.7)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.
+tex
+File: pgfsyssoftpath.code.tex 2013/09/09  (rcs-revision 1.9)
 \pgfsyssoftpath@smallbuffer@items=\count110
 \pgfsyssoftpath@bigbuffer@items=\count111
 )
-(/usr/share/texmf/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.
+tex
 File: pgfsysprotocol.code.tex 2006/10/16  (rcs-revision 1.4)
-))
-(/usr/share/texmf/tex/latex/xcolor/xcolor.sty
+)) (/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
 Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
 
 (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/color.cfg
@@ -213,112 +220,137 @@ Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
 )
-(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcore.code.tex
-Package: pgfcore 2010/04/11 v2.10 (rcs-revision 1.7)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+Package: pgfcore 2010/04/11 v3.0.1a (rcs-revision 1.7)
 
-(/usr/share/texmf/tex/generic/pgf/math/pgfmath.code.tex
-(/usr/share/texmf/tex/generic/pgf/math/pgfmathcalc.code.tex
-(/usr/share/texmf/tex/generic/pgf/math/pgfmathutil.code.tex)
-(/usr/share/texmf/tex/generic/pgf/math/pgfmathparser.code.tex
-\pgfmath@dimen=\dimen137
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
+\pgfmath@dimen=\dimen139
 \pgfmath@count=\count112
 \pgfmath@box=\box35
-\pgfmath@toks=\toks20
-\pgfmath@stack@operand=\toks21
-\pgfmath@stack@operation=\toks22
+\pgfmath@toks=\toks23
+\pgfmath@stack@operand=\toks24
+\pgfmath@stack@operation=\toks25
 )
-(/usr/share/texmf/tex/generic/pgf/math/pgfmathfunctions.code.tex
-(/usr/share/texmf/tex/generic/pgf/math/pgfmathfunctions.basic.code.tex)
-(/usr/share/texmf/tex/generic/pgf/math/pgfmathfunctions.trigonometric.code.tex)
-(/usr/share/texmf/tex/generic/pgf/math/pgfmathfunctions.random.code.tex)
-(/usr/share/texmf/tex/generic/pgf/math/pgfmathfunctions.comparison.code.tex)
-(/usr/share/texmf/tex/generic/pgf/math/pgfmathfunctions.base.code.tex)
-(/usr/share/texmf/tex/generic/pgf/math/pgfmathfunctions.round.code.tex)
-(/usr/share/texmf/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex)))
-(/usr/share/texmf/tex/generic/pgf/math/pgfmathfloat.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code
+.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonomet
+ric.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.cod
+e.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison
+.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.
+tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code
+.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.
+tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerari
+thmetics.code.tex)))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
 \c@pgfmathroundto@lastzeros=\count113
 ))
-(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
-File: pgfcorepoints.code.tex 2010/04/09  (rcs-revision 1.20)
-\pgf@picminx=\dimen138
-\pgf@picmaxx=\dimen139
-\pgf@picminy=\dimen140
-\pgf@picmaxy=\dimen141
-\pgf@pathminx=\dimen142
-\pgf@pathmaxx=\dimen143
-\pgf@pathminy=\dimen144
-\pgf@pathmaxy=\dimen145
-\pgf@xx=\dimen146
-\pgf@xy=\dimen147
-\pgf@yx=\dimen148
-\pgf@yy=\dimen149
-\pgf@zx=\dimen150
-\pgf@zy=\dimen151
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.te
+x
+File: pgfcorepoints.code.tex 2013/10/07  (rcs-revision 1.27)
+\pgf@picminx=\dimen140
+\pgf@picmaxx=\dimen141
+\pgf@picminy=\dimen142
+\pgf@picmaxy=\dimen143
+\pgf@pathminx=\dimen144
+\pgf@pathmaxx=\dimen145
+\pgf@pathminy=\dimen146
+\pgf@pathmaxy=\dimen147
+\pgf@xx=\dimen148
+\pgf@xy=\dimen149
+\pgf@yx=\dimen150
+\pgf@yy=\dimen151
+\pgf@zx=\dimen152
+\pgf@zy=\dimen153
 )
-(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorepathconstruct.code.tex
-File: pgfcorepathconstruct.code.tex 2010/08/03  (rcs-revision 1.24)
-\pgf@path@lastx=\dimen152
-\pgf@path@lasty=\dimen153
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.
+code.tex
+File: pgfcorepathconstruct.code.tex 2013/10/07  (rcs-revision 1.29)
+\pgf@path@lastx=\dimen154
+\pgf@path@lasty=\dimen155
 )
-(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorepathusage.code.tex
-File: pgfcorepathusage.code.tex 2008/04/22  (rcs-revision 1.12)
-\pgf@shorten@end@additional=\dimen154
-\pgf@shorten@start@additional=\dimen155
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code
+.tex
+File: pgfcorepathusage.code.tex 2014/11/02  (rcs-revision 1.24)
+\pgf@shorten@end@additional=\dimen156
+\pgf@shorten@start@additional=\dimen157
 )
-(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex
-File: pgfcorescopes.code.tex 2010/09/08  (rcs-revision 1.34)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.te
+x
+File: pgfcorescopes.code.tex 2015/05/08  (rcs-revision 1.46)
 \pgfpic=\box36
 \pgf@hbox=\box37
 \pgf@layerbox@main=\box38
 \pgf@picture@serial@count=\count114
 )
-(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code.tex
-File: pgfcoregraphicstate.code.tex 2008/04/22  (rcs-revision 1.9)
-\pgflinewidth=\dimen156
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.c
+ode.tex
+File: pgfcoregraphicstate.code.tex 2014/11/02  (rcs-revision 1.12)
+\pgflinewidth=\dimen158
 )
-(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcoretransformations.code.tex
-File: pgfcoretransformations.code.tex 2009/06/10  (rcs-revision 1.11)
-\pgf@pt@x=\dimen157
-\pgf@pt@y=\dimen158
-\pgf@pt@temp=\dimen159
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformation
+s.code.tex
+File: pgfcoretransformations.code.tex 2015/08/07  (rcs-revision 1.20)
+\pgf@pt@x=\dimen159
+\pgf@pt@y=\dimen160
+\pgf@pt@temp=\dimen161
 )
-(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
 File: pgfcorequick.code.tex 2008/10/09  (rcs-revision 1.3)
 )
-(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcoreobjects.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.t
+ex
 File: pgfcoreobjects.code.tex 2006/10/11  (rcs-revision 1.2)
 )
-(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorepathprocessing.code.tex
-File: pgfcorepathprocessing.code.tex 2008/10/09  (rcs-revision 1.8)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathprocessing
+.code.tex
+File: pgfcorepathprocessing.code.tex 2013/09/09  (rcs-revision 1.9)
 )
-(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorearrows.code.tex
-File: pgfcorearrows.code.tex 2008/04/23  (rcs-revision 1.11)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.te
+x
+File: pgfcorearrows.code.tex 2015/05/14  (rcs-revision 1.43)
+\pgfarrowsep=\dimen162
 )
-(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
-File: pgfcoreshade.code.tex 2008/11/23  (rcs-revision 1.13)
-\pgf@max=\dimen160
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
+File: pgfcoreshade.code.tex 2013/07/15  (rcs-revision 1.15)
+\pgf@max=\dimen163
 \pgf@sys@shading@range@num=\count115
 )
-(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
-File: pgfcoreimage.code.tex 2010/03/25  (rcs-revision 1.16)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
+File: pgfcoreimage.code.tex 2013/07/15  (rcs-revision 1.18)
 
-(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcoreexternal.code.tex
-File: pgfcoreexternal.code.tex 2010/09/01  (rcs-revision 1.17)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.
+tex
+File: pgfcoreexternal.code.tex 2014/07/09  (rcs-revision 1.21)
 \pgfexternal@startupbox=\box39
 ))
-(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorelayers.code.tex
-File: pgfcorelayers.code.tex 2010/08/27  (rcs-revision 1.2)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.te
+x
+File: pgfcorelayers.code.tex 2013/07/18  (rcs-revision 1.7)
 )
-(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcoretransparency.code.tex
-File: pgfcoretransparency.code.tex 2008/01/17  (rcs-revision 1.2)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.c
+ode.tex
+File: pgfcoretransparency.code.tex 2013/09/30  (rcs-revision 1.5)
 )
-(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorepatterns.code.tex
-File: pgfcorepatterns.code.tex 2009/07/02  (rcs-revision 1.3)
-)))
-(/usr/share/texmf/tex/latex/pgf/utilities/xxcolor.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.code.
+tex
+File: pgfcorepatterns.code.tex 2013/11/07  (rcs-revision 1.5)
+))) (/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/xxcolor.sty
 Package: xxcolor 2003/10/24 ver 0.1
 \XC@nummixins=\count116
 \XC@countmixins=\count117
+)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/atbegshi.sty
+Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
 )
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2012/11/06 v6.83m Hypertext links for LaTeX
@@ -362,7 +394,7 @@ Package: hopatch 2012/05/28 v1.2 Wrapper for package hooks (HO)
 Package: xcolor-patch 2011/01/30 xcolor patch
 Package: atveryend 2011/06/30 v1.8 Hooks at the very end of document (HO)
 Package atveryend Info: \enddocument detected (standard20110627).
-Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
+Package hobsub Info: Skipping package `atbegshi' (already loaded).
 Package: refcount 2011/10/16 v3.4 Data extraction from label references (HO)
 Package: hycolor 2011/01/30 v1.7 Color options for hyperref/bookmark (HO)
 )
@@ -372,7 +404,7 @@ Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
 (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
 Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
 )
-\@linkdim=\dimen161
+\@linkdim=\dimen164
 \Hy@linkcounter=\count118
 \Hy@pagecounter=\count119
 
@@ -401,10 +433,10 @@ Package hyperref Info: Bookmarks ON on input line 4688.
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 5041.
-\XeTeXLinkMargin=\dimen162
+\XeTeXLinkMargin=\dimen165
 \Fld@menulength=\count122
-\Field@Width=\dimen163
-\Fld@charsize=\dimen164
+\Field@Width=\dimen166
+\Fld@charsize=\dimen167
 Package hyperref Info: Hyper figures OFF on input line 6295.
 Package hyperref Info: Link nesting OFF on input line 6300.
 Package hyperref Info: Hyper index ON on input line 6303.
@@ -433,332 +465,337 @@ Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 82.
 ))
-(/usr/share/texmf/tex/latex/beamer/base/beamerbaserequires.sty
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbaserequires.sty
 Package: beamerbaserequires 2010/05/01  (rcs-revision efa082c6111d)
 
-(/usr/share/texmf/tex/latex/beamer/base/beamerbasecompatibility.sty
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasecompatibility.sty
 Package: beamerbasecompatibility 2012/05/01  (rcs-revision 67c48b3b652d)
 )
-(/usr/share/texmf/tex/latex/beamer/base/beamerbasefont.sty
-Package: beamerbasefont 2012/09/19  (rcs-revision 733629cd0c6c)
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasefont.sty
+Package: beamerbasefont 2015/01/05  (rcs-revision b4b4bee242e2)
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
-\@emptytoks=\toks23
+\@emptytoks=\toks26
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 )))
-(/usr/share/texmf/tex/latex/beamer/base/beamerbasetranslator.sty
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasetranslator.sty
 Package: beamerbasetranslator 2010/06/11  (rcs-revision 85fd1cc7fc42)
 
-(/usr/share/texmf/tex/latex/beamer/base/translator/translator.sty
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/translator/translator.sty
 Package: translator 2010/06/12 ver 1.10
 
-(/usr/share/texmf/tex/latex/beamer/base/translator/translator-language-mappings
-.tex))) (/usr/share/texmf/tex/latex/beamer/base/beamerbasemisc.sty
-Package: beamerbasemisc 2012/02/24  (rcs-revision 2ff5461be705)
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/translator/translator-language-
+mappings.tex)))
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasemisc.sty
+Package: beamerbasemisc 2013/09/03  (rcs-revision a55719c41d85)
 )
-(/usr/share/texmf/tex/latex/beamer/base/beamerbasetwoscreens.sty
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasetwoscreens.sty
 Package: beamerbasetwoscreens 2010/05/01  (rcs-revision efa082c6111d)
 )
-(/usr/share/texmf/tex/latex/beamer/base/beamerbaseoverlay.sty
-Package: beamerbaseoverlay 2012/11/11  (rcs-revision 6afbc49b1109)
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbaseoverlay.sty
+Package: beamerbaseoverlay 2013/12/25  (rcs-revision f6bd5e3805da)
 \beamer@argscount=\count126
 \beamer@lastskipcover=\skip44
 \beamer@trivlistdepth=\count127
 )
-(/usr/share/texmf/tex/latex/beamer/base/beamerbasetitle.sty
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasetitle.sty
 Package: beamerbasetitle 2010/09/21  (rcs-revision f0446ed0b6ae)
 )
-(/usr/share/texmf/tex/latex/beamer/base/beamerbasesection.sty
-Package: beamerbasesection 2012/11/11  (rcs-revision 0056eef6f17f)
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasesection.sty
+Package: beamerbasesection 2013/06/07  (rcs-revision 60b9fe0f342f)
 \c@lecture=\count128
 \c@part=\count129
 \c@section=\count130
 \c@subsection=\count131
 \c@subsubsection=\count132
 )
-(/usr/share/texmf/tex/latex/beamer/base/beamerbaseframe.sty
-Package: beamerbaseframe 2012/09/13  (rcs-revision dcd846607320)
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbaseframe.sty
+Package: beamerbaseframe 2014/02/20  (rcs-revision 4b8ceeeff434)
 \beamer@framebox=\box40
 \beamer@frametitlebox=\box41
 \beamer@zoombox=\box42
 \beamer@zoomcount=\count133
 \beamer@zoomframecount=\count134
-\beamer@frametextheight=\dimen165
+\beamer@frametextheight=\dimen168
 \c@subsectionslide=\count135
 \beamer@frametopskip=\skip45
 \beamer@framebottomskip=\skip46
 \beamer@frametopskipautobreak=\skip47
 \beamer@framebottomskipautobreak=\skip48
-\beamer@envbody=\toks24
-\framewidth=\dimen166
+\beamer@envbody=\toks27
+\framewidth=\dimen169
 \c@framenumber=\count136
 )
-(/usr/share/texmf/tex/latex/beamer/base/beamerbaseverbatim.sty
-Package: beamerbaseverbatim 2012/08/30  (rcs-revision dfdb135076b3)
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbaseverbatim.sty
+Package: beamerbaseverbatim 2015/01/05  (rcs-revision 431510bb5890)
 \beamer@verbatimfileout=\write4
 )
-(/usr/share/texmf/tex/latex/beamer/base/beamerbaseframesize.sty
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbaseframesize.sty
 Package: beamerbaseframesize 2011/09/12  (rcs-revision 70f9d8411e54)
 \beamer@splitbox=\box43
 \beamer@autobreakcount=\count137
-\beamer@autobreaklastheight=\dimen167
-\beamer@frametitletoks=\toks25
-\beamer@framesubtitletoks=\toks26
+\beamer@autobreaklastheight=\dimen170
+\beamer@frametitletoks=\toks28
+\beamer@framesubtitletoks=\toks29
 )
-(/usr/share/texmf/tex/latex/beamer/base/beamerbaseframecomponents.sty
-Package: beamerbaseframecomponents 2012/09/13  (rcs-revision dcd846607320)
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbaseframecomponents.sty
+Package: beamerbaseframecomponents 2013/10/18  (rcs-revision 5cf6c5555a45)
 \beamer@footins=\box44
 )
-(/usr/share/texmf/tex/latex/beamer/base/beamerbasecolor.sty
-Package: beamerbasecolor 2010/06/06  (rcs-revision d1a9b48be06d)
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasecolor.sty
+Package: beamerbasecolor 2015/02/21  (rcs-revision d944b04ee2d5)
 )
-(/usr/share/texmf/tex/latex/beamer/base/beamerbasenotes.sty
-Package: beamerbasenotes 2010/05/01  (rcs-revision efa082c6111d)
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasenotes.sty
+Package: beamerbasenotes 2012/12/19  (rcs-revision 1686da3db3c9)
 \beamer@frameboxcopy=\box45
 )
-(/usr/share/texmf/tex/latex/beamer/base/beamerbasetoc.sty
-Package: beamerbasetoc 2012/10/02  (rcs-revision 5ed0f4010e8a)
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasetoc.sty
+Package: beamerbasetoc 2015/03/08  (rcs-revision 7270298bbaae)
 )
-(/usr/share/texmf/tex/latex/beamer/base/beamerbasetemplates.sty
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasetemplates.sty
 Package: beamerbasetemplates 2010/05/01  (rcs-revision efa082c6111d)
-\beamer@sbttoks=\toks27
+\beamer@sbttoks=\toks30
 
-(/usr/share/texmf/tex/latex/beamer/base/beamerbaseauxtemplates.sty
-Package: beamerbaseauxtemplates 2012/05/01  (rcs-revision 67c48b3b652d)
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbaseauxtemplates.sty
+Package: beamerbaseauxtemplates 2014/06/30  (rcs-revision 580088513a67)
 
-(/usr/share/texmf/tex/latex/beamer/base/beamerbaseboxes.sty
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbaseboxes.sty
 Package: beamerbaseboxes 2012/05/13  (rcs-revision 56972908a390)
 \bmb@box=\box46
 \bmb@colorbox=\box47
 \bmb@boxshadow=\box48
 \bmb@boxshadowball=\box49
 \bmb@boxshadowballlarge=\box50
-\bmb@temp=\dimen168
-\bmb@dima=\dimen169
-\bmb@dimb=\dimen170
-\bmb@prevheight=\dimen171
+\bmb@temp=\dimen171
+\bmb@dima=\dimen172
+\bmb@dimb=\dimen173
+\bmb@prevheight=\dimen174
 )
-\beamer@blockheadheight=\dimen172
+\beamer@blockheadheight=\dimen175
 ))
-(/usr/share/texmf/tex/latex/beamer/base/beamerbaselocalstructure.sty
-Package: beamerbaselocalstructure 2012/11/13  (rcs-revision ddfba79dac19)
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbaselocalstructure.sty
+Package: beamerbaselocalstructure 2014/09/10  (rcs-revision 393f6dcff371)
 
 (/usr/share/texlive/texmf-dist/tex/latex/tools/enumerate.sty
-Package: enumerate 1999/03/05 v3.00 enumerate extensions (DPC)
-\@enLab=\toks28
+Package: enumerate 2015/07/23 v3.00 enumerate extensions (DPC)
+\@enLab=\toks31
 )
 \c@figure=\count138
 \c@table=\count139
 \abovecaptionskip=\skip49
 \belowcaptionskip=\skip50
 )
-(/usr/share/texmf/tex/latex/beamer/base/beamerbasenavigation.sty
-Package: beamerbasenavigation 2012/04/03  (rcs-revision 42a0f21a412d)
-\beamer@section@min@dim=\dimen173
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasenavigation.sty
+Package: beamerbasenavigation 2015/02/27  (rcs-revision 923f4bf87efa)
+\beamer@section@min@dim=\dimen176
 )
-(/usr/share/texmf/tex/latex/beamer/base/beamerbasetheorems.sty
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasetheorems.sty
 Package: beamerbasetheorems 2010/06/06  (rcs-revision 7e7cc5e53e9d)
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
-Package: amsmath 2013/01/14 v2.14 AMS math features
+Package: amsmath 2016/03/03 v2.15a AMS math features
 \@mathmargin=\skip51
 
 For additional information on amsmath, use the `?' option.
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
-Package: amstext 2000/06/29 v2.01
+Package: amstext 2000/06/29 v2.01 AMS text
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
-File: amsgen.sty 1999/11/30 v2.0
-\@emptytoks=\toks29
-\ex@=\dimen174
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks32
+\ex@=\dimen177
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
-Package: amsbsy 1999/11/29 v1.2d
-\pmbraise@=\dimen175
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen178
 )
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 1999/12/14 v2.01 operator names
 )
 \inf@bad=\count140
-LaTeX Info: Redefining \frac on input line 210.
+LaTeX Info: Redefining \frac on input line 199.
 \uproot@=\count141
 \leftroot@=\count142
-LaTeX Info: Redefining \overline on input line 306.
+LaTeX Info: Redefining \overline on input line 297.
 \classnum@=\count143
 \DOTSCASE@=\count144
-LaTeX Info: Redefining \ldots on input line 378.
-LaTeX Info: Redefining \dots on input line 381.
-LaTeX Info: Redefining \cdots on input line 466.
+LaTeX Info: Redefining \ldots on input line 394.
+LaTeX Info: Redefining \dots on input line 397.
+LaTeX Info: Redefining \cdots on input line 518.
 \Mathstrutbox@=\box51
 \strutbox@=\box52
-\big@size=\dimen176
-LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
-LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
+\big@size=\dimen179
+LaTeX Font Info:    Redeclaring font encoding OML on input line 630.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 631.
 \macc@depth=\count145
 \c@MaxMatrixCols=\count146
 \dotsspace@=\muskip11
 \c@parentequation=\count147
 \dspbrk@lvl=\count148
-\tag@help=\toks30
+\tag@help=\toks33
 \row@=\count149
 \column@=\count150
 \maxfields@=\count151
-\andhelp@=\toks31
-\eqnshift@=\dimen177
-\alignsep@=\dimen178
-\tagshift@=\dimen179
-\tagwidth@=\dimen180
-\totwidth@=\dimen181
-\lineht@=\dimen182
-\@envbody=\toks32
+\andhelp@=\toks34
+\eqnshift@=\dimen180
+\alignsep@=\dimen181
+\tagshift@=\dimen182
+\tagwidth@=\dimen183
+\totwidth@=\dimen184
+\lineht@=\dimen185
+\@envbody=\toks35
 \multlinegap=\skip52
 \multlinetaggap=\skip53
-\mathdisplay@stack=\toks33
-LaTeX Info: Redefining \[ on input line 2665.
-LaTeX Info: Redefining \] on input line 2666.
+\mathdisplay@stack=\toks36
+LaTeX Info: Redefining \[ on input line 2735.
+LaTeX Info: Redefining \] on input line 2736.
 )
 (/usr/share/texlive/texmf-dist/tex/latex/amscls/amsthm.sty
-Package: amsthm 2004/08/06 v2.20
-\thm@style=\toks34
-\thm@bodyfont=\toks35
-\thm@headfont=\toks36
-\thm@notefont=\toks37
-\thm@headpunct=\toks38
+Package: amsthm 2015/03/04 v2.20.2
+\thm@style=\toks37
+\thm@bodyfont=\toks38
+\thm@headfont=\toks39
+\thm@notefont=\toks40
+\thm@headpunct=\toks41
 \thm@preskip=\skip54
 \thm@postskip=\skip55
 \thm@headsep=\skip56
-\dth@everypar=\toks39
+\dth@everypar=\toks42
 )
 \c@theorem=\count152
 )
-(/usr/share/texmf/tex/latex/beamer/base/beamerbasethemes.sty
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasethemes.sty
 Package: beamerbasethemes 2010/05/01  (rcs-revision efa082c6111d)
 ))
-(/usr/share/texmf/tex/latex/beamer/base/themes/theme/beamerthemedefault.sty
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/themes/theme/beamerthemedefault
+.sty
 Package: beamerthemedefault 2010/06/17  (rcs-revision d02a7cf4d8ae)
 
-(/usr/share/texmf/tex/latex/beamer/base/themes/font/beamerfontthemedefault.sty
-Package: beamerfontthemedefault 2010/06/17  (rcs-revision d02a7cf4d8ae)
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/themes/font/beamerfontthemedefa
+ult.sty
+Package: beamerfontthemedefault 2012/12/19  (rcs-revision 1686da3db3c9)
 )
-(/usr/share/texmf/tex/latex/beamer/base/themes/color/beamercolorthemedefault.st
-y
-Package: beamercolorthemedefault 2010/06/17  (rcs-revision d02a7cf4d8ae)
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/themes/color/beamercolorthemede
+fault.sty
+Package: beamercolorthemedefault 2012/12/19  (rcs-revision 1686da3db3c9)
 )
-(/usr/share/texmf/tex/latex/beamer/base/themes/inner/beamerinnerthemedefault.st
-y
-Package: beamerinnerthemedefault 2012/05/01  (rcs-revision 67c48b3b652d)
-\beamer@dima=\dimen183
-\beamer@dimb=\dimen184
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/themes/inner/beamerinnerthemede
+fault.sty
+Package: beamerinnerthemedefault 2014/06/30  (rcs-revision 580088513a67)
+\beamer@dima=\dimen186
+\beamer@dimb=\dimen187
 )
-(/usr/share/texmf/tex/latex/beamer/base/themes/outer/beamerouterthemedefault.st
-y
-Package: beamerouterthemedefault 2012/10/02  (rcs-revision 5ed0f4010e8a)
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/themes/outer/beamerouterthemede
+fault.sty
+Package: beamerouterthemedefault 2012/12/19  (rcs-revision 1686da3db3c9)
 )))
-(/usr/share/texmf/tex/latex/beamer/base/themes/font/beamerfontthemeserif.sty
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/themes/font/beamerfontthemeseri
+f.sty
 Package: beamerfontthemeserif 2010/06/17  (rcs-revision d02a7cf4d8ae)
-)
-(./beamerthememetropolis.sty
+) (./beamerthememetropolis.sty
 Package: beamerthememetropolis 2017/01/23 v1.2 Metropolis Beamer theme
 
 (/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
-Package: etoolbox 2011/01/03 v2.1 e-TeX tools for LaTeX
-
-(/usr/share/texlive/texmf-dist/tex/latex/etex-pkg/etex.sty
-Package: etex 1998/03/26 v2.0 eTeX basic definition package (PEB)
-\et@xins=\count153
-)
-\etb@tempcnta=\count154
+Package: etoolbox 2015/08/02 v2.2a e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count153
 )
 (/usr/share/texlive/texmf-dist/tex/latex/pgfopts/pgfopts.sty
-Package: pgfopts 2011/06/02 v2.1 LaTeX package options with pgfkeys
+Package: pgfopts 2014/07/10 v2.1a LaTeX package options with pgfkeys
 
-(/usr/share/texmf/tex/latex/pgf/utilities/pgfkeys.sty
-(/usr/share/texmf/tex/generic/pgf/utilities/pgfkeys.code.tex))
-\pgfopts@list@add@a@toks=\toks40
-\pgfopts@list@add@b@toks=\toks41
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex))
+\pgfopts@list@add@a@toks=\toks43
+\pgfopts@list@add@b@toks=\toks44
 )
 (./beamerinnerthememetropolis.sty
 Package: beamerinnerthememetropolis 2017/01/23 Metropolis inner theme
 
 (/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
-Package: calc 2007/08/22 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count155
-\calc@Bcount=\count156
-\calc@Adimen=\dimen185
-\calc@Bdimen=\dimen186
+Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count154
+\calc@Bcount=\count155
+\calc@Adimen=\dimen188
+\calc@Bdimen=\dimen189
 \calc@Askip=\skip57
 \calc@Bskip=\skip58
-LaTeX Info: Redefining \setlength on input line 76.
-LaTeX Info: Redefining \addtolength on input line 77.
-\calc@Ccount=\count157
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count156
 \calc@Cskip=\skip59
 )
-(/usr/share/texmf/tex/latex/pgf/frontendlayer/tikz.sty
-(/usr/share/texmf/tex/latex/pgf/basiclayer/pgf.sty
-Package: pgf 2008/01/15 v2.10 (rcs-revision 1.12)
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
+Package: pgf 2015/08/07 v3.0.1a (rcs-revision 1.15)
 
-(/usr/share/texmf/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
-File: pgfmoduleshapes.code.tex 2010/09/09  (rcs-revision 1.13)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
+File: pgfmoduleshapes.code.tex 2014/03/21  (rcs-revision 1.35)
 \pgfnodeparttextbox=\box53
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
+File: pgfmoduleplot.code.tex 2015/08/03  (rcs-revision 1.13)
 )
-(/usr/share/texmf/tex/generic/pgf/modules/pgfmoduleplot.code.tex
-File: pgfmoduleplot.code.tex 2010/10/22  (rcs-revision 1.8)
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65
+.sty
+Package: pgfcomp-version-0-65 2007/07/03 v3.0.1a (rcs-revision 1.7)
+\pgf@nodesepstart=\dimen190
+\pgf@nodesepend=\dimen191
 )
-(/usr/share/texmf/tex/latex/pgf/compatibility/pgfcomp-version-0-65.sty
-Package: pgfcomp-version-0-65 2007/07/03 v2.10 (rcs-revision 1.7)
-\pgf@nodesepstart=\dimen187
-\pgf@nodesepend=\dimen188
-)
-(/usr/share/texmf/tex/latex/pgf/compatibility/pgfcomp-version-1-18.sty
-Package: pgfcomp-version-1-18 2007/07/23 v2.10 (rcs-revision 1.1)
-))
-(/usr/share/texmf/tex/latex/pgf/utilities/pgffor.sty
-(/usr/share/texmf/tex/generic/pgf/utilities/pgffor.code.tex
-Package: pgffor 2010/03/23 v2.10 (rcs-revision 1.18)
-\pgffor@iter=\dimen189
-\pgffor@skip=\dimen190
-\pgffor@stack=\toks42
-\pgffor@toks=\toks43
-))
-(/usr/share/texmf/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
-Package: tikz 2010/10/13 v2.10 (rcs-revision 1.76)
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18
+.sty
+Package: pgfcomp-version-1-18 2007/07/23 v3.0.1a (rcs-revision 1.1)
+)) (/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgffor.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/math/pgfmath.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+Package: pgffor 2013/12/13 v3.0.1a (rcs-revision 1.25)
 
-(/usr/share/texmf/tex/generic/pgf/libraries/pgflibraryplothandlers.code.tex
-File: pgflibraryplothandlers.code.tex 2010/05/31 v2.10 (rcs-revision 1.15)
-\pgf@plot@mark@count=\count158
-\pgfplotmarksize=\dimen191
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
+\pgffor@iter=\dimen192
+\pgffor@skip=\dimen193
+\pgffor@stack=\toks45
+\pgffor@toks=\toks46
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
+Package: tikz 2015/08/07 v3.0.1a (rcs-revision 1.151)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers
+.code.tex
+File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.1a (rcs-revision 1.20)
+\pgf@plot@mark@count=\count157
+\pgfplotmarksize=\dimen194
 )
-\tikz@lastx=\dimen192
-\tikz@lasty=\dimen193
-\tikz@lastxsaved=\dimen194
-\tikz@lastysaved=\dimen195
-\tikzleveldistance=\dimen196
-\tikzsiblingdistance=\dimen197
+\tikz@lastx=\dimen195
+\tikz@lasty=\dimen196
+\tikz@lastxsaved=\dimen197
+\tikz@lastysaved=\dimen198
+\tikzleveldistance=\dimen199
+\tikzsiblingdistance=\dimen256
 \tikz@figbox=\box54
-\tikz@tempbox=\box55
-\tikztreelevel=\count159
-\tikznumberofchildren=\count160
-\tikznumberofcurrentchild=\count161
-\tikz@fig@count=\count162
+\tikz@figbox@bg=\box55
+\tikz@tempbox=\box56
+\tikz@tempbox@bg=\box57
+\tikztreelevel=\count158
+\tikznumberofchildren=\count159
+\tikznumberofcurrentchild=\count160
+\tikz@fig@count=\count161
 
-(/usr/share/texmf/tex/generic/pgf/modules/pgfmodulematrix.code.tex
-File: pgfmodulematrix.code.tex 2010/08/24  (rcs-revision 1.4)
-\pgfmatrixcurrentrow=\count163
-\pgfmatrixcurrentcolumn=\count164
-\pgf@matrix@numberofcolumns=\count165
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
+File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
+\pgfmatrixcurrentrow=\count162
+\pgfmatrixcurrentcolumn=\count163
+\pgf@matrix@numberofcolumns=\count164
 )
-\tikz@expandcount=\count166
+\tikz@expandcount=\count165
 
-(/usr/share/texmf/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytopat
-hs.code.tex
-File: tikzlibrarytopaths.code.tex 2008/06/17 v2.10 (rcs-revision 1.2)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2008/06/17 v3.0.1a (rcs-revision 1.2)
 )))
 \metropolis@titleseparator@linewidth=\skip60
 \metropolis@progressonsectionpage=\skip61
@@ -782,22 +819,24 @@ Package beamerthememetropolis Warning: You need to compile with XeLaTeX or LuaL
 aTeX to use the Fira fonts on input line 95.
 
 )) (/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
-Package: inputenc 2008/03/30 v1.1d Input encoding file
-\inpenc@prehook=\toks44
-\inpenc@posthook=\toks45
+Package: inputenc 2015/03/17 v1.2c Input encoding file
+\inpenc@prehook=\toks47
+\inpenc@posthook=\toks48
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def
-File: utf8.def 2008/04/05 v1.1m UTF-8 support for inputenc
+File: utf8.def 2015/12/03 v1.1r UTF-8 support for inputenc
 Now handling font encoding OML ...
 ... no UTF-8 mapping file for font encoding OML
 Now handling font encoding T1 ...
 ... processing UTF-8 mapping file for font encoding T1
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/t1enc.dfu
-File: t1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
+File: t1enc.dfu 2015/12/03 v1.1r UTF-8 support for inputenc
+   defining Unicode char U+00A0 (decimal 160)
    defining Unicode char U+00A1 (decimal 161)
    defining Unicode char U+00A3 (decimal 163)
    defining Unicode char U+00AB (decimal 171)
+   defining Unicode char U+00AD (decimal 173)
    defining Unicode char U+00BB (decimal 187)
    defining Unicode char U+00BF (decimal 191)
    defining Unicode char U+00C0 (decimal 192)
@@ -862,50 +901,94 @@ File: t1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
    defining Unicode char U+00FD (decimal 253)
    defining Unicode char U+00FE (decimal 254)
    defining Unicode char U+00FF (decimal 255)
+   defining Unicode char U+0100 (decimal 256)
+   defining Unicode char U+0101 (decimal 257)
    defining Unicode char U+0102 (decimal 258)
    defining Unicode char U+0103 (decimal 259)
    defining Unicode char U+0104 (decimal 260)
    defining Unicode char U+0105 (decimal 261)
    defining Unicode char U+0106 (decimal 262)
    defining Unicode char U+0107 (decimal 263)
+   defining Unicode char U+0108 (decimal 264)
+   defining Unicode char U+0109 (decimal 265)
+   defining Unicode char U+010A (decimal 266)
+   defining Unicode char U+010B (decimal 267)
    defining Unicode char U+010C (decimal 268)
    defining Unicode char U+010D (decimal 269)
    defining Unicode char U+010E (decimal 270)
    defining Unicode char U+010F (decimal 271)
    defining Unicode char U+0110 (decimal 272)
    defining Unicode char U+0111 (decimal 273)
+   defining Unicode char U+0112 (decimal 274)
+   defining Unicode char U+0113 (decimal 275)
+   defining Unicode char U+0114 (decimal 276)
+   defining Unicode char U+0115 (decimal 277)
+   defining Unicode char U+0116 (decimal 278)
+   defining Unicode char U+0117 (decimal 279)
    defining Unicode char U+0118 (decimal 280)
    defining Unicode char U+0119 (decimal 281)
    defining Unicode char U+011A (decimal 282)
    defining Unicode char U+011B (decimal 283)
+   defining Unicode char U+011C (decimal 284)
+   defining Unicode char U+011D (decimal 285)
    defining Unicode char U+011E (decimal 286)
    defining Unicode char U+011F (decimal 287)
+   defining Unicode char U+0120 (decimal 288)
+   defining Unicode char U+0121 (decimal 289)
+   defining Unicode char U+0122 (decimal 290)
+   defining Unicode char U+0123 (decimal 291)
+   defining Unicode char U+0124 (decimal 292)
+   defining Unicode char U+0125 (decimal 293)
+   defining Unicode char U+0128 (decimal 296)
+   defining Unicode char U+0129 (decimal 297)
+   defining Unicode char U+012A (decimal 298)
+   defining Unicode char U+012B (decimal 299)
+   defining Unicode char U+012C (decimal 300)
+   defining Unicode char U+012D (decimal 301)
+   defining Unicode char U+012E (decimal 302)
+   defining Unicode char U+012F (decimal 303)
    defining Unicode char U+0130 (decimal 304)
    defining Unicode char U+0131 (decimal 305)
    defining Unicode char U+0132 (decimal 306)
    defining Unicode char U+0133 (decimal 307)
+   defining Unicode char U+0134 (decimal 308)
+   defining Unicode char U+0135 (decimal 309)
+   defining Unicode char U+0136 (decimal 310)
+   defining Unicode char U+0137 (decimal 311)
    defining Unicode char U+0139 (decimal 313)
    defining Unicode char U+013A (decimal 314)
+   defining Unicode char U+013B (decimal 315)
+   defining Unicode char U+013C (decimal 316)
    defining Unicode char U+013D (decimal 317)
    defining Unicode char U+013E (decimal 318)
    defining Unicode char U+0141 (decimal 321)
    defining Unicode char U+0142 (decimal 322)
    defining Unicode char U+0143 (decimal 323)
    defining Unicode char U+0144 (decimal 324)
+   defining Unicode char U+0145 (decimal 325)
+   defining Unicode char U+0146 (decimal 326)
    defining Unicode char U+0147 (decimal 327)
    defining Unicode char U+0148 (decimal 328)
    defining Unicode char U+014A (decimal 330)
    defining Unicode char U+014B (decimal 331)
+   defining Unicode char U+014C (decimal 332)
+   defining Unicode char U+014D (decimal 333)
+   defining Unicode char U+014E (decimal 334)
+   defining Unicode char U+014F (decimal 335)
    defining Unicode char U+0150 (decimal 336)
    defining Unicode char U+0151 (decimal 337)
    defining Unicode char U+0152 (decimal 338)
    defining Unicode char U+0153 (decimal 339)
    defining Unicode char U+0154 (decimal 340)
    defining Unicode char U+0155 (decimal 341)
+   defining Unicode char U+0156 (decimal 342)
+   defining Unicode char U+0157 (decimal 343)
    defining Unicode char U+0158 (decimal 344)
    defining Unicode char U+0159 (decimal 345)
    defining Unicode char U+015A (decimal 346)
    defining Unicode char U+015B (decimal 347)
+   defining Unicode char U+015C (decimal 348)
+   defining Unicode char U+015D (decimal 349)
    defining Unicode char U+015E (decimal 350)
    defining Unicode char U+015F (decimal 351)
    defining Unicode char U+0160 (decimal 352)
@@ -914,10 +997,22 @@ File: t1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
    defining Unicode char U+0163 (decimal 355)
    defining Unicode char U+0164 (decimal 356)
    defining Unicode char U+0165 (decimal 357)
+   defining Unicode char U+0168 (decimal 360)
+   defining Unicode char U+0169 (decimal 361)
+   defining Unicode char U+016A (decimal 362)
+   defining Unicode char U+016B (decimal 363)
+   defining Unicode char U+016C (decimal 364)
+   defining Unicode char U+016D (decimal 365)
    defining Unicode char U+016E (decimal 366)
    defining Unicode char U+016F (decimal 367)
    defining Unicode char U+0170 (decimal 368)
    defining Unicode char U+0171 (decimal 369)
+   defining Unicode char U+0172 (decimal 370)
+   defining Unicode char U+0173 (decimal 371)
+   defining Unicode char U+0174 (decimal 372)
+   defining Unicode char U+0175 (decimal 373)
+   defining Unicode char U+0176 (decimal 374)
+   defining Unicode char U+0177 (decimal 375)
    defining Unicode char U+0178 (decimal 376)
    defining Unicode char U+0179 (decimal 377)
    defining Unicode char U+017A (decimal 378)
@@ -925,6 +1020,31 @@ File: t1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
    defining Unicode char U+017C (decimal 380)
    defining Unicode char U+017D (decimal 381)
    defining Unicode char U+017E (decimal 382)
+   defining Unicode char U+01CD (decimal 461)
+   defining Unicode char U+01CE (decimal 462)
+   defining Unicode char U+01CF (decimal 463)
+   defining Unicode char U+01D0 (decimal 464)
+   defining Unicode char U+01D1 (decimal 465)
+   defining Unicode char U+01D2 (decimal 466)
+   defining Unicode char U+01D3 (decimal 467)
+   defining Unicode char U+01D4 (decimal 468)
+   defining Unicode char U+01E2 (decimal 482)
+   defining Unicode char U+01E3 (decimal 483)
+   defining Unicode char U+01E6 (decimal 486)
+   defining Unicode char U+01E7 (decimal 487)
+   defining Unicode char U+01E8 (decimal 488)
+   defining Unicode char U+01E9 (decimal 489)
+   defining Unicode char U+01EA (decimal 490)
+   defining Unicode char U+01EB (decimal 491)
+   defining Unicode char U+01F0 (decimal 496)
+   defining Unicode char U+01F4 (decimal 500)
+   defining Unicode char U+01F5 (decimal 501)
+   defining Unicode char U+0218 (decimal 536)
+   defining Unicode char U+0219 (decimal 537)
+   defining Unicode char U+021A (decimal 538)
+   defining Unicode char U+021B (decimal 539)
+   defining Unicode char U+01E02 (decimal 7682)
+   defining Unicode char U+01E03 (decimal 7683)
    defining Unicode char U+200C (decimal 8204)
    defining Unicode char U+2013 (decimal 8211)
    defining Unicode char U+2014 (decimal 8212)
@@ -944,9 +1064,11 @@ Now handling font encoding OT1 ...
 ... processing UTF-8 mapping file for font encoding OT1
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/ot1enc.dfu
-File: ot1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
+File: ot1enc.dfu 2015/12/03 v1.1r UTF-8 support for inputenc
+   defining Unicode char U+00A0 (decimal 160)
    defining Unicode char U+00A1 (decimal 161)
    defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00AD (decimal 173)
    defining Unicode char U+00B8 (decimal 184)
    defining Unicode char U+00BF (decimal 191)
    defining Unicode char U+00C5 (decimal 197)
@@ -964,6 +1086,14 @@ File: ot1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
    defining Unicode char U+0142 (decimal 322)
    defining Unicode char U+0152 (decimal 338)
    defining Unicode char U+0153 (decimal 339)
+   defining Unicode char U+0174 (decimal 372)
+   defining Unicode char U+0175 (decimal 373)
+   defining Unicode char U+0176 (decimal 374)
+   defining Unicode char U+0177 (decimal 375)
+   defining Unicode char U+0218 (decimal 536)
+   defining Unicode char U+0219 (decimal 537)
+   defining Unicode char U+021A (decimal 538)
+   defining Unicode char U+021B (decimal 539)
    defining Unicode char U+2013 (decimal 8211)
    defining Unicode char U+2014 (decimal 8212)
    defining Unicode char U+2018 (decimal 8216)
@@ -975,7 +1105,7 @@ Now handling font encoding OMS ...
 ... processing UTF-8 mapping file for font encoding OMS
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/omsenc.dfu
-File: omsenc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
+File: omsenc.dfu 2015/12/03 v1.1r UTF-8 support for inputenc
    defining Unicode char U+00A7 (decimal 167)
    defining Unicode char U+00B6 (decimal 182)
    defining Unicode char U+00B7 (decimal 183)
@@ -1000,27 +1130,27 @@ Now handling font encoding PD1 ...
    defining Unicode char U+2122 (decimal 8482)
    defining Unicode char U+2423 (decimal 9251)
 ))
-(/home/marina/texmf/tex/latex/bbm.sty
+(/home/pedroxavier/texmf/tex/latex/bbm.sty
 Package: bbm 1999/03/15 V 1.2 provides fonts for set symbols - TH
 LaTeX Font Info:    Overwriting math alphabet `\mathbbm' in version `bold'
 (Font)                  U/bbm/m/n --> U/bbm/bx/n on input line 33.
 LaTeX Font Info:    Overwriting math alphabet `\mathbbmss' in version `bold'
 (Font)                  U/bbmss/m/n --> U/bbmss/bx/n on input line 35.
 )
-(/home/marina/texmf/tex/latex/textpos.sty
+(/home/pedroxavier/texmf/tex/latex/textpos.sty
 Package: textpos 2003/09/07 v1.4
 
 Package: `textpos' 1.4 <2003/09/07>
-\TP@textbox=\box56
-\TP@holdbox=\box57
-\TPHorizModule=\dimen198
-\TPVertModule=\dimen199
+\TP@textbox=\box58
+\TP@holdbox=\box59
+\TPHorizModule=\dimen257
+\TPVertModule=\dimen258
 Grid set 16 x 16 = 22.7622pt x 17.07166pt
-\TPboxrulesize=\dimen200
-\TP@ox=\dimen201
-\TP@oy=\dimen202
-\TP@tbargs=\toks46
-\TP@prevdepth=\dimen203
+\TPboxrulesize=\dimen259
+\TP@ox=\dimen260
+\TP@oy=\dimen261
+\TP@tbargs=\toks49
+\TP@prevdepth=\dimen262
 TextBlockOrigin set to 0pt x 0pt
 ) (/usr/share/texlive/texmf-dist/tex/latex/psnfss/courier.sty
 Package: courier 2005/04/12 PSNFSS-v9.2a (WaS) 
@@ -1047,17 +1177,17 @@ Package: everysel 2011/10/28 v1.2 EverySelectfont Package (MS)
 \JustifyingParindent=\skip82
 )
 (/usr/share/texlive/texmf-dist/tex/latex/csquotes/csquotes.sty
-Package: csquotes 2011/10/22 v5.1d context-sensitive quotations
-\csq@reset=\count167
-\csq@gtype=\count168
-\csq@glevel=\count169
-\csq@qlevel=\count170
-\csq@maxlvl=\count171
-\csq@tshold=\count172
-\csq@ltx@everypar=\toks47
+Package: csquotes 2016/01/31 v5.1g context-sensitive quotations (JAW)
+\csq@reset=\count166
+\csq@gtype=\count167
+\csq@glevel=\count168
+\csq@qlevel=\count169
+\csq@maxlvl=\count170
+\csq@tshold=\count171
+\csq@ltx@everypar=\toks50
 
 (/usr/share/texlive/texmf-dist/tex/latex/csquotes/csquotes.def
-File: csquotes.def 2011/10/22 v5.1d csquotes generic definitions
+File: csquotes.def 2016/01/31 v5.1g csquotes generic definitions (JAW)
 )
 Package csquotes Info: Trying to load configuration file 'csquotes.cfg'...
 Package csquotes Info: ... configuration file loaded successfully.
@@ -1136,17 +1266,17 @@ LaTeX Font Info:    ... okay on input line 225.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count173
-\scratchdimen=\dimen204
-\scratchbox=\box58
-\nofMPsegments=\count174
-\nofMParguments=\count175
-\everyMPshowfont=\toks48
-\MPscratchCnt=\count176
-\MPscratchDim=\dimen205
-\MPnumerator=\count177
-\makeMPintoPDFobject=\count178
-\everyMPtoPDFconversion=\toks49
+\scratchcounter=\count172
+\scratchdimen=\dimen263
+\scratchbox=\box60
+\nofMPsegments=\count173
+\nofMParguments=\count174
+\everyMPshowfont=\toks51
+\MPscratchCnt=\count175
+\MPscratchDim=\dimen264
+\MPnumerator=\count176
+\makeMPintoPDFobject=\count177
+\everyMPtoPDFconversion=\toks52
 ) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
 
@@ -1163,7 +1293,7 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 ABD: EveryShipout initializing macros
-\AtBeginShipoutBox=\box59
+\AtBeginShipoutBox=\box61
 Package hyperref Info: Link coloring OFF on input line 225.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
@@ -1172,7 +1302,7 @@ Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count179
+\c@section@level=\count178
 )
 LaTeX Info: Redefining \ref on input line 225.
 LaTeX Info: Redefining \pageref on input line 225.
@@ -1183,28 +1313,28 @@ LaTeX Info: Redefining \nameref on input line 225.
 \openout5 = `cq.out'.
 
 
-(/usr/share/texmf/tex/latex/beamer/base/translator/dicts/translator-basic-dicti
-onary/translator-basic-dictionary-English.dict
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/translator/dicts/translator-bas
+ic-dictionary/translator-basic-dictionary-English.dict
 Dictionary: translator-basic-dictionary, Language: English 
 )
-(/usr/share/texmf/tex/latex/beamer/base/translator/dicts/translator-bibliograph
-y-dictionary/translator-bibliography-dictionary-English.dict
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/translator/dicts/translator-bib
+liography-dictionary/translator-bibliography-dictionary-English.dict
 Dictionary: translator-bibliography-dictionary, Language: English 
 )
-(/usr/share/texmf/tex/latex/beamer/base/translator/dicts/translator-environment
--dictionary/translator-environment-dictionary-English.dict
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/translator/dicts/translator-env
+ironment-dictionary/translator-environment-dictionary-English.dict
 Dictionary: translator-environment-dictionary, Language: English 
 )
-(/usr/share/texmf/tex/latex/beamer/base/translator/dicts/translator-months-dict
-ionary/translator-months-dictionary-English.dict
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/translator/dicts/translator-mon
+ths-dictionary/translator-months-dictionary-English.dict
 Dictionary: translator-months-dictionary, Language: English 
 )
-(/usr/share/texmf/tex/latex/beamer/base/translator/dicts/translator-numbers-dic
-tionary/translator-numbers-dictionary-English.dict
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/translator/dicts/translator-num
+bers-dictionary/translator-numbers-dictionary-English.dict
 Dictionary: translator-numbers-dictionary, Language: English 
 )
-(/usr/share/texmf/tex/latex/beamer/base/translator/dicts/translator-theorem-dic
-tionary/translator-theorem-dictionary-English.dict
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/translator/dicts/translator-the
+orem-dictionary/translator-theorem-dictionary-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
 )
 LaTeX Info: Redefining \includegraphics on input line 225.
@@ -1224,10 +1354,10 @@ Package textpos Warning: environment textblock* not in vertical mode.
 (textpos)                or printable material appearing before it.
 (textpos)                Alignment may work out wrongly. on input line 232.
 
-<./figs/im.pdf, id=133, 181.5352pt x 234.41779pt>
-File: ./figs/im.pdf Graphic file (type pdf)
- <use ./figs/im.pdf>
-Package pdftex.def Info: ./figs/im.pdf used on input line 232.
+<im.pdf, id=137, 181.5352pt x 234.41779pt>
+File: im.pdf Graphic file (type pdf)
+ <use im.pdf>
+Package pdftex.def Info: im.pdf used on input line 232.
 (pdftex.def)             Requested size: 199.16928pt x 257.19147pt.
 
 Overfull \vbox (49.56921pt too high) detected at line 232
@@ -1239,8 +1369,8 @@ LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <4> not available
 
 [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./figs/im.pdf>]
-(./cq.toc) (./cq.toc) [2
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./im.pdf>] (./cq.toc)
+(./cq.toc) [2
 
 ] (./cq.toc) (./cq.toc) [3
 
@@ -1259,21 +1389,20 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [5
 
 ]
-<./figs/church.jpg, id=230, 220.825pt x 295.1025pt>
-File: ./figs/church.jpg Graphic file (type jpg)
- <use ./figs/church.jpg>
-Package pdftex.def Info: ./figs/church.jpg used on input line 269.
+<church.jpg, id=238, 220.825pt x 295.1025pt>
+File: church.jpg Graphic file (type jpg)
+ <use church.jpg>
+Package pdftex.def Info: church.jpg used on input line 269.
 (pdftex.def)             Requested size: 85.16444pt x 113.81102pt.
 
-<./figs/turing.jpg, id=231, 106.8241pt x 117.43875pt>
-File: ./figs/turing.jpg Graphic file (type jpg)
- <use ./figs/turing.jpg>
-Package pdftex.def Info: ./figs/turing.jpg used on input line 269.
+<turing.jpg, id=239, 106.8241pt x 117.43875pt>
+File: turing.jpg Graphic file (type jpg)
+ <use turing.jpg>
+Package pdftex.def Info: turing.jpg used on input line 269.
 (pdftex.def)             Requested size: 103.52469pt x 113.81102pt.
+ [6
 
-[6
-
- <./figs/turing.jpg> <./figs/church.jpg>] [7
+ <./turing.jpg> <./church.jpg>] [7
 
 ] [8
 
@@ -1317,74 +1446,68 @@ Overfull \hbox (8.64978pt too wide) in paragraph at lines 355--355
 
 [20
 
-] <./figs/boole.jpg, id=317, 452.69125pt x 607.26875pt>
-File: ./figs/boole.jpg Graphic file (type jpg)
-
-<use ./figs/boole.jpg>
-Package pdftex.def Info: ./figs/boole.jpg used on input line 360.
+] <boole.jpg, id=326, 452.69125pt x 607.26875pt>
+File: boole.jpg Graphic file (type jpg)
+ <use boole.jpg>
+Package pdftex.def Info: boole.jpg used on input line 360.
 (pdftex.def)             Requested size: 84.83795pt x 113.81102pt.
- <./figs/de-morgan.jpg, id=318, 120.65076pt x 180.675pt>
-File: ./figs/de-morgan.jpg Graphic file (type jpg)
 
-<use ./figs/de-morgan.jpg>
-Package pdftex.def Info: ./figs/de-morgan.jpg used on input line 360.
+<de-morgan.jpg, id=327, 120.65076pt x 180.675pt>
+File: de-morgan.jpg Graphic file (type jpg)
+ <use de-morgan.jpg>
+Package pdftex.def Info: de-morgan.jpg used on input line 360.
 (pdftex.def)             Requested size: 76.00116pt x 113.81102pt.
  [21
 
- <./figs/de-morgan.jpg> <./figs/boole.jpg>]
-<./figs/bits0.pdf, id=324, 2845.27568pt x 2845.27568pt>
-File: ./figs/bits0.pdf Graphic file (type pdf)
- <use ./figs/bits0.pdf>
-Package pdftex.def Info: ./figs/bits0.pdf used on input line 364.
+ <./de-morgan.jpg> <./boole.jpg>] <bits0.pdf, id=333, 2845.27568pt x 2845.27568
+pt>
+File: bits0.pdf Graphic file (type pdf)
+
+<use bits0.pdf>
+Package pdftex.def Info: bits0.pdf used on input line 364.
 (pdftex.def)             Requested size: 245.90457pt x 245.90779pt.
+ [22
 
-[22
-
- <./figs/bits0.pdf>]
-<./figs/bits1.pdf, id=336, 2845.27568pt x 2845.27568pt>
-File: ./figs/bits1.pdf Graphic file (type pdf)
- <use ./figs/bits1.pdf>
-Package pdftex.def Info: ./figs/bits1.pdf used on input line 365.
+ <./bits0.pdf>]
+<bits1.pdf, id=347, 2845.27568pt x 2845.27568pt>
+File: bits1.pdf Graphic file (type pdf)
+ <use bits1.pdf>
+Package pdftex.def Info: bits1.pdf used on input line 365.
 (pdftex.def)             Requested size: 245.90457pt x 245.90779pt.
+ [23
 
-[23
-
- <./figs/bits1.pdf>]
-<./figs/bits2.pdf, id=350, 2845.27568pt x 2845.27568pt>
-File: ./figs/bits2.pdf Graphic file (type pdf)
- <use ./figs/bits2.pdf>
-Package pdftex.def Info: ./figs/bits2.pdf used on input line 366.
+ <./bits1.pdf>] <bits2.pdf, id=361, 2845.27568pt x 2845.27568pt>
+File: bits2.pdf Graphic file (type pdf)
+ <use bits2.pdf>
+Package pdftex.def Info: bits2.pdf used on input line 366.
 (pdftex.def)             Requested size: 245.90457pt x 245.90779pt.
+ [24
 
-[24
-
- <./figs/bits2.pdf>]
-<./figs/bits3.pdf, id=363, 2845.27568pt x 2845.27568pt>
-File: ./figs/bits3.pdf Graphic file (type pdf)
- <use ./figs/bits3.pdf>
-Package pdftex.def Info: ./figs/bits3.pdf used on input line 367.
+ <./bits2.pdf>] <bits3.pdf, id=375, 2845.27568pt x 2845.27568pt>
+File: bits3.pdf Graphic file (type pdf)
+ <use bits3.pdf>
+Package pdftex.def Info: bits3.pdf used on input line 367.
 (pdftex.def)             Requested size: 245.90457pt x 245.90779pt.
 
 [25
 
- <./figs/bits3.pdf>]
-<./figs/bits4.pdf, id=377, 2845.27568pt x 2845.27568pt>
-File: ./figs/bits4.pdf Graphic file (type pdf)
- <use ./figs/bits4.pdf>
-Package pdftex.def Info: ./figs/bits4.pdf used on input line 368.
+ <./bits3.pdf>] <bits4.pdf, id=390, 2845.27568pt x 2845.27568pt>
+File: bits4.pdf Graphic file (type pdf)
+
+<use bits4.pdf>
+Package pdftex.def Info: bits4.pdf used on input line 368.
 (pdftex.def)             Requested size: 245.90457pt x 245.90779pt.
+ [26
 
-[26
-
- <./figs/bits4.pdf>] <./figs/blue-screen.pdf, id=390, 481.8pt x 361.35pt>
-File: ./figs/blue-screen.pdf Graphic file (type pdf)
-
-<use ./figs/blue-screen.pdf>
-Package pdftex.def Info: ./figs/blue-screen.pdf used on input line 369.
+ <./bits4.pdf>]
+<blue-screen.pdf, id=404, 481.8pt x 361.35pt>
+File: blue-screen.pdf Graphic file (type pdf)
+ <use blue-screen.pdf>
+Package pdftex.def Info: blue-screen.pdf used on input line 369.
 (pdftex.def)             Requested size: 364.19536pt x 273.15117pt.
  [27
 
- <./figs/blue-screen.pdf>]
+ <./blue-screen.pdf>]
 Overfull \vbox (23.96075pt too high) detected at line 390
  []
 
@@ -1396,16 +1519,16 @@ Overfull \vbox (23.96075pt too high) detected at line 390
 
 [29
 
-] <./figs/first-transistor.pdf, id=409, 367.3725pt x 472.76625pt>
-File: ./figs/first-transistor.pdf Graphic file (type pdf)
+] <first-transistor.pdf, id=424, 367.3725pt x 472.76625pt>
+File: first-transistor.pdf Graphic file (type pdf)
 
-<use ./figs/first-transistor.pdf>
-Package pdftex.def Info: ./figs/first-transistor.pdf used on input line 394.
+<use first-transistor.pdf>
+Package pdftex.def Info: first-transistor.pdf used on input line 394.
 (pdftex.def)             Requested size: 191.09084pt x 245.90779pt.
  [30
 
- <./figs/first-transistor.pdf>]
-<./figs/not-gate.pdf, id=417, 578.16pt x 578.16pt>
+ <./first-transistor.pdf>]
+<./figs/not-gate.pdf, id=433, 578.16pt x 578.16pt>
 File: ./figs/not-gate.pdf Graphic file (type pdf)
  <use ./figs/not-gate.pdf>
 Package pdftex.def Info: ./figs/not-gate.pdf used on input line 401.
@@ -1417,24 +1540,24 @@ Overfull \vbox (30.59953pt too high) detected at line 401
 [31
 
  <./figs/not-gate.pdf>]
-<./figs/ttl-nand.pdf, id=432, 220.825pt x 180.675pt>
+<./figs/ttl-nand.pdf, id=448, 220.825pt x 180.675pt>
 File: ./figs/ttl-nand.pdf Graphic file (type pdf)
  <use ./figs/ttl-nand.pdf>
 Package pdftex.def Info: ./figs/ttl-nand.pdf used on input line 415.
 (pdftex.def)             Requested size: 165.93709pt x 135.77332pt.
 
-<./figs/nand.pdf, id=433, 1445.4pt x 602.25pt>
-File: ./figs/nand.pdf Graphic file (type pdf)
- <use ./figs/nand.pdf>
-Package pdftex.def Info: ./figs/nand.pdf used on input line 415.
+<nand.pdf, id=449, 1445.4pt x 602.25pt>
+File: nand.pdf Graphic file (type pdf)
+ <use nand.pdf>
+Package pdftex.def Info: nand.pdf used on input line 415.
 (pdftex.def)             Requested size: 110.6219pt x 46.08575pt.
  [32
 
- <./figs/ttl-nand.pdf> <./figs/nand.pdf
+ <./figs/ttl-nand.pdf> <./nand.pdf
 
-pdfTeX warning: pdflatex (file ./figs/nand.pdf): PDF inclusion: multiple pdfs w
-ith page group included in a single page
->] <./figs/logic-gates.pdf, id=452, 444.66125pt x 401.5pt>
+pdfTeX warning: pdflatex (file ./nand.pdf): PDF inclusion: multiple pdfs with p
+age group included in a single page
+>] <./figs/logic-gates.pdf, id=468, 444.66125pt x 401.5pt>
 File: ./figs/logic-gates.pdf Graphic file (type pdf)
 
 <use ./figs/logic-gates.pdf>
@@ -1447,110 +1570,118 @@ Overfull \vbox (15.9726pt too high) detected at line 419
 [33
 
  <./figs/logic-gates.pdf>]
-<./figs/von-neuman.jpg, id=470, 491.8375pt x 641.39626pt>
-File: ./figs/von-neuman.jpg Graphic file (type jpg)
+<./figs/flip-flop.pdf, id=487, 260.57845pt x 108.44884pt>
+File: ./figs/flip-flop.pdf Graphic file (type pdf)
 
-<use ./figs/von-neuman.jpg>
-Package pdftex.def Info: ./figs/von-neuman.jpg used on input line 425.
-(pdftex.def)             Requested size: 65.44958pt x 85.35826pt.
+<use ./figs/flip-flop.pdf>
+Package pdftex.def Info: ./figs/flip-flop.pdf used on input line 424.
+(pdftex.def)             Requested size: 245.83282pt x 102.31755pt.
  [34
 
- <./figs/von-neuman.jpg>]
-<./figs/moores-law.pdf, id=475, 1440.58195pt x 1040.68805pt>
-File: ./figs/moores-law.pdf Graphic file (type pdf)
+ <./figs/flip-flop.pdf>]
+<von-neuman.jpg, id=501, 491.8375pt x 641.39626pt>
+File: von-neuman.jpg Graphic file (type jpg)
+ <use von-neuman.jpg>
+Package pdftex.def Info: von-neuman.jpg used on input line 431.
+(pdftex.def)             Requested size: 87.26611pt x 113.81102pt.
 
-<use ./figs/moores-law.pdf>
-Package pdftex.def Info: ./figs/moores-law.pdf used on input line 430.
-(pdftex.def)             Requested size: 364.19536pt x 263.09322pt.
- [35
+[35
 
- <./figs/moores-law.pdf>]
-<./figs/moore.jpg, id=484, 225.84375pt x 323.2075pt>
-File: ./figs/moore.jpg Graphic file (type jpg)
- <use ./figs/moore.jpg>
-Package pdftex.def Info: ./figs/moore.jpg used on input line 434.
+ <./von-neuman.jpg>] <moore.jpg, id=506, 225.84375pt x 323.2075pt>
+File: moore.jpg Graphic file (type jpg)
+
+<use moore.jpg>
+Package pdftex.def Info: moore.jpg used on input line 438.
 (pdftex.def)             Requested size: 101.79071pt x 145.67592pt.
+ [36
 
-[36
+ <./moore.jpg>]
+<moores-law.pdf, id=511, 1440.58195pt x 1040.68805pt>
+File: moores-law.pdf Graphic file (type pdf)
+ <use moores-law.pdf>
+Package pdftex.def Info: moores-law.pdf used on input line 440.
+(pdftex.def)             Requested size: 364.19536pt x 263.09322pt.
 
- <./figs/moore.jpg>] [37
+[37
 
-] <./figs/feynman.jpg, id=495, 200.75pt x 281.05pt>
-File: ./figs/feynman.jpg Graphic file (type jpg)
+ <./moores-law.pdf>] [38
 
-<use ./figs/feynman.jpg>
-Package pdftex.def Info: ./figs/feynman.jpg used on input line 442.
+] <feynman.jpg, id=527, 200.75pt x 281.05pt>
+File: feynman.jpg Graphic file (type jpg)
+
+<use feynman.jpg>
+Package pdftex.def Info: feynman.jpg used on input line 448.
 (pdftex.def)             Requested size: 104.05363pt x 145.67592pt.
- [38
+ [39
 
- <./figs/feynman.jpg>]
-<./figs/cara.pdf, id=500, 301.125pt x 301.125pt>
+ <./feynman.jpg>]
+<./figs/cara.pdf, id=532, 301.125pt x 301.125pt>
 File: ./figs/cara.pdf Graphic file (type pdf)
  <use ./figs/cara.pdf>
-Package pdftex.def Info: ./figs/cara.pdf used on input line 464.
+Package pdftex.def Info: ./figs/cara.pdf used on input line 470.
 (pdftex.def)             Requested size: 7.48032pt x 7.48248pt.
 
-<./figs/coroa.pdf, id=501, 301.125pt x 301.125pt>
+<./figs/coroa.pdf, id=533, 301.125pt x 301.125pt>
 File: ./figs/coroa.pdf Graphic file (type pdf)
  <use ./figs/coroa.pdf>
-Package pdftex.def Info: ./figs/coroa.pdf used on input line 464.
+Package pdftex.def Info: ./figs/coroa.pdf used on input line 470.
 (pdftex.def)             Requested size: 7.48032pt x 7.48248pt.
 
-<./figs/alive-cat.pdf, id=502, 569.05513pt x 569.05513pt>
+<./figs/alive-cat.pdf, id=534, 569.05513pt x 569.05513pt>
 File: ./figs/alive-cat.pdf Graphic file (type pdf)
 
 <use ./figs/alive-cat.pdf>
-Package pdftex.def Info: ./figs/alive-cat.pdf used on input line 464.
+Package pdftex.def Info: ./figs/alive-cat.pdf used on input line 470.
 (pdftex.def)             Requested size: 7.47612pt x 7.48248pt.
 
-<./figs/dead-cat.pdf, id=503, 569.05513pt x 569.05513pt>
+<./figs/dead-cat.pdf, id=535, 569.05513pt x 569.05513pt>
 File: ./figs/dead-cat.pdf Graphic file (type pdf)
 
 <use ./figs/dead-cat.pdf>
-Package pdftex.def Info: ./figs/dead-cat.pdf used on input line 464.
-(pdftex.def)             Requested size: 7.47612pt x 7.48248pt.
- [39
-
-]
-File: ./figs/cara.pdf Graphic file (type pdf)
- <use ./figs/cara.pdf>
-Package pdftex.def Info: ./figs/cara.pdf used on input line 464.
-(pdftex.def)             Requested size: 7.48032pt x 7.48248pt.
-File: ./figs/coroa.pdf Graphic file (type pdf)
- <use ./figs/coroa.pdf>
-Package pdftex.def Info: ./figs/coroa.pdf used on input line 464.
-(pdftex.def)             Requested size: 7.48032pt x 7.48248pt.
-File: ./figs/alive-cat.pdf Graphic file (type pdf)
-
-<use ./figs/alive-cat.pdf>
-Package pdftex.def Info: ./figs/alive-cat.pdf used on input line 464.
-(pdftex.def)             Requested size: 7.47612pt x 7.48248pt.
-File: ./figs/dead-cat.pdf Graphic file (type pdf)
- <use ./figs/dead-cat.pdf>
-Package pdftex.def Info: ./figs/dead-cat.pdf used on input line 464.
+Package pdftex.def Info: ./figs/dead-cat.pdf used on input line 470.
 (pdftex.def)             Requested size: 7.47612pt x 7.48248pt.
  [40
 
 ]
 File: ./figs/cara.pdf Graphic file (type pdf)
-
-<use ./figs/cara.pdf>
-Package pdftex.def Info: ./figs/cara.pdf used on input line 464.
+ <use ./figs/cara.pdf>
+Package pdftex.def Info: ./figs/cara.pdf used on input line 470.
 (pdftex.def)             Requested size: 7.48032pt x 7.48248pt.
 File: ./figs/coroa.pdf Graphic file (type pdf)
  <use ./figs/coroa.pdf>
-Package pdftex.def Info: ./figs/coroa.pdf used on input line 464.
+Package pdftex.def Info: ./figs/coroa.pdf used on input line 470.
+(pdftex.def)             Requested size: 7.48032pt x 7.48248pt.
+File: ./figs/alive-cat.pdf Graphic file (type pdf)
+
+<use ./figs/alive-cat.pdf>
+Package pdftex.def Info: ./figs/alive-cat.pdf used on input line 470.
+(pdftex.def)             Requested size: 7.47612pt x 7.48248pt.
+File: ./figs/dead-cat.pdf Graphic file (type pdf)
+ <use ./figs/dead-cat.pdf>
+Package pdftex.def Info: ./figs/dead-cat.pdf used on input line 470.
+(pdftex.def)             Requested size: 7.47612pt x 7.48248pt.
+ [41
+
+]
+File: ./figs/cara.pdf Graphic file (type pdf)
+
+<use ./figs/cara.pdf>
+Package pdftex.def Info: ./figs/cara.pdf used on input line 470.
+(pdftex.def)             Requested size: 7.48032pt x 7.48248pt.
+File: ./figs/coroa.pdf Graphic file (type pdf)
+ <use ./figs/coroa.pdf>
+Package pdftex.def Info: ./figs/coroa.pdf used on input line 470.
 (pdftex.def)             Requested size: 7.48032pt x 7.48248pt.
 File: ./figs/alive-cat.pdf Graphic file (type pdf)
  <use ./figs/alive-cat.pdf>
-Package pdftex.def Info: ./figs/alive-cat.pdf used on input line 464.
+Package pdftex.def Info: ./figs/alive-cat.pdf used on input line 470.
 (pdftex.def)             Requested size: 7.47612pt x 7.48248pt.
 File: ./figs/dead-cat.pdf Graphic file (type pdf)
 
 <use ./figs/dead-cat.pdf>
-Package pdftex.def Info: ./figs/dead-cat.pdf used on input line 464.
+Package pdftex.def Info: ./figs/dead-cat.pdf used on input line 470.
 (pdftex.def)             Requested size: 7.47612pt x 7.48248pt.
- [41
+ [42
 
  <./figs/cara.pdf> <./figs/coroa.pdf
 
@@ -1559,22 +1690,22 @@ with page group included in a single page
 >]
 File: ./figs/cara.pdf Graphic file (type pdf)
  <use ./figs/cara.pdf>
-Package pdftex.def Info: ./figs/cara.pdf used on input line 464.
+Package pdftex.def Info: ./figs/cara.pdf used on input line 470.
 (pdftex.def)             Requested size: 7.48032pt x 7.48248pt.
 File: ./figs/coroa.pdf Graphic file (type pdf)
  <use ./figs/coroa.pdf>
-Package pdftex.def Info: ./figs/coroa.pdf used on input line 464.
+Package pdftex.def Info: ./figs/coroa.pdf used on input line 470.
 (pdftex.def)             Requested size: 7.48032pt x 7.48248pt.
 File: ./figs/alive-cat.pdf Graphic file (type pdf)
  <use ./figs/alive-cat.pdf>
-Package pdftex.def Info: ./figs/alive-cat.pdf used on input line 464.
+Package pdftex.def Info: ./figs/alive-cat.pdf used on input line 470.
 (pdftex.def)             Requested size: 7.47612pt x 7.48248pt.
 File: ./figs/dead-cat.pdf Graphic file (type pdf)
 
 <use ./figs/dead-cat.pdf>
-Package pdftex.def Info: ./figs/dead-cat.pdf used on input line 464.
+Package pdftex.def Info: ./figs/dead-cat.pdf used on input line 470.
 (pdftex.def)             Requested size: 7.47612pt x 7.48248pt.
- [42
+ [43
 
  <./figs/alive-cat.pdf> <./figs/dead-cat.pdf
 
@@ -1583,134 +1714,131 @@ fs with page group included in a single page
 >]
 File: ./figs/cara.pdf Graphic file (type pdf)
  <use ./figs/cara.pdf>
-Package pdftex.def Info: ./figs/cara.pdf used on input line 464.
+Package pdftex.def Info: ./figs/cara.pdf used on input line 470.
 (pdftex.def)             Requested size: 7.48032pt x 7.48248pt.
 File: ./figs/coroa.pdf Graphic file (type pdf)
  <use ./figs/coroa.pdf>
-Package pdftex.def Info: ./figs/coroa.pdf used on input line 464.
+Package pdftex.def Info: ./figs/coroa.pdf used on input line 470.
 (pdftex.def)             Requested size: 7.48032pt x 7.48248pt.
 File: ./figs/alive-cat.pdf Graphic file (type pdf)
  <use ./figs/alive-cat.pdf>
-Package pdftex.def Info: ./figs/alive-cat.pdf used on input line 464.
+Package pdftex.def Info: ./figs/alive-cat.pdf used on input line 470.
 (pdftex.def)             Requested size: 7.47612pt x 7.48248pt.
 File: ./figs/dead-cat.pdf Graphic file (type pdf)
 
 <use ./figs/dead-cat.pdf>
-Package pdftex.def Info: ./figs/dead-cat.pdf used on input line 464.
+Package pdftex.def Info: ./figs/dead-cat.pdf used on input line 470.
 (pdftex.def)             Requested size: 7.47612pt x 7.48248pt.
- [43
+ [44
 
-] [44
-
-]
-<./figs/c2.pdf, id=557, 2845.27568pt x 2845.27568pt>
-File: ./figs/c2.pdf Graphic file (type pdf)
- <use ./figs/c2.pdf>
-Package pdftex.def Info: ./figs/c2.pdf used on input line 488.
-(pdftex.def)             Requested size: 170.71652pt x 170.70917pt.
-
-<./figs/c2-sphere.pdf, id=558, 2845.27568pt x 2845.27568pt>
-File: ./figs/c2-sphere.pdf Graphic file (type pdf)
-
-<use ./figs/c2-sphere.pdf>
-Package pdftex.def Info: ./figs/c2-sphere.pdf used on input line 488.
-(pdftex.def)             Requested size: 170.71652pt x 170.70917pt.
-
-Overfull \vbox (41.44987pt too high) detected at line 488
- []
-
-[45
+] [45
 
 ]
-File: ./figs/c2.pdf Graphic file (type pdf)
- <use ./figs/c2.pdf>
-Package pdftex.def Info: ./figs/c2.pdf used on input line 488.
-(pdftex.def)             Requested size: 170.71652pt x 170.70917pt.
-File: ./figs/c2-sphere.pdf Graphic file (type pdf)
- <use ./figs/c2-sphere.pdf>
-Package pdftex.def Info: ./figs/c2-sphere.pdf used on input line 488.
+<c2.pdf, id=589, 2845.27568pt x 2845.27568pt>
+File: c2.pdf Graphic file (type pdf)
+ <use c2.pdf>
+Package pdftex.def Info: c2.pdf used on input line 494.
 (pdftex.def)             Requested size: 170.71652pt x 170.70917pt.
 
-Overfull \vbox (41.44987pt too high) detected at line 488
+<c2-sphere.pdf, id=590, 2845.27568pt x 2845.27568pt>
+File: c2-sphere.pdf Graphic file (type pdf)
+ <use c2-sphere.pdf>
+Package pdftex.def Info: c2-sphere.pdf used on input line 494.
+(pdftex.def)             Requested size: 170.71652pt x 170.70917pt.
+
+Overfull \vbox (41.44987pt too high) detected at line 494
  []
 
 [46
 
- <./figs/c2.pdf>]
-File: ./figs/c2.pdf Graphic file (type pdf)
- <use ./figs/c2.pdf>
-Package pdftex.def Info: ./figs/c2.pdf used on input line 488.
+]
+File: c2.pdf Graphic file (type pdf)
+ <use c2.pdf>
+Package pdftex.def Info: c2.pdf used on input line 494.
 (pdftex.def)             Requested size: 170.71652pt x 170.70917pt.
-File: ./figs/c2-sphere.pdf Graphic file (type pdf)
- <use ./figs/c2-sphere.pdf>
-Package pdftex.def Info: ./figs/c2-sphere.pdf used on input line 488.
+File: c2-sphere.pdf Graphic file (type pdf)
+ <use c2-sphere.pdf>
+Package pdftex.def Info: c2-sphere.pdf used on input line 494.
 (pdftex.def)             Requested size: 170.71652pt x 170.70917pt.
 
-Overfull \vbox (41.44987pt too high) detected at line 488
+Overfull \vbox (41.44987pt too high) detected at line 494
  []
 
 [47
 
- <./figs/c2-sphere.pdf>] [48
+ <./c2.pdf>]
+File: c2.pdf Graphic file (type pdf)
+ <use c2.pdf>
+Package pdftex.def Info: c2.pdf used on input line 494.
+(pdftex.def)             Requested size: 170.71652pt x 170.70917pt.
+File: c2-sphere.pdf Graphic file (type pdf)
+ <use c2-sphere.pdf>
+Package pdftex.def Info: c2-sphere.pdf used on input line 494.
+(pdftex.def)             Requested size: 170.71652pt x 170.70917pt.
 
-] [49
+Overfull \vbox (41.44987pt too high) detected at line 494
+ []
+
+[48
+
+ <./c2-sphere.pdf>] [49
+
+] [50
 
 ]
-Overfull \hbox (8.4146pt too wide) in paragraph at lines 525--525
+Overfull \hbox (8.4146pt too wide) in paragraph at lines 531--531
 []  
  []
 
-[50
-
-] [51
+[51
 
 ] [52
 
 ] [53
 
-]
-Overfull \vbox (3.69402pt too high) detected at line 581
- []
-
-[54
+] [54
 
 ]
-Overfull \vbox (3.69402pt too high) detected at line 581
+Overfull \vbox (3.69402pt too high) detected at line 587
  []
 
 [55
 
 ]
-Overfull \vbox (3.69402pt too high) detected at line 581
+Overfull \vbox (3.69402pt too high) detected at line 587
  []
 
 [56
 
 ]
-Overfull \vbox (3.69402pt too high) detected at line 581
+Overfull \vbox (3.69402pt too high) detected at line 587
  []
 
 [57
 
 ]
-Overfull \vbox (3.69402pt too high) detected at line 581
+Overfull \vbox (3.69402pt too high) detected at line 587
  []
 
 [58
 
-] [59
+]
+Overfull \vbox (3.69402pt too high) detected at line 587
+ []
 
-] <./figs/H-gate.pdf, id=663, 106.6916pt x 36.55759pt>
+[59
+
+] [60
+
+] <./figs/H-gate.pdf, id=695, 106.6916pt x 36.55759pt>
 File: ./figs/H-gate.pdf Graphic file (type pdf)
 
 <use ./figs/H-gate.pdf>
-Package pdftex.def Info: ./figs/H-gate.pdf used on input line 597.
+Package pdftex.def Info: ./figs/H-gate.pdf used on input line 603.
 (pdftex.def)             Requested size: 227.62204pt x 77.99646pt.
- [60
+ [61
 
- <./figs/H-gate.pdf>] [61
-
-] [62
+ <./figs/H-gate.pdf>] [62
 
 ] [63
 
@@ -1718,163 +1846,828 @@ Package pdftex.def Info: ./figs/H-gate.pdf used on input line 597.
 
 ] [65
 
+] [66
+
 ]
-<./figs/grover.jpg, id=720, 180.675pt x 180.675pt>
-File: ./figs/grover.jpg Graphic file (type jpg)
- <use ./figs/grover.jpg>
-Package pdftex.def Info: ./figs/grover.jpg used on input line 644.
+[67
+
+] <grover.jpg, id=758, 180.675pt x 180.675pt>
+File: grover.jpg Graphic file (type jpg)
+ <use grover.jpg>
+Package pdftex.def Info: grover.jpg used on input line 660.
 (pdftex.def)             Requested size: 85.35835pt x 85.35826pt.
-
-[66
-
- <./figs/grover.jpg>] <./figs/shor.jpg, id=725, 501.875pt x 615.29875pt>
-File: ./figs/shor.jpg Graphic file (type jpg)
-
-<use ./figs/shor.jpg>
-Package pdftex.def Info: ./figs/shor.jpg used on input line 650.
-(pdftex.def)             Requested size: 69.61874pt x 85.35826pt.
- [67
-
- <./figs/shor.jpg>]
-<./figs/quantum-teleportation.pdf, id=732, 742.775pt x 197.73875pt>
-File: ./figs/quantum-teleportation.pdf Graphic file (type pdf)
-
-<use ./figs/quantum-teleportation.pdf>
-Package pdftex.def Info: ./figs/quantum-teleportation.pdf used on input line 65
-5.
-(pdftex.def)             Requested size: 307.28987pt x 81.8066pt.
  [68
 
- <./figs/quantum-teleportation.pdf>]
-[69
+ <./grover.jpg>] <shor.jpg, id=764, 501.875pt x 615.29875pt>
+File: shor.jpg Graphic file (type jpg)
+ <use shor.jpg>
+Package pdftex.def Info: shor.jpg used on input line 666.
+(pdftex.def)             Requested size: 69.61874pt x 85.35826pt.
+ [69
 
-] [70
+ <./shor.jpg>] <quantum-teleportation.pdf, id=770, 742.775pt x 197.73875pt>
+File: quantum-teleportation.pdf Graphic file (type pdf)
 
-] [71
+<use quantum-teleportation.pdf>
+Package pdftex.def Info: quantum-teleportation.pdf used on input line 671.
+(pdftex.def)             Requested size: 307.28987pt x 81.8066pt.
+ [70
 
-] <./figs/superposition.pdf, id=754, 111.50056pt x 33.79225pt>
-File: ./figs/superposition.pdf Graphic file (type pdf)
+ <./quantum-teleportation.pdf>] [71
 
-<use ./figs/superposition.pdf>
-Package pdftex.def Info: ./figs/superposition.pdf used on input line 701.
-(pdftex.def)             Requested size: 307.28987pt x 93.12949pt.
- [72
+]
+[72
 
- <./figs/superposition.pdf>]
-File: ./figs/superposition.pdf Graphic file (type pdf)
-
-<use ./figs/superposition.pdf>
-Package pdftex.def Info: ./figs/superposition.pdf used on input line 707.
-(pdftex.def)             Requested size: 307.28987pt x 93.12949pt.
- [73
+] [73
 
 ] [74
 
-] [75
-
-] [76
-
-] [77
-
-] [78
-
-] [79
+]
+Missing character: There is no [ in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no ] in font nullfont!
+Missing character: There is no ( in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no ) in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no ( in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no ) in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no [ in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no ] in font nullfont!
+Missing character: There is no ( in font nullfont!
+Missing character: There is no 2 in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no ) in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no ( in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no ) in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no [ in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no ] in font nullfont!
+Missing character: There is no ( in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no ) in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no ( in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no ) in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no [ in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no ] in font nullfont!
+Missing character: There is no ( in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no ) in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no ( in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no ) in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no [ in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no ] in font nullfont!
+Missing character: There is no ( in font nullfont!
+Missing character: There is no - in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no ) in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no ( in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no ) in font nullfont!
+Missing character: There is no ; in font nullfont!
+ [75
 
 ]
-<./figs/pauli.jpg, id=794, 469.755pt x 657.45625pt>
+Missing character: There is no [ in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no ] in font nullfont!
+Missing character: There is no ( in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no ) in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no ( in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no ) in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no [ in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no ] in font nullfont!
+Missing character: There is no ( in font nullfont!
+Missing character: There is no 2 in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no ) in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no ( in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no ) in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no [ in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no ] in font nullfont!
+Missing character: There is no ( in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no ) in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no ( in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no ) in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no [ in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no ] in font nullfont!
+Missing character: There is no ( in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no ) in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no ( in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no ) in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no [ in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no ] in font nullfont!
+Missing character: There is no ( in font nullfont!
+Missing character: There is no - in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no ) in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no ( in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no ) in font nullfont!
+Missing character: There is no ; in font nullfont!
+ [76
+
+]
+Missing character: There is no [ in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no ] in font nullfont!
+Missing character: There is no ( in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no ) in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no ( in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no ) in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no [ in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no ] in font nullfont!
+Missing character: There is no ( in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no ) in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no ( in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no ) in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no [ in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no ] in font nullfont!
+Missing character: There is no ( in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no ) in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no ( in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no ) in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no [ in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no ] in font nullfont!
+Missing character: There is no ( in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no ) in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no ( in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no ) in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no [ in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no ] in font nullfont!
+Missing character: There is no ( in font nullfont!
+Missing character: There is no - in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no ) in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no ( in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no ) in font nullfont!
+Missing character: There is no ; in font nullfont!
+ [77
+
+]
+Missing character: There is no [ in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no ] in font nullfont!
+Missing character: There is no ( in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no ) in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no ( in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no ) in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no [ in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no ] in font nullfont!
+Missing character: There is no ( in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no ) in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no ( in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no ) in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no [ in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no ] in font nullfont!
+Missing character: There is no ( in font nullfont!
+Missing character: There is no 2 in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no ) in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no ( in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no ) in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no [ in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no ] in font nullfont!
+Missing character: There is no ( in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no ) in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no ( in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no ) in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no [ in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no ] in font nullfont!
+Missing character: There is no ( in font nullfont!
+Missing character: There is no - in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no ) in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no ( in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no ) in font nullfont!
+Missing character: There is no ; in font nullfont!
+ [78
+
+]
+Missing character: There is no [ in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no ] in font nullfont!
+Missing character: There is no ( in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no ) in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no ( in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no ) in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no [ in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no ] in font nullfont!
+Missing character: There is no ( in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no ) in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no ( in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no ) in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no [ in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no ] in font nullfont!
+Missing character: There is no ( in font nullfont!
+Missing character: There is no 2 in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no ) in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no ( in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no ) in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no [ in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no ] in font nullfont!
+Missing character: There is no ( in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no ) in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no ( in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no ) in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no [ in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no ] in font nullfont!
+Missing character: There is no ( in font nullfont!
+Missing character: There is no - in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no ) in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no ( in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no ) in font nullfont!
+Missing character: There is no ; in font nullfont!
+ [79
+
+]
+Missing character: There is no [ in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no ] in font nullfont!
+Missing character: There is no ( in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no ) in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no ( in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no ) in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no [ in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no ] in font nullfont!
+Missing character: There is no ( in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no ) in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no ( in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no ) in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no [ in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no ] in font nullfont!
+Missing character: There is no ( in font nullfont!
+Missing character: There is no 2 in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no ) in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no ( in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no ) in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no [ in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no ] in font nullfont!
+Missing character: There is no ( in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no ) in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no ( in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no ) in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no [ in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no ] in font nullfont!
+Missing character: There is no ( in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no ) in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no ( in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no ) in font nullfont!
+Missing character: There is no ; in font nullfont!
+ [80
+
+] [81
+
+] [82
+
+] [83
+
+] [84
+
+] [85
+
+] [86
+
+]
+<./figs/pauli.jpg, id=857, 469.755pt x 657.45625pt>
 File: ./figs/pauli.jpg Graphic file (type jpg)
  <use ./figs/pauli.jpg>
-Package pdftex.def Info: ./figs/pauli.jpg used on input line 739.
+Package pdftex.def Info: ./figs/pauli.jpg used on input line 775.
 (pdftex.def)             Requested size: 81.31236pt x 113.81102pt.
 
-[80
+[87
 
- <./figs/pauli.jpg>]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+ <./figs/pauli.jpg>] [88
 
- [81
+] [89
 
 ]
-[82] <./figs/energy-levels.pdf, id=809, 2845.27568pt x 1707.1653pt>
-File: ./figs/energy-levels.pdf Graphic file (type pdf)
+<energy-levels.pdf, id=872, 2845.27568pt x 1707.1653pt>
+File: energy-levels.pdf Graphic file (type pdf)
 
-<use ./figs/energy-levels.pdf>
-Package pdftex.def Info: ./figs/energy-levels.pdf used on input line 755.
+<use energy-levels.pdf>
+Package pdftex.def Info: energy-levels.pdf used on input line 793.
 (pdftex.def)             Requested size: 256.0748pt x 153.63824pt.
- [83
+ [90
 
- <./figs/energy-levels.pdf>] [84
+ <./energy-levels.pdf>] [91
 
 ]
-<./figs/enclave-map.pdf, id=827, 220.82501pt x 431.6125pt>
-File: ./figs/enclave-map.pdf Graphic file (type pdf)
-
-<use ./figs/enclave-map.pdf>
-Package pdftex.def Info: ./figs/enclave-map.pdf used on input line 763.
+<enclave-map.pdf, id=892, 220.82501pt x 431.6125pt>
+File: enclave-map.pdf Graphic file (type pdf)
+ <use enclave-map.pdf>
+Package pdftex.def Info: enclave-map.pdf used on input line 801.
 (pdftex.def)             Requested size: 125.8109pt x 245.90779pt.
 
-Overfull \vbox (45.59953pt too high) detected at line 763
+Overfull \vbox (45.59953pt too high) detected at line 801
  []
 
-[85
+[92
 
- <./figs/enclave-map.pdf>]
-<./figs/enclave-chart.pdf, id=839, 461.10268pt x 226.29242pt>
-File: ./figs/enclave-chart.pdf Graphic file (type pdf)
-
-<use ./figs/enclave-chart.pdf>
-Package pdftex.def Info: ./figs/enclave-chart.pdf used on input line 767.
+ <./enclave-map.pdf>]
+<enclave-chart.pdf, id=903, 461.10268pt x 226.29242pt>
+File: enclave-chart.pdf Graphic file (type pdf)
+ <use enclave-chart.pdf>
+Package pdftex.def Info: enclave-chart.pdf used on input line 805.
 (pdftex.def)             Requested size: 307.28987pt x 150.80713pt.
- [86
 
- <./figs/enclave-chart.pdf>]
-<./figs/quantum.pdf, id=849, 556.32843pt x 312.41719pt>
-File: ./figs/quantum.pdf Graphic file (type pdf)
+[93
 
-<use ./figs/quantum.pdf>
-Package pdftex.def Info: ./figs/quantum.pdf used on input line 771.
+ <./enclave-chart.pdf>] <quantum.pdf, id=913, 556.32843pt x 312.41719pt>
+File: quantum.pdf Graphic file (type pdf)
+
+<use quantum.pdf>
+Package pdftex.def Info: quantum.pdf used on input line 809.
 (pdftex.def)             Requested size: 307.28987pt x 172.56888pt.
- [87
+ [94
 
- <./figs/quantum.pdf>]
-<./figs/failure.pdf, id=857, 483.30562pt x 359.09157pt>
-File: ./figs/failure.pdf Graphic file (type pdf)
-
-<use ./figs/failure.pdf>
-Package pdftex.def Info: ./figs/failure.pdf used on input line 773.
+ <./quantum.pdf>]
+<failure.pdf, id=922, 483.30562pt x 359.09157pt>
+File: failure.pdf Graphic file (type pdf)
+ <use failure.pdf>
+Package pdftex.def Info: failure.pdf used on input line 811.
 (pdftex.def)             Requested size: 307.28987pt x 228.32196pt.
- [88
+ [95
 
- <./figs/failure.pdf>]
-<./figs/kalai.jpg, id=866, 513.92pt x 513.92pt>
-File: ./figs/kalai.jpg Graphic file (type jpg)
- <use ./figs/kalai.jpg>
-Package pdftex.def Info: ./figs/kalai.jpg used on input line 777.
+ <./failure.pdf>] <kalai.jpg, id=932, 513.92pt x 513.92pt>
+File: kalai.jpg Graphic file (type jpg)
+ <use kalai.jpg>
+Package pdftex.def Info: kalai.jpg used on input line 815.
 (pdftex.def)             Requested size: 113.80771pt x 113.81102pt.
- [89
+ [96
 
- <./figs/kalai.jpg>] [90
+ <./kalai.jpg>] [97
 
-] [91
+] [98
 
 ]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 796.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 834.
 
-
-(/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
-File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+ (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 796.
- [92
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 834.
 
-] [93
+[99
 
-] [94
+] [100
 
- </usr/share/texmf/tex/latex/beamer/base/art/beamericonarticle.pdf>] [95
+] [101
 
-] [96
+ </usr/share/texlive/texmf-dist/tex/latex/beamer/art/beamericonarticle.pdf>] [1
+02
+
+] [103
 
 ]
 \tf@nav=\write6
@@ -1886,13 +2679,13 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
 \tf@snm=\write8
 \openout8 = `cq.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 817.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 817.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 855.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 855.
  (./cq.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 817.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 817.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 855.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 855.
 Package rerunfilecheck Info: File `cq.out' has not changed.
-(rerunfilecheck)             Checksum: DAD6B4FA9FFA43AFD6B34AF89D1B5DEE;1936.
+(rerunfilecheck)             Checksum: 9615B01846AFA2EF6379E916BCB8E57B;1998.
 
 
 LaTeX Font Warning: Size substitutions with differences
@@ -1901,16 +2694,16 @@ LaTeX Font Warning: Size substitutions with differences
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 817.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 855.
  ) 
 Here is how much of TeX's memory you used:
- 20179 strings out of 493304
- 375515 string characters out of 6139871
- 457749 words of memory out of 5000000
- 22878 multiletter control sequences out of 15000+600000
+ 21995 strings out of 494910
+ 427453 string characters out of 6179835
+ 498045 words of memory out of 5000000
+ 24480 multiletter control sequences out of 15000+600000
  15673 words of font info for 58 fonts, out of 8000000 for 9000
- 957 hyphenation exceptions out of 8191
- 61i,21n,82p,1733b,670s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 36 hyphenation exceptions out of 8191
+ 61i,21n,82p,1733b,688s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist
@@ -1936,10 +2729,10 @@ b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb
 ></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm7.pfb><
 /usr/share/texlive/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/share/te
 xlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
-Output written on cq.pdf (96 pages, 2991013 bytes).
+Output written on cq.pdf (103 pages, 3007374 bytes).
 PDF statistics:
- 1040 PDF objects out of 1200 (max. 8388607)
- 817 compressed objects within 9 object streams
- 210 named destinations out of 1000 (max. 500000)
- 473 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1116 PDF objects out of 1200 (max. 8388607)
+ 883 compressed objects within 9 object streams
+ 243 named destinations out of 1000 (max. 500000)
+ 481 words of extra memory for PDF output out of 10000 (max. 10000000)
 
