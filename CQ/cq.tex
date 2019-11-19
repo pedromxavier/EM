@@ -229,7 +229,7 @@
 		\begin{textblock*}{7cm}(8cm, -1.5cm)
 			\includegraphics[width=7cm]{im.pdf}
 		\end{textblock*}
-	\end{frame}
+1	\end{frame}
 	
 	\begin{frame}{Parte I}
 	\begin{columns}[t]
@@ -642,7 +642,12 @@
 	\end{frame}	
 	
 	\begin{frame}{\subsecname}
-		\postulado{Medida}
+		\postulado{Medida}		
+		Medidas são descritas por uma coleção de operadores $\{M_i\}$, definida pelos estados da base em relação a qual se quer medir. Por exemplo,
+		\begin{align*}
+			M_0 &= \ketbra{0}{0}\\
+			M_1 &= \ketbra{1}{1}
+		\end{align*}				
 		
 	\end{frame}
 	
@@ -743,9 +748,25 @@
 	\end{frame}
 	
 	\begin{frame}{\subsecname}
-	
+		
 	\end{frame}
 
+	\begin{frame}{\subsecname}
+	\definicao{Caminhada Quântica}
+	Para realizar uma caminhada quântica, temos que preparar um sistema como
+		$$\ket{\Psi} = \ket{s} \otimes \ket{x}$$
+	Onde $\ket{s}$ será nossa "moeda" e $\ket{x}$ a posição da partícula.\\
+	
+	Em $\ket{\Psi}$ aplicaremos um operador $U$ definido como:
+	\footnotesize	
+	\begin{align*}
+		U &= \ketbra{0}{0} \otimes \sum_{i}\ketbra{i-1}{i} + \ketbra{1}{1} \otimes \sum_{i}\ketbra{i+1}{i}\\
+		U \ket{\Psi} &= \ket{0}\braket{0}{s} \otimes \sum_{i}\ket{i-1}\braket{i}{x} + \ket{1}\braket{1}{s} \otimes \sum_{i}\ket{i+1}\braket{i}{x}
+	\end{align*}
+	\normalsize
+	
+	\end{frame}
+	
 	\section{Computação Topológica}
 	
 	\subsection{Nós}
@@ -761,7 +782,16 @@
 	\subsection{Ânions}
 	
 	\begin{frame}{\subsecname}
+	Em geral, quando partículas como bósons e férmions descrevem uma curva fechada $\Gamma \subset \mathbb{R}^3$, é como se estas jamais tivessem se movido.
+	\begin{center}
+%		\begin{tikzpicture}
+%		\draw [black] plot [smooth cycle] coordinates {(0,0) (1,1) (2,1) (2.5, .5) (2,0) (1, 0.5) (2, 2) (3, 2) (3,0) (2,-1) (1, -1.5) (0, -1)};
+%		\node[] at (3.5,2.5) {$\Gamma$};
+%		\fill[red] (0,0) circle (0.5 mm);
+%		\end{tikzpicture}
+%	\end{center}
 	
+
 	\end{frame}	
 	
 	\begin{frame}{\subsecname}
@@ -771,7 +801,8 @@
 	\section{Computação Adiabática}
 	
 	\begin{frame}{\secname}
-	\definicao{Equação de Pauli}
+	\textbf{Equação de Pauli}\\
+	Seja $\vec{\sigma} = [\sigma_1, \sigma_2, \sigma_3]^T$. A equação a seguir descreve o comportamento de um sistema $\ket{\phi}$ sob um campo magnético.
 	$$\left[{\frac {1}{2m}}({\vec {\sigma }}\cdot ({\vec {p}}-q{\vec {A}}))^{2}+q\phi \right]\ket{\psi} = \ii\hbar {\frac {\partial }{\partial t}}\ket{\psi}$$
 	
 	\person{pauli.jpg}{Wolfgang Pauli}{1900 -1958}{4cm}{4.5cm}{4cm}	

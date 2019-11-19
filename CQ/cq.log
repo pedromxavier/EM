@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2019.11.19)  19 NOV 2019 14:05
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2019.11.19)  19 NOV 2019 15:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1360,7 +1360,7 @@ File: im.pdf Graphic file (type pdf)
 Package pdftex.def Info: im.pdf used on input line 232.
 (pdftex.def)             Requested size: 199.16928pt x 257.19147pt.
 
-Overfull \vbox (49.56921pt too high) detected at line 232
+Overfull \vbox (62.10088pt too high) detected at line 232
  []
 
 
@@ -1389,20 +1389,21 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [5
 
 ]
-<church.jpg, id=238, 220.825pt x 295.1025pt>
-File: church.jpg Graphic file (type jpg)
- <use church.jpg>
-Package pdftex.def Info: church.jpg used on input line 269.
+<./figs/church.jpg, id=238, 220.825pt x 295.1025pt>
+File: ./figs/church.jpg Graphic file (type jpg)
+ <use ./figs/church.jpg>
+Package pdftex.def Info: ./figs/church.jpg used on input line 269.
 (pdftex.def)             Requested size: 85.16444pt x 113.81102pt.
 
-<turing.jpg, id=239, 106.8241pt x 117.43875pt>
-File: turing.jpg Graphic file (type jpg)
- <use turing.jpg>
-Package pdftex.def Info: turing.jpg used on input line 269.
+<./figs/turing.jpg, id=239, 106.8241pt x 117.43875pt>
+File: ./figs/turing.jpg Graphic file (type jpg)
+ <use ./figs/turing.jpg>
+Package pdftex.def Info: ./figs/turing.jpg used on input line 269.
 (pdftex.def)             Requested size: 103.52469pt x 113.81102pt.
- [6
 
- <./turing.jpg> <./church.jpg>] [7
+[6
+
+ <./figs/turing.jpg> <./figs/church.jpg>] [7
 
 ] [8
 
@@ -1446,68 +1447,72 @@ Overfull \hbox (8.64978pt too wide) in paragraph at lines 355--355
 
 [20
 
-] <boole.jpg, id=326, 452.69125pt x 607.26875pt>
-File: boole.jpg Graphic file (type jpg)
- <use boole.jpg>
-Package pdftex.def Info: boole.jpg used on input line 360.
-(pdftex.def)             Requested size: 84.83795pt x 113.81102pt.
+] <./figs/boole.jpg, id=326, 452.69125pt x 607.26875pt>
+File: ./figs/boole.jpg Graphic file (type jpg)
 
-<de-morgan.jpg, id=327, 120.65076pt x 180.675pt>
-File: de-morgan.jpg Graphic file (type jpg)
- <use de-morgan.jpg>
-Package pdftex.def Info: de-morgan.jpg used on input line 360.
+<use ./figs/boole.jpg>
+Package pdftex.def Info: ./figs/boole.jpg used on input line 360.
+(pdftex.def)             Requested size: 84.83795pt x 113.81102pt.
+ <./figs/de-morgan.jpg, id=327, 120.65076pt x 180.675pt>
+File: ./figs/de-morgan.jpg Graphic file (type jpg)
+
+<use ./figs/de-morgan.jpg>
+Package pdftex.def Info: ./figs/de-morgan.jpg used on input line 360.
 (pdftex.def)             Requested size: 76.00116pt x 113.81102pt.
  [21
 
- <./de-morgan.jpg> <./boole.jpg>] <bits0.pdf, id=333, 2845.27568pt x 2845.27568
-pt>
+ <./figs/de-morgan.jpg> <./figs/boole.jpg>]
+<bits0.pdf, id=333, 2845.27568pt x 2845.27568pt>
 File: bits0.pdf Graphic file (type pdf)
-
-<use bits0.pdf>
+ <use bits0.pdf>
 Package pdftex.def Info: bits0.pdf used on input line 364.
 (pdftex.def)             Requested size: 245.90457pt x 245.90779pt.
  [22
 
- <./bits0.pdf>]
-<bits1.pdf, id=347, 2845.27568pt x 2845.27568pt>
-File: bits1.pdf Graphic file (type pdf)
- <use bits1.pdf>
-Package pdftex.def Info: bits1.pdf used on input line 365.
+ <./bits0.pdf>] <./figs/bits1.pdf, id=347, 2845.27568pt x 2845.27568pt>
+File: ./figs/bits1.pdf Graphic file (type pdf)
+
+<use ./figs/bits1.pdf>
+Package pdftex.def Info: ./figs/bits1.pdf used on input line 365.
 (pdftex.def)             Requested size: 245.90457pt x 245.90779pt.
  [23
 
- <./bits1.pdf>] <bits2.pdf, id=361, 2845.27568pt x 2845.27568pt>
-File: bits2.pdf Graphic file (type pdf)
- <use bits2.pdf>
-Package pdftex.def Info: bits2.pdf used on input line 366.
+ <./figs/bits1.pdf>]
+<./figs/bits2.pdf, id=361, 2845.27568pt x 2845.27568pt>
+File: ./figs/bits2.pdf Graphic file (type pdf)
+ <use ./figs/bits2.pdf>
+Package pdftex.def Info: ./figs/bits2.pdf used on input line 366.
 (pdftex.def)             Requested size: 245.90457pt x 245.90779pt.
- [24
 
- <./bits2.pdf>] <bits3.pdf, id=375, 2845.27568pt x 2845.27568pt>
-File: bits3.pdf Graphic file (type pdf)
- <use bits3.pdf>
-Package pdftex.def Info: bits3.pdf used on input line 367.
+[24
+
+ <./figs/bits2.pdf>]
+<./figs/bits3.pdf, id=375, 2845.27568pt x 2845.27568pt>
+File: ./figs/bits3.pdf Graphic file (type pdf)
+ <use ./figs/bits3.pdf>
+Package pdftex.def Info: ./figs/bits3.pdf used on input line 367.
 (pdftex.def)             Requested size: 245.90457pt x 245.90779pt.
 
 [25
 
- <./bits3.pdf>] <bits4.pdf, id=390, 2845.27568pt x 2845.27568pt>
-File: bits4.pdf Graphic file (type pdf)
-
-<use bits4.pdf>
-Package pdftex.def Info: bits4.pdf used on input line 368.
+ <./figs/bits3.pdf>]
+<./figs/bits4.pdf, id=390, 2845.27568pt x 2845.27568pt>
+File: ./figs/bits4.pdf Graphic file (type pdf)
+ <use ./figs/bits4.pdf>
+Package pdftex.def Info: ./figs/bits4.pdf used on input line 368.
 (pdftex.def)             Requested size: 245.90457pt x 245.90779pt.
- [26
 
- <./bits4.pdf>]
-<blue-screen.pdf, id=404, 481.8pt x 361.35pt>
-File: blue-screen.pdf Graphic file (type pdf)
- <use blue-screen.pdf>
-Package pdftex.def Info: blue-screen.pdf used on input line 369.
+[26
+
+ <./figs/bits4.pdf>] <./figs/blue-screen.pdf, id=404, 481.8pt x 361.35pt>
+File: ./figs/blue-screen.pdf Graphic file (type pdf)
+
+<use ./figs/blue-screen.pdf>
+Package pdftex.def Info: ./figs/blue-screen.pdf used on input line 369.
 (pdftex.def)             Requested size: 364.19536pt x 273.15117pt.
  [27
 
- <./blue-screen.pdf>]
+ <./figs/blue-screen.pdf>]
 Overfull \vbox (23.96075pt too high) detected at line 390
  []
 
@@ -1519,15 +1524,15 @@ Overfull \vbox (23.96075pt too high) detected at line 390
 
 [29
 
-] <first-transistor.pdf, id=424, 367.3725pt x 472.76625pt>
-File: first-transistor.pdf Graphic file (type pdf)
+] <./figs/first-transistor.pdf, id=424, 367.3725pt x 472.76625pt>
+File: ./figs/first-transistor.pdf Graphic file (type pdf)
 
-<use first-transistor.pdf>
-Package pdftex.def Info: first-transistor.pdf used on input line 394.
+<use ./figs/first-transistor.pdf>
+Package pdftex.def Info: ./figs/first-transistor.pdf used on input line 394.
 (pdftex.def)             Requested size: 191.09084pt x 245.90779pt.
  [30
 
- <./first-transistor.pdf>]
+ <./figs/first-transistor.pdf>]
 <./figs/not-gate.pdf, id=433, 578.16pt x 578.16pt>
 File: ./figs/not-gate.pdf Graphic file (type pdf)
  <use ./figs/not-gate.pdf>
@@ -1546,17 +1551,17 @@ File: ./figs/ttl-nand.pdf Graphic file (type pdf)
 Package pdftex.def Info: ./figs/ttl-nand.pdf used on input line 415.
 (pdftex.def)             Requested size: 165.93709pt x 135.77332pt.
 
-<nand.pdf, id=449, 1445.4pt x 602.25pt>
-File: nand.pdf Graphic file (type pdf)
- <use nand.pdf>
-Package pdftex.def Info: nand.pdf used on input line 415.
+<./figs/nand.pdf, id=449, 1445.4pt x 602.25pt>
+File: ./figs/nand.pdf Graphic file (type pdf)
+ <use ./figs/nand.pdf>
+Package pdftex.def Info: ./figs/nand.pdf used on input line 415.
 (pdftex.def)             Requested size: 110.6219pt x 46.08575pt.
  [32
 
- <./figs/ttl-nand.pdf> <./nand.pdf
+ <./figs/ttl-nand.pdf> <./figs/nand.pdf
 
-pdfTeX warning: pdflatex (file ./nand.pdf): PDF inclusion: multiple pdfs with p
-age group included in a single page
+pdfTeX warning: pdflatex (file ./figs/nand.pdf): PDF inclusion: multiple pdfs w
+ith page group included in a single page
 >] <./figs/logic-gates.pdf, id=468, 444.66125pt x 401.5pt>
 File: ./figs/logic-gates.pdf Graphic file (type pdf)
 
@@ -1579,51 +1584,53 @@ Package pdftex.def Info: ./figs/flip-flop.pdf used on input line 424.
  [34
 
  <./figs/flip-flop.pdf>]
-<von-neuman.jpg, id=501, 491.8375pt x 641.39626pt>
-File: von-neuman.jpg Graphic file (type jpg)
- <use von-neuman.jpg>
-Package pdftex.def Info: von-neuman.jpg used on input line 431.
+<./figs/von-neuman.jpg, id=501, 491.8375pt x 641.39626pt>
+File: ./figs/von-neuman.jpg Graphic file (type jpg)
+
+<use ./figs/von-neuman.jpg>
+Package pdftex.def Info: ./figs/von-neuman.jpg used on input line 431.
 (pdftex.def)             Requested size: 87.26611pt x 113.81102pt.
+ [35
 
-[35
-
- <./von-neuman.jpg>] <moore.jpg, id=506, 225.84375pt x 323.2075pt>
-File: moore.jpg Graphic file (type jpg)
-
-<use moore.jpg>
-Package pdftex.def Info: moore.jpg used on input line 438.
+ <./figs/von-neuman.jpg>]
+<./figs/moore.jpg, id=506, 225.84375pt x 323.2075pt>
+File: ./figs/moore.jpg Graphic file (type jpg)
+ <use ./figs/moore.jpg>
+Package pdftex.def Info: ./figs/moore.jpg used on input line 438.
 (pdftex.def)             Requested size: 101.79071pt x 145.67592pt.
- [36
 
- <./moore.jpg>]
-<moores-law.pdf, id=511, 1440.58195pt x 1040.68805pt>
-File: moores-law.pdf Graphic file (type pdf)
- <use moores-law.pdf>
-Package pdftex.def Info: moores-law.pdf used on input line 440.
+[36
+
+ <./figs/moore.jpg>]
+<./figs/moores-law.pdf, id=511, 1440.58195pt x 1040.68805pt>
+File: ./figs/moores-law.pdf Graphic file (type pdf)
+
+<use ./figs/moores-law.pdf>
+Package pdftex.def Info: ./figs/moores-law.pdf used on input line 440.
 (pdftex.def)             Requested size: 364.19536pt x 263.09322pt.
+ [37
 
-[37
+ <./figs/moores-law.pdf>] [38
 
- <./moores-law.pdf>] [38
-
-] <feynman.jpg, id=527, 200.75pt x 281.05pt>
-File: feynman.jpg Graphic file (type jpg)
-
-<use feynman.jpg>
-Package pdftex.def Info: feynman.jpg used on input line 448.
+]
+<./figs/feynman.jpg, id=527, 200.75pt x 281.05pt>
+File: ./figs/feynman.jpg Graphic file (type jpg)
+ <use ./figs/feynman.jpg>
+Package pdftex.def Info: ./figs/feynman.jpg used on input line 448.
 (pdftex.def)             Requested size: 104.05363pt x 145.67592pt.
- [39
 
- <./feynman.jpg>]
-<./figs/cara.pdf, id=532, 301.125pt x 301.125pt>
+[39
+
+ <./figs/feynman.jpg>] <./figs/cara.pdf, id=532, 301.125pt x 301.125pt>
 File: ./figs/cara.pdf Graphic file (type pdf)
- <use ./figs/cara.pdf>
+
+<use ./figs/cara.pdf>
 Package pdftex.def Info: ./figs/cara.pdf used on input line 470.
 (pdftex.def)             Requested size: 7.48032pt x 7.48248pt.
-
-<./figs/coroa.pdf, id=533, 301.125pt x 301.125pt>
+ <./figs/coroa.pdf, id=533, 301.125pt x 301.125pt>
 File: ./figs/coroa.pdf Graphic file (type pdf)
- <use ./figs/coroa.pdf>
+
+<use ./figs/coroa.pdf>
 Package pdftex.def Info: ./figs/coroa.pdf used on input line 470.
 (pdftex.def)             Requested size: 7.48032pt x 7.48248pt.
 
@@ -1734,16 +1741,17 @@ Package pdftex.def Info: ./figs/dead-cat.pdf used on input line 470.
 ] [45
 
 ]
-<c2.pdf, id=589, 2845.27568pt x 2845.27568pt>
-File: c2.pdf Graphic file (type pdf)
- <use c2.pdf>
-Package pdftex.def Info: c2.pdf used on input line 494.
+<./figs/c2.pdf, id=589, 2845.27568pt x 2845.27568pt>
+File: ./figs/c2.pdf Graphic file (type pdf)
+ <use ./figs/c2.pdf>
+Package pdftex.def Info: ./figs/c2.pdf used on input line 494.
 (pdftex.def)             Requested size: 170.71652pt x 170.70917pt.
 
-<c2-sphere.pdf, id=590, 2845.27568pt x 2845.27568pt>
-File: c2-sphere.pdf Graphic file (type pdf)
- <use c2-sphere.pdf>
-Package pdftex.def Info: c2-sphere.pdf used on input line 494.
+<./figs/c2-sphere.pdf, id=590, 2845.27568pt x 2845.27568pt>
+File: ./figs/c2-sphere.pdf Graphic file (type pdf)
+
+<use ./figs/c2-sphere.pdf>
+Package pdftex.def Info: ./figs/c2-sphere.pdf used on input line 494.
 (pdftex.def)             Requested size: 170.71652pt x 170.70917pt.
 
 Overfull \vbox (41.44987pt too high) detected at line 494
@@ -1752,13 +1760,13 @@ Overfull \vbox (41.44987pt too high) detected at line 494
 [46
 
 ]
-File: c2.pdf Graphic file (type pdf)
- <use c2.pdf>
-Package pdftex.def Info: c2.pdf used on input line 494.
+File: ./figs/c2.pdf Graphic file (type pdf)
+ <use ./figs/c2.pdf>
+Package pdftex.def Info: ./figs/c2.pdf used on input line 494.
 (pdftex.def)             Requested size: 170.71652pt x 170.70917pt.
-File: c2-sphere.pdf Graphic file (type pdf)
- <use c2-sphere.pdf>
-Package pdftex.def Info: c2-sphere.pdf used on input line 494.
+File: ./figs/c2-sphere.pdf Graphic file (type pdf)
+ <use ./figs/c2-sphere.pdf>
+Package pdftex.def Info: ./figs/c2-sphere.pdf used on input line 494.
 (pdftex.def)             Requested size: 170.71652pt x 170.70917pt.
 
 Overfull \vbox (41.44987pt too high) detected at line 494
@@ -1766,14 +1774,14 @@ Overfull \vbox (41.44987pt too high) detected at line 494
 
 [47
 
- <./c2.pdf>]
-File: c2.pdf Graphic file (type pdf)
- <use c2.pdf>
-Package pdftex.def Info: c2.pdf used on input line 494.
+ <./figs/c2.pdf>]
+File: ./figs/c2.pdf Graphic file (type pdf)
+ <use ./figs/c2.pdf>
+Package pdftex.def Info: ./figs/c2.pdf used on input line 494.
 (pdftex.def)             Requested size: 170.71652pt x 170.70917pt.
-File: c2-sphere.pdf Graphic file (type pdf)
- <use c2-sphere.pdf>
-Package pdftex.def Info: c2-sphere.pdf used on input line 494.
+File: ./figs/c2-sphere.pdf Graphic file (type pdf)
+ <use ./figs/c2-sphere.pdf>
+Package pdftex.def Info: ./figs/c2-sphere.pdf used on input line 494.
 (pdftex.def)             Requested size: 170.71652pt x 170.70917pt.
 
 Overfull \vbox (41.44987pt too high) detected at line 494
@@ -1781,7 +1789,7 @@ Overfull \vbox (41.44987pt too high) detected at line 494
 
 [48
 
- <./c2-sphere.pdf>] [49
+ <./figs/c2-sphere.pdf>] [49
 
 ] [50
 
@@ -1851,32 +1859,37 @@ Package pdftex.def Info: ./figs/H-gate.pdf used on input line 603.
 ]
 [67
 
-] <grover.jpg, id=758, 180.675pt x 180.675pt>
-File: grover.jpg Graphic file (type jpg)
- <use grover.jpg>
-Package pdftex.def Info: grover.jpg used on input line 660.
+] <./figs/grover.jpg, id=758, 180.675pt x 180.675pt>
+File: ./figs/grover.jpg Graphic file (type jpg)
+
+<use ./figs/grover.jpg>
+Package pdftex.def Info: ./figs/grover.jpg used on input line 665.
 (pdftex.def)             Requested size: 85.35835pt x 85.35826pt.
  [68
 
- <./grover.jpg>] <shor.jpg, id=764, 501.875pt x 615.29875pt>
-File: shor.jpg Graphic file (type jpg)
- <use shor.jpg>
-Package pdftex.def Info: shor.jpg used on input line 666.
+ <./figs/grover.jpg>]
+<./figs/shor.jpg, id=764, 501.875pt x 615.29875pt>
+File: ./figs/shor.jpg Graphic file (type jpg)
+ <use ./figs/shor.jpg>
+Package pdftex.def Info: ./figs/shor.jpg used on input line 671.
 (pdftex.def)             Requested size: 69.61874pt x 85.35826pt.
- [69
 
- <./shor.jpg>] <quantum-teleportation.pdf, id=770, 742.775pt x 197.73875pt>
-File: quantum-teleportation.pdf Graphic file (type pdf)
+[69
 
-<use quantum-teleportation.pdf>
-Package pdftex.def Info: quantum-teleportation.pdf used on input line 671.
+ <./figs/shor.jpg>]
+<./figs/quantum-teleportation.pdf, id=770, 742.775pt x 197.73875pt>
+File: ./figs/quantum-teleportation.pdf Graphic file (type pdf)
+
+<use ./figs/quantum-teleportation.pdf>
+Package pdftex.def Info: ./figs/quantum-teleportation.pdf used on input line 67
+6.
 (pdftex.def)             Requested size: 307.28987pt x 81.8066pt.
  [70
 
- <./quantum-teleportation.pdf>] [71
+ <./figs/quantum-teleportation.pdf>]
+[71
 
-]
-[72
+] [72
 
 ] [73
 
@@ -2575,164 +2588,31 @@ Missing character: There is no ; in font nullfont!
 
 ] [85
 
-] [86
+])
+Runaway argument?
+\let \AtEndDocument \@firstofone \@enddocumenthook \@checkend {docume\ETC.
+! File ended while scanning use of \beamer@collect@@body.
+<inserted text> 
+                \par 
+<*> cq.tex
+          
+I suspect you have forgotten a `}', causing me
+to read past where you wanted me to stop.
+I'll try to recover; but if the error is serious,
+you'd better type `E' or `X' now and fix your file.
 
-]
-<./figs/pauli.jpg, id=857, 469.755pt x 657.45625pt>
-File: ./figs/pauli.jpg Graphic file (type jpg)
- <use ./figs/pauli.jpg>
-Package pdftex.def Info: ./figs/pauli.jpg used on input line 775.
-(pdftex.def)             Requested size: 81.31236pt x 113.81102pt.
+! Emergency stop.
+<*> cq.tex
+          
+*** (job aborted, no legal \end found)
 
-[87
-
- <./figs/pauli.jpg>] [88
-
-] [89
-
-]
-<energy-levels.pdf, id=872, 2845.27568pt x 1707.1653pt>
-File: energy-levels.pdf Graphic file (type pdf)
-
-<use energy-levels.pdf>
-Package pdftex.def Info: energy-levels.pdf used on input line 793.
-(pdftex.def)             Requested size: 256.0748pt x 153.63824pt.
- [90
-
- <./energy-levels.pdf>] [91
-
-]
-<enclave-map.pdf, id=892, 220.82501pt x 431.6125pt>
-File: enclave-map.pdf Graphic file (type pdf)
- <use enclave-map.pdf>
-Package pdftex.def Info: enclave-map.pdf used on input line 801.
-(pdftex.def)             Requested size: 125.8109pt x 245.90779pt.
-
-Overfull \vbox (45.59953pt too high) detected at line 801
- []
-
-[92
-
- <./enclave-map.pdf>]
-<enclave-chart.pdf, id=903, 461.10268pt x 226.29242pt>
-File: enclave-chart.pdf Graphic file (type pdf)
- <use enclave-chart.pdf>
-Package pdftex.def Info: enclave-chart.pdf used on input line 805.
-(pdftex.def)             Requested size: 307.28987pt x 150.80713pt.
-
-[93
-
- <./enclave-chart.pdf>] <quantum.pdf, id=913, 556.32843pt x 312.41719pt>
-File: quantum.pdf Graphic file (type pdf)
-
-<use quantum.pdf>
-Package pdftex.def Info: quantum.pdf used on input line 809.
-(pdftex.def)             Requested size: 307.28987pt x 172.56888pt.
- [94
-
- <./quantum.pdf>]
-<failure.pdf, id=922, 483.30562pt x 359.09157pt>
-File: failure.pdf Graphic file (type pdf)
- <use failure.pdf>
-Package pdftex.def Info: failure.pdf used on input line 811.
-(pdftex.def)             Requested size: 307.28987pt x 228.32196pt.
- [95
-
- <./failure.pdf>] <kalai.jpg, id=932, 513.92pt x 513.92pt>
-File: kalai.jpg Graphic file (type jpg)
- <use kalai.jpg>
-Package pdftex.def Info: kalai.jpg used on input line 815.
-(pdftex.def)             Requested size: 113.80771pt x 113.81102pt.
- [96
-
- <./kalai.jpg>] [97
-
-] [98
-
-]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 834.
-
- (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
-File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 834.
-
-[99
-
-] [100
-
-] [101
-
- </usr/share/texlive/texmf-dist/tex/latex/beamer/art/beamericonarticle.pdf>] [1
-02
-
-] [103
-
-]
-\tf@nav=\write6
-\openout6 = `cq.nav'.
-
-\tf@toc=\write7
-\openout7 = `cq.toc'.
-
-\tf@snm=\write8
-\openout8 = `cq.snm'.
-
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 855.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 855.
- (./cq.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 855.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 855.
-Package rerunfilecheck Info: File `cq.out' has not changed.
-(rerunfilecheck)             Checksum: 9615B01846AFA2EF6379E916BCB8E57B;1998.
-
-
-LaTeX Font Warning: Size substitutions with differences
-(Font)              up to 1.0pt have occurred.
-
-
-LaTeX Warning: There were multiply-defined labels.
-
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 855.
- ) 
+ 
 Here is how much of TeX's memory you used:
- 21995 strings out of 494910
- 427453 string characters out of 6179835
- 498045 words of memory out of 5000000
- 24480 multiletter control sequences out of 15000+600000
+ 21895 strings out of 494910
+ 426217 string characters out of 6179835
+ 498174 words of memory out of 5000000
+ 24423 multiletter control sequences out of 15000+600000
  15673 words of font info for 58 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 61i,21n,82p,1733b,688s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
-e/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/share/texlive/texmf-dist/fon
-ts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/typ
-e1/public/amsfonts/cmextra/cmex9.pfb></usr/share/texlive/texmf-dist/fonts/type1
-/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
-c/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
-nts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/
-cmmi9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.p
-fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/
-texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-di
-st/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts
-/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1
-/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
-/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
-ts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
-msy9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.p
-fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pf
-b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb
-></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm7.pfb><
-/usr/share/texlive/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/share/te
-xlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
-Output written on cq.pdf (103 pages, 3007374 bytes).
-PDF statistics:
- 1116 PDF objects out of 1200 (max. 8388607)
- 883 compressed objects within 9 object streams
- 243 named destinations out of 1000 (max. 500000)
- 481 words of extra memory for PDF output out of 10000 (max. 10000000)
-
+ 61i,21n,80p,1733b,688s stack positions out of 5000i,500n,10000p,200000b,80000s
+!  ==> Fatal error occurred, no output PDF file produced!
