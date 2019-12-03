@@ -1,0 +1,899 @@
+\documentclass[t]{beamer}
+\mode<presentation>{\usefonttheme{serif}}
+\beamertemplatenavigationsymbolsempty
+\usetheme{metropolis}
+
+\usepackage[utf8]{inputenc}
+\usepackage{bbm}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage[absolute,overlay]{textpos}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage{tikz}
+\usepackage{courier}
+\usepackage{ragged2e}
+\usepackage{csquotes}
+
+\graphicspath{{./figs/}}
+
+\title{
+	{{\Large \textbf{Encontros Matemáticos}} {\small 	apresenta}}\\
+\vspace{30pt}
+{\huge Computação Quântica}
+}
+\institute{IM-UFRJ}
+\date{19 de novembro de 2019}
+
+\author{Pedro Maciel Xavier \\ \texttt{pedromxavier@poli.ufrj.br}}
+
+\newcommand{\ii}{
+	\rm{i}
+}
+
+
+\newcommand{\titulo}[1]{%
+	\textbf{\Large #1\\}
+}
+
+\newcommand{\teorema}[1]{%
+	\textbf{Teorema. (\emph{#1})\\}
+}
+
+\newcommand{\prova}{%
+	\textbf{Prova.\\}
+}
+
+\newcommand{\cqd}{\blacksquare}
+
+\newcommand{\postulado}[1]{%
+	\textbf{Postulado. (\emph{#1})\\}
+}
+
+\newcommand{\definicao}[1]{%
+	\textbf{Definição. (\emph{#1})\\}
+}
+
+\newcommand{\vetor}[2]{\ensuremath{
+\left[\begin{matrix}
+#1 \\
+#2
+\end{matrix}\right]
+}
+}
+
+\newcommand{\vetorx}[4]{\ensuremath{
+\left[\begin{matrix}
+#1 \\
+#2 \\
+#3 \\
+#4
+\end{matrix}\right]
+}
+}
+
+\newcommand{\matriz}[4]{\ensuremath{
+\left[\begin{matrix}
+#1 & #2 \\
+#3 & #4 
+\end{matrix}\right]
+}
+}
+
+\newcommand{\ket}[1]{\ensuremath{\left|#1\right\rangle}}
+\newcommand{\bra}[1]{\ensuremath{\left\langle#1\right|}}
+
+\newcommand{\braket}[2]{\ensuremath{\left\langle#1|#2\right\rangle}}
+
+\newcommand{\ketbra}[2]{\ensuremath{\left|#1\right\rangle\left\langle#2\right|}}
+
+\newcommand{\comich}[1]{
+	\bgroup
+	\setbeamercolor{background canvas}{bg=white}
+	\begin{frame}[plain]{}
+		\begin{center}
+			\begin{figure}
+				\includegraphics[height=\textheight]{#1}
+			\end{figure}
+		\end{center}
+	\end{frame}
+	\egroup
+}
+
+\newcommand{\comic}[1]{\comich{#1}}
+
+\newcommand{\comicw}[1]{
+	\bgroup
+	\setbeamercolor{background canvas}{bg=white}
+	\begin{frame}[plain, c]{}
+	\begin{center}
+		\begin{figure}
+			\includegraphics[width=\textwidth]{#1}
+		\end{figure}
+	\end{center}
+\end{frame}
+\egroup
+}
+
+\newcommand{\frase}[1]{	
+	\begin{center}
+		\begin{block}
+			~ ''{\small #1}''
+		\end{block}
+	\end{center}
+}
+
+\newcommand{\frasepor}[2]{
+	\begin{center}
+		\begin{quote}
+			#1
+		\end{quote}
+		\hfill {\small #2}
+	\end{center}
+}
+
+\newcommand{\comicfinal}[1]{
+	\bgroup
+	\usebackgroundtemplate{\includegraphics[width=\paperwidth]{#1}}
+	\begin{frame}[plain]{}
+
+	\end{frame}
+	\egroup
+}
+
+\newcommand{\person}[6]{%
+% image, name, comment,
+% size, dx, dy
+\begin{textblock*}{#4}(#5, #6)
+	\includegraphics[height=#4]{#1}\\
+	\textbf{#2}\\
+	{\small #3}
+\end{textblock*}
+}
+
+\newcommand{\imgw}[2]{%
+\begin{center}
+	\begin{figure}
+	\includegraphics[width=#2]{#1}\\
+	\end{figure}
+\end{center}
+}
+
+\newcommand{\imgh}[2]{%
+\begin{center}
+	\begin{figure}
+		\includegraphics[height=#2]{#1}\\
+	\end{figure}
+\end{center}
+}
+
+\newcommand{\ps}{
+	\phantom{-}
+}
+
+\newcommand{\HH}{\ensuremath{
+	\frac{1}{\sqrt{2}}\matriz{1}{\ps 1}{1}{-1}
+}}
+
+\newcommand{\XX}{\ensuremath{
+	\matriz{0}{\ps 1}{1}{\ps 0}
+}}
+
+\newcommand{\YY}{\ensuremath{
+	\matriz{0}{-\ii}{\ii}{\ps 0}
+}}
+
+\newcommand{\ZZ}{\ensuremath{
+	\matriz{1}{\ps 0}{0}{-1}
+}}
+
+
+\def\gobblechar{\let\xchar= }
+\def\assignthencheck{\afterassignment\xloop\gobblechar}
+\def\xloop{%
+  \ifx\relax\xchar
+      \let\next=\relax
+    \else
+      \fbox{\xchar}\let\next=\assignthencheck
+  \fi
+  \next}
+\def\makelist#1{\assignthencheck#1\relax}
+
+\newcommand{\listmark}[1]{\fbox{\textcolor{red}{#1}}}
+
+\DeclareRobustCommand{\mychar}[1]{%
+  \begingroup\normalfont
+  \includegraphics[height=\fontcharht\font`\B]{#1}%
+  \endgroup
+}
+
+%% =====================================================
+%% =====================================================
+%% =====================================================
+%% =====================================================
+
+%% =====================================================
+%% =====================================================
+%% =====================================================
+%% =====================================================
+
+%% =====================================================
+%% =====================================================
+%% =====================================================
+%% =====================================================
+
+\begin{document}
+
+	\begin{frame}
+		\titlepage
+		\begin{textblock*}{7cm}(8cm, -1.5cm)
+			\includegraphics[width=7cm]{im.pdf}
+		\end{textblock*}
+1	\end{frame}
+	
+	\begin{frame}{Parte I}
+	\begin{columns}[t]
+        \begin{column}{.5\textwidth}
+            \tableofcontents[sections={1}]
+        \end{column}
+        \begin{column}{.5\textwidth}
+            \tableofcontents[sections={2}]
+        \end{column}
+    \end{columns}
+    \end{frame}
+
+    \begin{frame}{Parte II}
+    \begin{columns}[t]
+        \begin{column}{.5\textwidth}
+            \tableofcontents[sections={3}]
+        \end{column}
+        \begin{column}{.5\textwidth}
+            \tableofcontents[sections={4-5}]
+        \end{column}
+    \end{columns}
+	\end{frame}
+
+    \begin{frame}{Parte III}
+  		\tableofcontents[sections={6-}]
+	\end{frame}
+	
+	
+
+	\section{Computação}
+	
+	\subsection{Computabilidade}
+	
+	\begin{frame}{\subsecname}
+		\person{church.jpg}{Alonzo Church}{1903 - 1955}{4cm}{2cm}{3cm}
+		\person{turing.jpg}{Alan Turing}{1912 - 1954}{4cm}{8cm}{3cm}
+	\end{frame}
+	
+	\begin{frame}[label=turing]{\subsecname}
+	\titulo{A Tese de Church-Turing}
+	
+	%% Em 1936, como resposta ao \textit{Entscheidungsproblem} de David Hilbert, Church e Turing publicam resultados independentes mostrando que não existe um algoritmo para determinar se um enunciado da lógica de primeira ordem pode ser provado. Em seu artigo, Turing introduz a \textbf{Máquina de Turing}\\
+	
+	\frasepor{Toda função que seria naturalmente computável pode ser computada por uma Máquina de Turing}{Alan Turing}
+	\end{frame}
+	
+	\begin{frame}{\subsecname}
+	\definicao{Máquina de Turing}
+	É um computador abstrato definido por $(Q, q_0, \Gamma, \square, \Sigma, \Omega, \delta)$, que possui uma fita e um cabeçote de leitura
+	
+	\begin{itemize}
+		\item[$Q$:] Um conjunto não-vazio de estados.
+		\item[$q_0$:] Estado inicial ($q_0 \in Q$)
+		\item[$\Gamma$:] Alfabeto da fita.
+		\item[$\square$:] Símbolo vazio.
+		\item[$\Sigma$:] Alfabeto de entrada da máquina. ($\Sigma \subseteq \Gamma \slash \{\square\}$)
+		\item[$\Omega$:] Conjunto dos códigos de parada.
+		\item[$\delta$:] Função de Transição, $\delta : Q \slash \Omega \times \Gamma \to Q \times \Gamma \times \{\uparrow, \downarrow\}$
+	\end{itemize}
+	\end{frame}
+	
+
+	
+	\againframe{turing}
+	
+	\subsection{Complexidade}
+	
+	\begin{frame}{\subsecname}
+		\definicao{Complexidade Assintótica}
+		Seja $f : X \subseteq \mathbb{R}_+ \to \mathbb{C}$ e $g : X \subseteq \mathbb{R}_+ \to \mathbb{R}_+$ dizemos que
+		$$f(x) = O(g(x)) \iff \exists M, x_0,\ \ |f(x)| \le M g(x)\ \ \forall x > x_0$$
+	\end{frame}
+	
+	\begin{frame}{\subsecname}
+		\textbf{Exemplo. (Ordenação de uma lista)}\\
+		Dada uma lista de tamanho $N = 5$, fazemos o seguinte: Procuramos o menor elemento, removemos da lista e acrescentamos em uma nova lista, e assim sucessivamente.
+		
+		\begin{overprint}
+			\only<1>{\makelist{52314}}
+			\only<2>{$5$\\
+			\makelist{523}\listmark{1}\makelist{4}\\
+			\makelist{1}}
+			\only<3>{$5 + 4$\\
+			\makelist{5}\listmark{2}\makelist{34}\\
+			\makelist{12}}
+			\only<4>{$5 + 4 + 3$\\
+			\makelist{5}\listmark{3}\makelist{4}\\
+			\makelist{123}}
+			\only<5>{$5 + 4 + 3 + 2$\\
+			\makelist{5}\listmark{4}\\
+			\makelist{1234}}
+			\only<6->{$5 + 4 + 3 + 2 + 1 = 15$\\
+			\listmark{5}\\
+			\makelist{12345}}			
+		\end{overprint}
+		\only<7->{Mas e se a lista tivesse $n$ elementos?}
+		\only<8->{
+		\begin{align*}
+			T(n) = \frac{n(n + 1)}{2} = \frac{n^2 + n}{2} && \text{(complexidade)}
+		\end{align*}
+		Dizemos que este algoritmo tem complexidade $O(n^2)$.
+		} 	
+	\end{frame}
+	
+	\section{Computação Digital}
+	
+	\subsection{Álgebra Booleana}
+	
+	\begin{frame}{\subsecname}
+	\definicao{Álgebra Booleana}
+	É uma estrutura algébrica $(\Omega, \vee, \wedge, \neg, 0, 1)$, com $0,1 \in \Omega$, que satisfazem os Axiomas:
+	
+	\footnotesize
+		\begin{align*}
+			a \vee (b \vee c) = (a \vee b) \vee c && a \wedge (b \wedge c) = (a \wedge b) \wedge c && \text{associatividade}\\
+			a \vee b = a \vee a && a \wedge b = b \wedge a && \text{comutatividade}\\
+			a \vee 0 = a && a \wedge 1 = a && \text{identidade}\\
+			a \vee \neg a = 1 && a \wedge \neg a = 0 && \text{complemento}\\
+			a \vee (b \wedge c) = (a \vee b) \wedge (a \vee c) && a \wedge (b \vee c) = (a \wedge b) \vee (a \wedge c) && \text{distributividade}\\
+			a \vee (a \wedge b) = a && a \wedge (a \vee b) = a && \text{absorção}
+		\end{align*}
+	\normalsize
+	\end{frame}
+	
+	\begin{frame}{\subsecname}
+		\person{boole.jpg}{George Boole}{1815 - 1864}{4cm}{2cm}{2cm}
+		\person{de-morgan.jpg}{Augustus De Morgan}{1806 - 1871}{4cm}{8cm}{2cm}
+	\end{frame}
+
+	\subsection{O Bit}
+	
+	\comich{bits0.pdf}
+	\comich{bits1.pdf}
+	\comich{bits2.pdf}
+	\comich{bits3.pdf}
+	\comich{bits4.pdf}
+	\comicfinal{blue-screen.pdf}
+	
+	\begin{frame}{\subsecname}
+	\definicao{Anel Booleano}
+	Um Anel booleano é um Anel $(\Omega, +, \cdot)$ com as operações $+$ e $\cdot$ definidas por:
+		\begin{align*}
+			a + b &:= a \oplus b = (\neg a \wedge b) \vee (a \wedge \neg b)\\
+			a \cdot b &:= a \wedge b
+		\end{align*} 
+	
+	\onslide<2->{É aqui que as contas com \textit{bits} acontecem! Com $\Omega = \mathbb{Z}_2$, seguimos adiante e formamos vetores de \textit{bits} como:
+		{\setlength{\jot}{0pt}%
+		\begin{align*}
+		  &1\phantom{0}\phantom{0}\phantom{0}\\
+		  &0101 &5\\
+		+\ &0100 &4\\
+		  &\rule{22pt}{.2pt}\\
+		  &1001 &9
+		\end{align*}
+		}
+	}
+	\end{frame}
+	
+	\subsection{Transistor}	
+	
+	\comich{first-transistor.pdf}
+	
+	\begin{frame}{\subsecname}
+	
+		\vspace{-15pt}
+		\imgh{not-gate.pdf}{\textheight}
+	
+	\end{frame}
+	
+	\subsection{Portas Lógicas}	
+	
+	\begin{frame}[c]{\subsecname}
+		\begin{columns}[c]
+	        \begin{column}{.6\textwidth}
+	            \imgw{ttl-nand.pdf}{.9\textwidth}
+	        \end{column}
+	        \begin{column}{.4\textwidth}
+	            \imgw{nand.pdf}{.9\textwidth}
+	        \end{column}
+	    \end{columns}
+		
+	\end{frame}
+	
+	\begin{frame}[c]{\subsecname}
+		\imgw{logic-gates.pdf}{.8\textwidth}
+	\end{frame}
+	
+	\subsection{Memória}
+	\begin{frame}[c]{\subsecname}
+		\imgw{flip-flop.pdf}{.8\textwidth}
+	\end{frame}
+	
+	
+	\subsection{Arquitetura de Von Neuman}
+
+	\begin{frame}{\subsecname}
+		\person{von-neuman.jpg}{John Von Neuman}{1903 - 1957}{4cm}{2cm}{2cm}
+	\end{frame}
+		
+		
+	\subsection{Lei de Moore}
+	
+	\begin{frame}{\subsecname}
+		\person{moore.jpg}{Gordon Moore}{Intel, 1965}{.4\paperwidth}{.35\paperwidth}{2cm}
+	\end{frame}
+	
+	\comicfinal{moores-law.pdf}
+
+	\section{Computação Quântica}
+	
+	\subsection{Fenômenos Quânticos}
+	
+	\begin{frame}{\subsecname}
+		\person{feynman.jpg}{Richard Feynman}{1918 - 1988}{.4\paperwidth}{.35\paperwidth}{2cm}
+	\end{frame}
+	
+	\begin{frame}{\subsecname}
+		\textbf{Superposição}\\
+		\vspace{2cm}
+		\begin{overprint}
+			\onslide<+>\resizebox{\textwidth}{!}{%
+				$$\ket{\Psi} = \ket{\phantom{\Psi}} + \ket{\phantom{\Psi}}$$
+			}%
+			\onslide<+>\resizebox{\textwidth}{!}{%
+				$$\ket{\Psi} = \ket{\uparrow} + \ket{\downarrow}$$
+			}%
+			\onslide<+>\resizebox{\textwidth}{!}{%
+				$$\ket{\Psi} = \ket{\mychar{cara.pdf}} + \ket{\mychar{coroa.pdf}}$$
+			}%
+			\onslide<+>\resizebox{\textwidth}{!}{%
+				$$\ket{\Psi} = \ket{\mychar{alive-cat.pdf}} + \ket{\mychar{dead-cat.pdf}}$$
+			}%
+			\onslide<+>\resizebox{\textwidth}{!}{%
+				$$\ket{\Psi} = \ket{0} + \ket{1}$$
+			}%
+		\end{overprint}
+	\end{frame}	
+	
+	\begin{frame}{\subsecname}
+		\textbf{Emaranhamento}\\
+		
+		O fenômeno do emaranhamento ocorre quando duas partículas distintas tem suas propriedades não somente correlacionadas, mas dependentes. Uma observação realizada em uma das partículas determina o estado da outra.
+	\end{frame}
+	
+	\subsection*{Trapped-ion}
+	\begin{frame}[c]{\subsecname}
+		\imgw{trapped-ion.pdf}{\textwidth}
+	\end{frame}
+	
+	\subsection{Postulados}
+	
+	\begin{frame}{\subsecname}
+		\postulado{Representação}
+		Um sistema físico isolado está associado a um espaço de Hilbert $\mathcal{H}$ e é, num dado momento no tempo, completamente descrito por um vetor unitário em $\mathcal{H}$, o estado do sistema.		
+		\begin{align*}
+			\uncover<2->{\ket{\Psi} \in \mathbb{C}^2 && (\mathbf{x} \in \mathbb{C}^2)}\\
+			\uncover<3->{\braket{\Psi}{\Psi} = 1 && (\mathbf{x}^{\dagger} \mathbf{x} = 1)}
+		\end{align*}
+		\vspace{-2cm} 
+		\begin{figure}[H]
+			\begin{overprint}
+				\onslide<2>\includegraphics[width=6cm]{c2.pdf}
+				\onslide<3->\includegraphics[width=6cm]{c2-sphere.pdf}
+			\end{overprint}
+		\end{figure}
+	\end{frame}
+
+	\begin{frame}{\subsecname}
+		\postulado{Composição}
+		Um sistema é descrito pela composição dos estados que o representam, que se dá através do \emph{produto tensorial}.
+		$$\ket{\Psi} \otimes \ket{\Phi} \equiv \ket{\Psi\Phi}$$
+	\end{frame}
+	
+	\begin{frame}{\subsecname}
+		\definicao{Produto de Kronecker}
+		
+		É um caso particular do \emph{produto tensorial}, computado da seguinte forma:
+		
+		\begin{align*}
+		\mathbf{x} \otimes \mathbf{y} \equiv \vetor{x_1}{x_2} \otimes \vetor{y_1}{y_2} = \vetor{x_1 \vetor{y_1}{y_2} \vspace{2pt}}{x_2 \vetor{y_1}{y_2}} = \vetorx{x_1 y_1}{x_1 y_2}{x_2 y_1 }{x_2 y_2}
+		\end{align*}
+		
+		Ele é bilinear e associativo, mas não é comutativo :(\\
+	\end{frame}
+	
+	\begin{frame}{\subsecname}
+		\definicao{Produto de Kronecker}
+		
+		Mas nem tudo está perdido. Tem outras propriedades legais também!\\
+		
+		Produto misto:
+		\begin{align*}
+			U \otimes V \cdot \ket{\Psi} \otimes \ket{\Phi} = U \ket{\Psi} \otimes V \ket{\Phi} && \mathbf{A} \otimes \mathbf{B} \cdot \mathbf{x} \otimes \mathbf{y} = \mathbf{A} \cdot \mathbf{B} \otimes \mathbf{x} \cdot \mathbf{y}
+		\end{align*}
+		
+		Transposição:
+		\begin{align*}
+			(\ket{\Psi} \otimes \ket{\Phi})^\dagger &= \bra{\Psi} \otimes \bra{\Phi} && (\mathbf{x} \otimes \mathbf{y})^\dagger = \mathbf{x}^\dagger \otimes \mathbf{y}^\dagger\\
+			\ket{\Psi\Phi}^\dagger &= \bra{\Phi\Psi} &&
+		\end{align*}
+		
+		Existem outras, mas essas duas são as mais interessantes para nós hoje.
+	\end{frame}
+	
+	\begin{frame}{\subsecname}
+		\definicao{Base Computacional}
+		A \emph{Base Computacional} é determinada pelos estados ortogonais $\ket{0}$ e $\ket{1}$, definidos por
+		\begin{align*}
+		\ket{0} &= \vetor{1}{0}\\
+		\ket{1} &= \vetor{0}{1}\\
+		\end{align*}
+		Chamaremos estes estados de \textit{qubits}!
+	\end{frame}
+	
+	\begin{frame}{\subsecname}
+		\definicao{Base Computacional}
+		Construimos vetores de \textit{qubits} (registradores) através da composição:
+		\footnotesize
+		\begin{align*}
+		\ket{00} = \ket{0} \otimes \ket{0} = \vetor{1}{0} \otimes \vetor{1}{0} = \vetorx{1}{0}{0}{0} &&
+		\ket{01} = \ket{0} \otimes \ket{1} = \vetor{1}{0} \otimes \vetor{0}{1} = \vetorx{0}{1}{0}{0} \\
+		~\\
+		\ket{10} = \ket{1} \otimes \ket{0} = \vetor{0}{1} \otimes \vetor{1}{0} = \vetorx{0}{0}{1}{0} &&
+		\ket{11} = \ket{1} \otimes \ket{1} = \vetor{0}{1} \otimes \vetor{0}{1} = \vetorx{0}{1}{0}{1}
+		\end{align*}
+		\normalsize
+	\end{frame}
+	
+	\begin{frame}{\subsecname}
+		\postulado{Evolução}
+		A evolução de um sistema é descrita por um \textit{Hamiltoniano} $H$, representado por uma matriz Hermitiana, isto é, $H = H^{\dagger}$.\\
+		
+		Assim temos, pela equação de Schrödinger:
+		$$H \ket{\Psi} =\ii \hslash \frac{d \ket{\Psi}}{dt} \implies \frac{d \ket{\Psi}}{dt} = \frac{-\ii}{\hslash} H \ket{\Psi}$$
+		
+		Sejam $\ket{\Psi(t_k)}$, $\ket{\Psi(t_{k+1})}$ os estados do sistema no tempo $t_k$ e $t_{k+1}$, respectivamente. Segue que:
+		$$\ket{\Psi(t_{k+1})} = e^{\frac{-i H}{\hslash} (t_{k+1} - t_k)} \ket{\Psi(t_k)}$$
+	\end{frame}
+	
+	\begin{frame}{\subsecname}
+		\postulado{Evolução}
+		\begin{enumerate}
+			\item<1-> Seja $U = e^{\frac{-i H}{\hslash} (t_{k+1} - t_k)}$ o operador de evolução.
+			\item<2-> Sabemos também que $U^{\dagger} = e^{\frac{i H^{\dagger}}{\hslash} (t_{k+1} - t_k)}$.
+			\item<3-> Como a matriz $H$ é Hermitiana, temos que $U^{\dagger} U = I$.
+		\end{enumerate}
+		
+	\uncover<4->{
+	Podemos então dizer que a evolução dos sistemas se dá por operadores unitários!\\
+	} \bigskip
+
+	\vspace{1 cm}
+	
+	\uncover<5->{
+	\centering\Huge
+	Hora de conhecer alguns deles!
+	}
+	
+	\end{frame}
+	
+	\begin{frame}{\subsecname}
+		\textbf{Matriz de Hadamard}\\
+		$$H = \HH$$
+		\begin{align*}
+			H\ket{0} &= \HH \vetor{1}{0} = \frac{1}{\sqrt{2}}\vetor{1}{1} &= \frac{1}{\sqrt{2}} \left(\vetor{1}{0} + \vetor{0}{1}\right)\\
+			~\\
+			H\ket{1} &= \HH \vetor{0}{1} = \frac{1}{\sqrt{2}}\vetor{\ps 1}{-1} &= \frac{1}{\sqrt{2}} \left(\vetor{1}{0} - \vetor{0}{1}\right)
+		\end{align*}
+	\end{frame}
+	
+	\begin{frame}{\subsecname}
+		\textbf{Porta de Hadamard}\\			
+				
+		\imgw{H-gate.pdf}{8cm}		
+	\end{frame}
+	
+	\begin{frame}{\subsecname}
+		\textbf{Matrizes de Pauli}
+		Também conhecidas como $\sigma_1$, $\sigma_2$ e $\sigma_3$, respectivamente.
+		\begin{align*}
+		X = \XX && Y = \YY && Z = \ZZ
+		\end{align*}
+		
+		\begin{overprint}
+			\onslide<2>{
+				\begin{align*}
+				X \ket{0} &= \XX \vetor{1}{0} = \vetor{0}{1} = \ket{1}\\
+				X \ket{1} &= \XX \vetor{0}{1} = \vetor{1}{0} = \ket{0}
+				\end{align*}							
+			}
+		\end{overprint}		
+		
+	\end{frame}
+	
+	\begin{frame}{\subsecname}
+	
+		\textbf{Não-controlado (CNOT)}\\
+		
+		Opera como a porta $X$ de Pauli, dependendo do valor de outro \textit{qubit}.
+		
+		\begin{align*}
+			CNOT \ket{00} = \ket{01}\\
+			CNOT \ket{01} = \ket{01}\\
+			CNOT \ket{10} = \ket{11}\\
+			CNOT \ket{11} = \ket{10}\\
+		\end{align*}
+	
+	\end{frame}
+	
+	\begin{frame}{Uma nota sobre reversibilidade}
+		\textbf{Uma nota sobre reversibilidade}\\
+		Para toda matriz unitária, como $U^{\dagger} U = U U^{\dagger} = I$, temos também que $U^\dagger = U^{-1}$.\\
+		~\\
+		\uncover<1->{Isso significa que todos os processos quânticos de computação serão \textbf{reversíveis}!}
+
+	\end{frame}
+
+	\begin{frame}{Uma nota sobre reversibilidade}	
+		\textbf{O Princípio de Landauer.}\\
+		O princípio de Landauer estabelece que toda vez que um \textit{bit} de informação é apagado, o sistema perde energia, que é liberada na forma de calor, com limite inferior
+		$$E > K T \log 2$$
+		Onde:
+		\begin{itemize}
+			\item[$E$:] Energia dissipada
+			\item[$K$:] Constante de Boltzmann, $1.380 \time 10^{-23} J / K$
+			\item[$T$:] Temperatura ambiente, em \textit{Kelvin}
+		\end{itemize}
+		
+	\end{frame}	
+	
+	\begin{frame}{\subsecname}
+		\postulado{Medida}		
+		Medidas são descritas por uma coleção de operadores $\{M_i\}$, definida pelos estados da base em relação a qual se quer medir. \\
+		
+		Por exemplo, para a base computacional $\{\ket{0}, \ket{1}\}$
+		\begin{align*}
+			M_0 &= \ketbra{0}{0} = \matriz{1}{0}{0}{0}\\
+			M_1 &= \ketbra{1}{1} = \matriz{0}{0}{0}{1}
+		\end{align*}
+		
+	\end{frame}
+	
+	\begin{frame}{\subsecname}
+		\postulado{Medida}		
+		A probabilidade de medir um determinado estado $\ket{i}$ da base, dado um estado $\ket{\Psi}$ é atribuída pelo quadrado da norma da projeção realizada pelo operador $M_i$. Vejamos:
+		\begin{align*}
+			P(\ket{i} | \ket{\Psi}) &= ||M_i \ket{\Psi}||^2\\
+			&= (M \ket{\Psi})^\dagger M_i \ket{\Psi}\\
+			&= \bra{\Psi} M_i^\dagger M_i \ket{\Psi}
+		\end{align*}
+		
+	\end{frame}
+
+
+	\subsection{Algoritmos}
+	
+	\begin{frame}{Algoritmo de Grover}
+	
+	\person{grover.jpg}{Lov Grover}{Bell Labs}{3cm}{2cm}{2cm}
+		
+	\end{frame}
+
+	\begin{frame}{Algoritmo de Shor}
+	
+	\person{shor.jpg}{Peter Shor}{MIT}{3cm}{2cm}{2cm}
+			
+	\end{frame}
+	
+
+	\subsection{Teletransporte Quântico}
+	
+	\comicw{quantum-teleportation.pdf}
+	
+	\begin{frame}{\subsecname}
+	
+		Imagine o teletransporte como um operador 
+		$$\mathcal{T} : \ket{\Psi}_A \ket{0}_A \ket{0}_B \to \ket{\xi} \otimes \ket{\Psi}_B$$
+	
+		\imgw{teleport.pdf}{\textwidth}	
+	
+	\end{frame}
+	
+	\subsection{Teorema da não-clonagem}
+	
+	
+	\begin{frame}{\subsecname}
+	
+	\teorema{Não-Clonagem}
+		Não é possível fazer uma cópia de um estado quântico qualquer.
+
+	\prova
+	Vamos supor que existe um operador unitário $U$ capaz de clonar um estado $\ket{\Psi}$ qualquer, isto é:
+		$$U (\ket{\Psi} \otimes \ket{\xi}) = \ket{\Psi} \otimes \ket{\Psi} = \ket{\Psi\Psi}$$
+	Como isso vale para qualquer estado, também é preciso que
+		$$U (\ket{\Phi} \otimes \ket{\xi}) = \ket{\Phi} \otimes \ket{\Phi} = \ket{\Phi\Phi}$$
+	\end{frame}
+	
+	\begin{frame}{\subsecname}
+		Tomando o produto interno entre $\ket{\Psi\Psi}$ e $\ket{\Phi\Phi}$:
+		\begin{align*}
+		\braket{\Psi\Psi}{\Phi\Phi} &= \bra{\xi\Psi}U^{\dagger} U \ket{\Phi\xi}\\
+		&= \braket{\xi\Psi}{\Phi\xi}\\
+		(\bra{\Psi} \otimes \bra{\Psi}) \cdot (\ket{\Phi} \otimes \ket{\Phi}) &= (\bra{\Psi} \otimes \bra{\xi}) \cdot (\ket{\Phi} \otimes \ket{\xi})\\
+		\braket{\Psi}{\Phi} \otimes \braket{\Psi}{\Phi} &= \braket{\Psi}{\Phi} \otimes \braket{\xi}{\xi}\\
+		\braket{\Psi}{\Phi}^2 &= \braket{\Psi}{\Phi}
+		\end{align*}
+		Portanto:
+		\begin{align*}
+			\braket{\Psi}{\Phi} = \begin{cases}
+			1 \text{ se } \ket{\Psi} = \ket{\Phi}\\
+			0 \text{ se } \ket{\Psi} \perp \ket{\Phi}\\
+			\end{cases}\\
+		&& \cqd
+		\end{align*}
+	\end{frame}
+	
+	\subsection{Caminhadas Quânticas}
+	
+	\begin{frame}{\subsecname}
+		\definicao{Caminhada Aleatória}
+		Uma caminhada aleatória é um processo que consiste em, partindo do $0$, caminhar sobre a reta dos inteiros ($\mathbb{Z}$) conforme os lançamentos de uma moeda $m_i \in \{-1, 1\}$, de modo que a posição do viajante após $N$ passos será:
+		$$\sum_{i=1}^{N} m_i$$
+		\begin{center}
+			\begin{tikzpicture}
+			\draw (-3.5,0) -- (3.5,0) ; %edit here for the axis
+			\foreach \x in  {-3,-2,-1,0,1,2,3} % edit here for the vertical lines
+			\draw[shift={(\x,0)},color=black] (0pt,3pt) -- (0pt,-3pt);
+			\foreach \x in {-3,-2,-1,0,1,2,3} % edit here for the numbers
+			\draw[shift={(\x,0)},color=black] (0pt,0pt) -- (0pt,-3pt) node[below] 
+			{$\x$};
+			
+			\only<1>\fill[red] (0,0) circle (1 mm);
+			\only<2>\fill[red] (1,0) circle (1 mm);
+			\only<3>\fill[red] (2,0) circle (1 mm);
+			\only<4>\fill[red] (1,0) circle (1 mm);
+			\only<5>\fill[red] (0,0) circle (1 mm);
+			\only<6>\fill[red] (-1,0) circle (1 mm);
+			\end{tikzpicture}
+		\end{center}
+		
+	\end{frame}
+
+	\begin{frame}{\subsecname}
+	\definicao{Caminhada Quântica}
+	Para realizar uma caminhada quântica, temos que preparar um sistema como
+		$$\ket{\Psi} = \ket{s} \otimes \ket{x}$$
+	Onde $\ket{s}$ será nossa "moeda" e $\ket{x}$ a posição da partícula.\\
+	
+	Em $\ket{\Psi}$ aplicaremos um operador $U$ definido como:
+	\footnotesize	
+	\begin{align*}
+		U &= \ketbra{0}{0} \otimes \sum_{i}\ketbra{i-1}{i} + \ketbra{1}{1} \otimes \sum_{i}\ketbra{i+1}{i}\\
+		U \ket{\Psi} &= \ket{0}\braket{0}{s} \otimes \sum_{i}\ket{i-1}\braket{i}{x} + \ket{1}\braket{1}{s} \otimes \sum_{i}\ket{i+1}\braket{i}{x}
+	\end{align*}
+	\normalsize
+	
+	\end{frame}
+	
+	\begin{frame}{\subsecname}
+	
+	\imgw{walk.pdf}{\textwidth}
+	
+	\end{frame}
+	
+	\section{Computação Topológica}
+	
+	\subsection{Ânions}
+	
+	\begin{frame}{\subsecname}
+	Em geral, quando partículas como bósons e férmions descrevem uma curva fechada $\Gamma \subset \mathbb{R}^3$, é como se estas jamais tivessem se movido.
+	\begin{center}
+		\begin{tikzpicture}
+		\draw [black] plot [smooth cycle] coordinates {(0,0) (1,1) (2,1) (2.5, .5) (2,0) (1, 0.5) (2, 2) (3, 2) (3,0) (2,-1) (1, -1.5) (0, -1)};
+		\node[] at (3.5,2.5) {$\Gamma$};
+		\fill[red] (0,0) circle (0.5 mm);
+		\end{tikzpicture}
+	\end{center}
+	\end{frame}	
+	
+	\begin{frame}{\subsecname}
+		Imaginem que temos $n$ partículas em posições $\mathbf{x}_i$ distintas de $\mathbb{R}^3$, de modo que seu estado quântico é representado por
+		$$\ket{x_1 ... x_i ... x_j ... x_n}$$		
+		Trocando duas partículas de posição, temos que
+		$$\ket{x_1 ... x_j ... x_i ... x_n} = \theta \ket{x_1 ... x_i ... x_j ... x_n}, \theta \in \mathbb{C}$$
+		Trocando $i$ por $j$ novamente, voltamos ao estado inicial! Isso significa que $\theta^2 = 1$. Quando $\theta = 1$ temos um bóson, e quando $\theta = -1$, um férmion.
+	\end{frame}
+	
+	\begin{frame}{\subsecname}
+	Já os ânions se separam em dois grupos: os \textbf{Abelianos} e os \textbf{não-Abelianos}.\\
+	
+	Os interessantes são os \textbf{não-Abelianos}!
+	\end{frame}
+	
+	
+	
+	\section{Computação Adiabática}
+	
+	\begin{frame}{\secname}
+	\textbf{Equação de Pauli}\\
+	Seja $\vec{\sigma} = [\sigma_1, \sigma_2, \sigma_3]^T$. A equação a seguir descreve o comportamento de um sistema $\ket{\phi}$ sob um campo magnético.
+	$$\left[{\frac {1}{2m}}({\vec {\sigma }}\cdot ({\vec {p}}-q{\vec {A}}))^{2}+q\phi \right]\ket{\psi} = \ii\hbar {\frac {\partial }{\partial t}}\ket{\psi}$$
+	\end{frame}	
+	
+	\begin{frame}{\secname}
+	Esse é o Pauli
+	
+	\person{pauli.jpg}{Wolfgang Pauli}{1900 -1958}{4cm}{4.5cm}{3.5cm}	
+	
+	\end{frame}
+	
+	\subsection{Teorema Adiabático}
+	\begin{frame}{\subsecname}
+	\frasepor{Um sistema físico permanece no seu autoestado se uma perturbação atua suficientemente devagar e se há um intervalo entre o autovalor e o restante do espectro do Halmitoniano}{Max Born, Vladmir Fock (1928)}
+	\end{frame}
+	
+	\subsection{Modelo de Ising}
+	
+	\begin{frame}{\subsecname}	
+	O modelo de Ising foi bolado para descrever as interações ferromagnéticas entre partículas adjacentes. Consiste em um Hamiltoniano dado por:
+	
+	$$H = \sum_{i} h_i s_i + \sum_{i < j} J_ij s_i s_j$$
+	
+	\end{frame}
+	
+	\subsection{Têmpera Quântica}	
+	
+	\begin{frame}{\subsecname}
+		\begin{align*}
+			H(t) = &-\frac{A(t)}{2}  \sum_{i} h_i \cdot X\ket{s_i}\\ &+ \frac{B(t)}{2}\left(\sum_{i} h_i \cdot Z\ket{s_i} + \sum_{i < j} J_{i,j} \cdot Z\ket{s_i} \otimes Z\ket{s_j}\right)
+		\end{align*}
+	\end{frame}
+	
+	\begin{frame}{\subsecname}
+		\imgw{energy-levels.pdf}{9cm}
+	\end{frame}
+	
+	\section{Fim?}
+	
+	\subsection{Saltos Quânticos}
+	
+	\begin{frame}{\subsecname}
+		\imgh{enclave-map.pdf}{\textheight}
+	\end{frame}
+
+	\begin{frame}{\subsecname}
+		\imgw{enclave-chart.pdf}{\textwidth}
+	\end{frame}
+
+	\subsection{Supremacia Quântica}
+	
+	\comicw{quantum.pdf}
+	
+	\comicw{failure.pdf}
+	
+	\begin{frame}{\subsecname}
+		\person{kalai.jpg}{Gil Kalai}{Yale \& Huji}{4cm}{2cm}{2cm}
+	\end{frame}	
+	
+	\begin{frame}{\subsecname}
+		\textbf{Definição um tanto vaga. (Supremacia Quântica)}\\
+		Atingir a supremacia quântica significa realizar uma tarefa em um computador quântico que não se possa concretizar no clássico.
+	\end{frame}	
+	
+	\section*{Reprograme o seu DNA na frequência do Sucesso}
+	
+\end{document}

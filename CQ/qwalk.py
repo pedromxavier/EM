@@ -105,14 +105,10 @@ if __name__ == '__main__':
     quantum_amp = quantum_walk(1j)
     random_amp = random_walk()
 
-    kw = {
-        'markerfmt': " ",
-        'basefmt' : " "
-    }
-    lbl = r"$\left|\Psi_0\right\rangle  = \frac{\left|0\right\rangle + \left|1\right\rangle}{\sqrt{2}}$"
-    plt.stem(x, quantum_amp0[::2], "green", label=lbl, **kw)
-    lbl = r"$\left|\Psi_0\right\rangle  = \frac{\left|0\right\rangle + \mathbb{i} \left|1\right\rangle}{\sqrt{2}}$"
-    plt.stem(x, quantum_amp[::2], "blue",  label=lbl, **kw)
-    plt.stem(x, random_amp[::2], "red",label="Moeda",  **kw)
+    lbl = r"$\left|s\right\rangle  = \frac{\left|0\right\rangle + \left|1\right\rangle}{\sqrt{2}}$"
+    plt.plot(x, quantum_amp0[::2], label=lbl)
+    lbl = r"$\left|s\right\rangle  = \frac{\left|0\right\rangle + \mathbb{i} \left|1\right\rangle}{\sqrt{2}}$"
+    plt.plot(x, quantum_amp[::2], label=lbl)
+    plt.plot(x, random_amp[::2], label="Moeda")
     plt.legend(fontsize='x-large')
     plt.show()
